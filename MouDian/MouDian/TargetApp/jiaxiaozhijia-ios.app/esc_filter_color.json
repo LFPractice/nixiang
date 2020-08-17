@@ -1,0 +1,147 @@
+{
+	"title" : "颜色 ",
+	"mutableSelected" : true,
+	"filterKey" : "color",
+	"itemList" : [
+		{
+			"title" : "不限",
+			"color" : "",
+			"selected" : true,
+			"updateMethod" : "updateColor:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"color" : ""
+			}
+		},
+		{
+			"title" : "黑色",
+			"color" : "#000000",
+			"selected" : false,
+			"updateMethod" : "updateColor:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"color" : "黑色"
+			}
+		},
+		{
+			"title" : "银灰色",
+			"color" : "#efecec",
+			"selected" : false,
+			"updateMethod" : "updateColor:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"color" : "银灰色"
+			}
+		},
+		{
+			"title" : "白色",
+			"color" : "#ffffff",
+			"selected" : false,
+			"updateMethod" : "updateColor:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"color" : "白色"
+			}
+		},
+		{
+			"title" : "红色",
+			"color" : "#ca2128",
+			"selected" : false,
+			"updateMethod" : "updateColor:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"color" : "红色"
+			}
+		},
+		{
+			"title" : "蓝色",
+			"color" : "#396bb3",
+			"selected" : false,
+			"updateMethod" : "updateColor:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"color" : "蓝色"
+			}
+		},
+		{
+			"title" : "深灰色",
+			"color" : "#888787",
+			"selected" : false,
+			"updateMethod" : "updateColor:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"color" : "深灰色"
+			}
+		},
+		{
+			"title" : "香槟色",
+			"color" : "#e9d7ab",
+			"selected" : false,
+			"updateMethod" : "updateColor:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"color" : "香槟色"
+			}
+		},
+		{
+			"title" : "绿色",
+			"color" : "#32cc47",
+			"selected" : false,
+			"updateMethod" : "updateColor:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"color" : "绿色"
+			}
+		},
+		{
+			"title" : "黄色",
+			"color" : "#f6da1b",
+			"selected" : false,
+			"updateMethod" : "updateColor:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"color" : "黄色"
+			}
+		},
+		{
+			"title" : "橙色",
+			"color" : "#ffab08",
+			"selected" : false,
+			"updateMethod" : "updateColor:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"color" : "橙色"
+			}
+		},
+		{
+			"title" : "紫色",
+			"color" : "#9f0bbf",
+			"selected" : false,
+			"updateMethod" : "updateColor:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"color" : "紫色"
+			}
+		},
+		{
+			"title" : "咖啡色",
+			"color" : "#6d4419",
+			"selected" : false,
+			"updateMethod" : "updateColor:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"color" : "咖啡色"
+			}
+		},
+		{
+			"title" : "多彩色",
+			"color" : "",
+			"selected" : false,
+			"updateMethod" : "updateColor:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"color" : "多彩色"
+			}
+		}
+	]
+}

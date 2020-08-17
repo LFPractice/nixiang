@@ -1,0 +1,38 @@
+{
+	"title" : "热门车",
+	"mutableSelected" : false,
+	"itemList" : [
+		{
+			"title" : "超值",
+			"selected" : false,
+			"updateMethod" : "updateHotTag:",
+			"keyValues" : {
+				"label" : "6"
+			}
+		},
+		{
+			"title" : "准新车",
+			"selected" : false,
+			"updateMethod" : "updateHotTag:",
+			"keyValues" : {
+				"label" : "2"
+			}
+		},
+		{
+			"title" : "里程少",
+			"selected" : false,
+			"updateMethod" : "updateHotTag:",
+			"keyValues" : {
+				"label" : "3"
+			}
+		},
+		{
+			"title" : "练手车",
+			"selected" : false,
+			"updateMethod" : "updateHotTag:",
+			"keyValues" : {
+				"label" : "8"
+			}
+		}
+	]
+}

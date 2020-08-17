@@ -1,0 +1,32 @@
+{
+    "generalSection": [
+        {
+            "title": "价格举报",
+            "imageName": "mcbd__wo_jiagejubao",
+            "intValue": 0,
+            "showNext": true,
+            "func": "onReport"
+        },
+        {
+            "title": "意见反馈",
+            "imageName": "mcbdWoYijianfankui",
+            "intValue": 0,
+            "showNext": true,
+            "actionUrl": "http://feedback.nav.mucang.cn/send-feedback"
+        },
+        {
+            "title": "设置",
+            "imageName": "mcbdWoShezhi",
+            "intValue": 0,
+            "showNext": true,
+            "func": "onSetting"
+        },
+        {
+            "title": "分享给好友",
+            "imageName": "mcbdWoFenxianglingjinbi",
+            "intValue": 0,
+            "showNext": true,
+            "func": "onShare"
+        }
+    ]
+}

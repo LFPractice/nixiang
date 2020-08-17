@@ -1,0 +1,55 @@
+{
+	"title" : "热门车",
+	"mutableSelected" : false,
+	"filterKey" : "label",
+	"itemList" : [
+		{
+			"title" : "超值",
+			"selected" : false,
+			"updateMethod" : "updateHotTag:",
+			"keyValues" : {
+				"label" : "6"
+			}
+		},
+		{
+			"title" : "里程少",
+			"selected" : false,
+			"updateMethod" : "updateHotTag:",
+			"keyValues" : {
+				"label" : "3"
+			}
+		},
+		{
+			"title" : "准新车",
+			"selected" : false,
+			"updateMethod" : "updateHotTag:",
+			"keyValues" : {
+				"label" : "2"
+			}
+		},
+		{
+			"title" : "练手车",
+			"selected" : false,
+			"updateMethod" : "updateHotTag:",
+			"keyValues" : {
+				"label" : "8"
+			}
+		},
+		{
+			"title" : "平台认证",
+			"selected" : false,
+			"updateMethod" : "updateHotTag:",
+			"keyValues" : {
+				"label" : "7"
+            }
+          },
+          {
+              "title" : "商家特卖",
+              "selected" : false,
+              "updateMethod" : "updateHotTag:",
+              "keyValues" : {
+                  "label" : "1024"
+              }
+          }
+	]
+}

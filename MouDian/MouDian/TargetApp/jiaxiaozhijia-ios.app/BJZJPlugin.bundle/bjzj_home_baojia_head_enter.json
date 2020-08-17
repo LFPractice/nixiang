@@ -1,0 +1,37 @@
+[
+    {
+        "type": 0,
+        "title": "购车计算",
+        "value": "http://car.nav.mucang.cn/calculator",
+        "iconUrl": "http://file.open.kakamobi.cn/config-image/2019/05/06/10/a18c5192200a42f3939c532b90e8d0ae_84X84.png",
+        "entrancePage1Point":"11"
+    },
+    {
+        "type": 0,
+        "title": "SUV",
+        "value": "http://car.nav.mucang.cn/suv-main",
+        "iconUrl": "http://file.open.kakamobi.cn/config-image/2019/05/06/10/ec65f98a216e478d8af913812cc65935_84X84.png",
+        "entrancePage1Point":"58"
+    },
+    {
+        "type": 0,
+        "title": "附近商家",
+        "value": "http://car.nav.mucang.cn/local-cars",
+        "iconUrl": "http://file.open.kakamobi.cn/config-image/2019/05/06/10/aa702b1bd1c54b2287224d1db0a6b37a_84X84.png",
+        "entrancePage1Point":"10"
+    },
+    {
+        "type": 0,
+        "title": "用途选车",
+        "value": "http://car.nav.mucang.cn/car/personalize",
+        "iconUrl": "http://file.open.kakamobi.cn/config-image/2019/05/06/10/e1ce5a6ed62f412f8ddd8eca000ad6d5_84X84.png",
+        "entrancePage1Point":"66"
+    },
+    {
+        "type": 0,
+        "title": "买车DNA",
+        "value": "http://car.nav.mucang.cn/user-dna",
+        "iconUrl": "http://file.open.kakamobi.cn/config-image/2019/05/06/10/79b2e3d53a1f49099a852b694af734fe_84X84.png",
+        "entrancePage1Point":"19"
+    }
+]

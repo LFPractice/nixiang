@@ -1,0 +1,18 @@
+[
+  {
+    "name": "车系",
+    "intValue": 0,
+  },
+  {
+    "name": "车型",
+    "intValue": 1,
+  },
+  {
+    "name": "二手车",
+    "intValue": 2,
+ },
+ {
+    "name": "文章",
+    "intValue": 3,
+ }
+]

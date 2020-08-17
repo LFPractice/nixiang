@@ -1,0 +1,17 @@
+{
+	"title" : "车龄",
+	"mutableSelected" : false,
+	"itemList" : [
+		{
+			"title" : "carAge",
+			"imageSelected" : "",
+			"image" : "",
+			"selected" : false,
+			"updateMethod" : "updateCarAge:",
+			"keyValues" : {
+				"minAge" : "",
+				"maxAge" : ""
+			}
+		}
+	]
+}

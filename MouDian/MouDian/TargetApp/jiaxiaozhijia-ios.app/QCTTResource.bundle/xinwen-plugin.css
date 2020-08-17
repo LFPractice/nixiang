@@ -1,0 +1,80 @@
+.QCTTBeautyNotebookViewController
+{
+    text-color : #7f7f7f;   //默认文本颜色
+    font-size : 15; //字体大小
+    background-color : #ffffff; //下方滚动容器背景色
+    bookmark-tabbar-height : 44; //标签栏高度
+    bookmark-tabbar-background-color : #ffffff; //标签栏背景颜色
+    bookmark-indicator-width : 2; //标签栏选中指示宽度
+    bookmark-indicator-color : #FF3F3E;
+    bookmark-indicator-width-inset-percent : 0.5;
+    bookmark-tab-background-color : #ffffff; //选项卡背景
+    bookmark-tab-selected-text-color : #FF3F3E;
+}
+.QCTTBeautyNotebookViewController0Height
+{
+    bookmark-tabbar-height : 0; //标签栏高度
+}
+.CBDSuperDriveRollBannerView
+{
+    page-control-visible:no;
+}
+.MCUCycleBannerView
+{
+    background-color :#ffffff;
+    page-indicator-color : #ffffff7f; //指示器颜色
+    current-page-indicator-color : #ffffff; //当前指示器颜色
+}
+.QCTTCommonlyBannerView
+{
+    page-indicator-color:#D8D8D8; //指示器颜色
+    current-page-indicator-color:#FF5F63; //当前指示器颜色
+}
+.CBDAddChannelView
+{
+    background-color:#ff00ff;
+}
+.DetailNotebook
+{
+    notebook-tabbar-height : 0;
+}
+.CBDNormalBackground
+{
+    background-color : #f5f5f5;//背景颜色
+}
+.CBDMainMoreViewController .borderLine
+{
+    background-color : #e5e5e5;
+}
+.CBDSplitSection
+{
+    background-color:#f5f5f5;
+}
+CBDNewsDetailRelatedCarTableViewCell
+{
+    sepeator-bottom-width : 1px;
+    sepeator-bottom-color : #e5e5e5;
+}
+CBDNewsDetailRelatedArticleHeaderTableViewCell
+{
+    sepeator-bottom-width : 1px;
+    sepeator-bottom-color : #e5e5e5;
+}
+.QCTTSHCompeteBrandBannerCell
+{
+    page-indicator-color : #d9d9d9; //指示器颜色
+    current-page-indicator-color : #d33d3c; //当前指示器颜色
+}
+
+.QCTTNavigationNoneLine
+{
+    font-size : 17;
+    background-color : #ffffff;//背景颜色
+    shadow-line : no;
+    text-color:#000000;
+    status-bar-style : default;
+    back-button-image-name:news_ic_back;
+    navigation-bar-tint-color:#000000;
+    background-image-name : none;
+    shadow-line : no;
+}

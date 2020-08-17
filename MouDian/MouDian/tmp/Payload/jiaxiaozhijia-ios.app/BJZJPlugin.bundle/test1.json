@@ -1,0 +1,133 @@
+[
+	{
+		"header" : "",
+		"type" : 0,
+		"items" : [
+			{
+				"name" : "全部价格",
+				"stringValue" : "",
+				"intValue" : 0
+			}
+		]
+	},
+	{
+		"header" : "",
+		"type" : 1,
+		"items" : [
+			{
+				"name" : "微型车",
+				"stringValue" : "",
+				"intValue" : 0
+			},
+			{
+				"name" : "微型车",
+				"stringValue" : "",
+				"intValue" : 0
+			},
+			{
+				"name" : "微型车",
+				"stringValue" : "",
+				"intValue" : 0
+			},
+			{
+				"name" : "微型车",
+				"stringValue" : "",
+				"intValue" : 0
+			},
+			{
+				"name" : "微型车",
+				"stringValue" : "",
+				"intValue" : 0
+			},
+			{
+				"name" : "微型车",
+				"stringValue" : "",
+				"intValue" : 0
+			}
+		]
+	},
+	{
+		"header" : "轿车",
+		"type" : 1,
+		"items" : [
+			{
+				"name" : "微型车",
+				"stringValue" : "",
+				"intValue" : 0
+			},
+			{
+				"name" : "微型车",
+				"stringValue" : "",
+				"intValue" : 0
+			},
+			{
+				"name" : "微型车",
+				"stringValue" : "",
+				"intValue" : 0
+			},
+			{
+				"name" : "微型车",
+				"stringValue" : "",
+				"intValue" : 0
+			},
+			{
+				"name" : "微型车",
+				"stringValue" : "",
+				"intValue" : 0
+			},
+			{
+				"name" : "微型车",
+				"stringValue" : "",
+				"intValue" : 0
+			}
+		]
+	},
+	{
+		"header" : "轿车",
+		"type" : 1,
+		"items" : [
+			{
+				"name" : "微型车",
+				"stringValue" : "",
+				"intValue" : 0
+			},
+			{
+				"name" : "微型车",
+				"stringValue" : "",
+				"intValue": 0
+			}
+		]
+	},
+	{
+		"header": "轿车",
+		"type": 1,
+		"items": [
+			{
+				"name": "微型车",
+				"stringValue": "",
+				"intValue": 0
+			},
+			{
+				"name": "微型车",
+				"stringValue": "",
+				"intValue": 0
+			}
+		]
+	},
+	{
+		"header": "轿车",
+		"type": 1,
+		"items": [
+			{
+				"name": "微型车",
+				"stringValue": "",
+				"intValue": 0
+			},
+			{
+				"name": "微型车",
+				"stringValue": "",
+				"intValue": 0
+			}
+		]
+	}
+]

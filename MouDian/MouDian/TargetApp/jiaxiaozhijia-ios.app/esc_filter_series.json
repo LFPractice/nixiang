@@ -1,0 +1,17 @@
+{
+	"title" : "车系",
+	"mutableSelected" : false,
+	"itemList" : [
+		{
+			"title" : "series",
+			"imageSelected" : "",
+			"image" : "",
+			"selected" : false,
+			"updateMethod" : "updateSeries:",
+			"keyValues" : {
+				"series" : "",
+				"seriesName" : ""
+			}
+		}
+	]
+}

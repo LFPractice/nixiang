@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link id="defaultCss" rel="stylesheet" href="../../css/main.css"/>
+    <link id="cityToutiaoCss" rel="stylesheet" href="../../css/city-news2.css"/>
+    <link id="guzhangdengCss" rel="stylesheet" href="../../css/guzhangdeng.css"/>
+    <script>
+        //ios处理
+        (function (doc, win) {
+
+            //30 * x / 720 * 34/30 = 16
+            var screenWidth = function (pFontSize) {
+                return pFontSize * 720 / 34;
+            };
+
+            //5=>320, 6=>375, 6p=>414
+
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+
+                        if (clientWidth > 300 && clientWidth < 340) {
+                            clientWidth = screenWidth(17);
+                        }
+                        else if (clientWidth >= 340 && clientWidth < 395) {
+                            clientWidth = screenWidth(18);
+                        }
+                        else {
+                            clientWidth = screenWidth(19);
+                        }
+
+                        docEl.style.fontSize = 30 * (clientWidth / 720) + 'px';
+                    };
+            if (!doc.addEventListener) return;
+
+            recalc();
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+
+
+        function getContentHeight() {
+            var ele = document.getElementById('webview_content_wrapper');
+            var rect = ele.getBoundingClientRect();
+
+            return rect.top + rect.height;
+        }
+
+        function getImageRect(img) {
+            var obj = img.getBoundingClientRect();
+            var x = obj.left + window.pageXOffset;
+            var y = obj.top + window.pageYOffset;
+            var width = obj.width;
+            var height = obj.height;
+
+            return x + ',' + y + ',' + width + ',' + height;
+        }
+
+        function getImageRects() {
+            var imgArray = window.getImgList();
+            var imgstr = '';
+
+            for (var i = 0; i < imgArray.length; i++) {
+                imgstr += getImageRect(imgArray[i]);
+                imgstr += ';';
+            }
+
+            return imgstr;
+        }
+
+        function getImgDataType(index) {
+            var imgArray = window.getImgList();
+
+            return imgArray [index].getAttribute("data-type");
+        }
+
+        function getImgSourceId(index) {
+            var imgArray = window.getImgList();
+
+            return imgArray [index].getAttribute("data-source-id");
+        }
+
+        function getImgIndex(index) {
+            var imgArray = document.getElementsByTagName('img');
+            var img = imgArray[index];
+
+            if (img.hasAttribute("data-type")) {
+                return img.getAttribute('data-imgindex');
+            }
+            return -1;
+        }
+
+        function getImgUrl_s(index) {
+            var imgArray = window.getImgList();
+
+            return imgArray[index].getAttribute("url_s");
+        }
+
+        function getImgUrl_m(index) {
+            var imgArray = window.getImgList();
+
+            return imgArray[index].getAttribute("url_m");
+        }
+
+        function getImgUrl_l(index) {
+            var imgArray = window.getImgList();
+
+            return imgArray[index].getAttribute("url_l");
+        }
+
+        function getImgUrl_o(index) {
+            var imgArray = window.getImgList();
+
+            return imgArray[index].getAttribute("url_o");
+        }
+
+        function getVideoId(index) {
+            var imgArray = window.getImgList();
+
+            return imgArray[index].getAttribute("video_id");
+        }
+        function tplGetLeftTime(endTime) {
+            var now = +new Date();
+            var leftSeconds = (endTime - now) / 1000;
+            var leftDay = leftSeconds / (3600 * 24);
+            var leftHour;
+            var leftMinutes;
+
+            if (leftDay <= 0) {
+                return '已过期';
+                // return '促销已结束，如果您想获得更多车系的促销信息，请询价';
+            }
+
+            if (leftDay > 30) {
+                return Math.ceil(leftDay / 30) + '月';
+            }
+
+            if (leftDay > 1) {
+                return Math.ceil(leftDay) + '天';
+            }
+
+            leftHour = parseInt(leftSeconds / 3600);
+            leftMinutes = parseInt((leftSeconds - (leftHour * 3600)) / 60);
+
+            if (leftHour > 1) {
+                return leftHour + '小时' + (leftMinutes > 0 ? (leftMinutes + '分钟') : '');
+            }
+
+            return leftMinutes + '分钟';
+        }
+        function tplGetOrderHref(carId, dealerId) {
+            return 'http://car.nav.mucang.cn/car/price?serialId=&carId=' + carId + '&from=头条城市频道&type=0&entrancePage2=9000522';
+        }
+        function tplFormatDate(time, format) {
+            return new Date(time).format(format);
+        }
+        function replaceNode(node, html) {
+            var createNode = document.createElement('div');
+
+            createNode.classList.add('com-layout-article');
+
+            createNode.innerHTML = html;
+
+            node.parentNode.replaceChild(createNode, node);
+        }
+        function tplFormatPrice(num) {
+            return (num / 10000).toFixed(2);
+        }
+        function __loadOver(me) {
+            me.setAttribute('width', me.width);
+            me.setAttribute('height', me.height);
+            me.setAttribute('data-width', me.width);
+            me.setAttribute('data-height', me.height);
+        }
+        function formatCityToutiao() {
+            var wc = document.querySelectorAll('#webview_content_wrapper [data-type]');
+
+            try {
+                for (var i = 0; i < wc.length; i++) {
+                    var node = wc[i];
+                    var attr = node.getAttribute('data-type');
+                    var json = node.innerHTML.replace(/\n/g, '').trim();
+                    var leftTime;
+                    var htmlArr = [];
+
+                    if (attr === 'promotion_cd') {
+
+                        json = JSON.parse(json);
+
+//                        json.content = '近日，本店内5系现车销售，感兴趣的朋友可以到店咨询购买，详情见下表：';
+
+                        leftTime = tplGetLeftTime(json.endTime);
+
+                        replaceNode(node, '<div class="time-block">' +
+                                '    <div class="inner">' +
+                                '    <div class="left-p">' +
+                                (leftTime === '已过期' ? ('<span class="over">促销已结束，如果您想获得更多车系的促销信息，请<a href="' + tplGetOrderHref(json.modelId) + '">询价</a></span>') : (
+                                '                           促销时间：' + tplFormatDate(json.startTime, 'yyyy年MM月dd日') + ' - ' + self.tplFormatDate(json.endTime, 'yyyy年MM月dd日') ) ) +
+                                '    </div>' +
+                                '</div>' +
+                                '</div>' + (json.content ? '<div class="decline-info"><div id="shareDesc" class="summary">' + json.content + '</div></div>' : ''));
+                    } else if (attr === 'car_offer_inquiry') {
+
+                        json = JSON.parse(json);
+
+                        if (json.length) {
+                            htmlArr.push('<div class="price-table"><table><thead><tr><td colspan="5">最新价格报表</td></tr></thead><tbody class="fs_xs">');
+                            htmlArr.push('<tr><td width="24%">车型</td><td width="19%">厂商指导价(万元)</td><td width="19%">优惠幅度(万元)</td><td width="19%">优惠价(万元)</td> <td width="19%"></td> ');
+
+                            for (var j = 0; j < json.length; j++) {
+                                htmlArr.push('<tr><td>' + json[j].modelName + '</td>' +
+                                        '<td>' + tplFormatPrice(json[j].price) + '</td>' +
+                                        '<td><span>降</span>' + tplFormatPrice(json[j].decline) + '</td>' +
+                                        '<td>' + tplFormatPrice(json[j].price - json[j].decline) + '</td>' +
+                                        '<td><a class="xj" href="' + tplGetOrderHref(json[j].modelId) + '">询底价</a></td></tr>');
+                            }
+                            htmlArr.push('</tbody><tfoot><tr><td colspan="5">以上参数配置信息仅供参考，实际请以店内销售车辆为准。 如果发现信息有误，欢迎您及时指正！</td></tr></tfoot></table> </div>');
+                            replaceNode(node, htmlArr.join(''))
+                        }
+
+
+                    } else if (attr === 'obfs_image') {
+                        json = JSON.parse(json);
+
+                        json.smallImages.unshift(json.bigImage);
+
+                        htmlArr.push('<div class="images-block"><ul class="len' + json.smallImages.length % 2 + ' cl">');
+
+                        for (var l = 0; l < json.smallImages.length; l++) {
+                            var $value = json.smallImages[l];
+                            htmlArr.push('<li><a class="dblo"><img src="' + $value + '"></a></li>');
+                        }
+                        htmlArr.push('</ul></div>');
+
+                        replaceNode(node, htmlArr.join(''))
+
+                    } else if (attr === 'car_dealer') {
+                        json = JSON.parse(json);
+
+                        htmlArr.push('<div class="com-dealer-concat block-item">' +
+                                '            <div class="block-title cl"><strong class="title fl">联系经销商</strong></div>' +
+                                '            <div class="block-content">' +
+                                '            <h3 class=""><a>' + json.companyName + '</a></h3>');
+
+                        if (json.features) {
+                            htmlArr.push('<h3 class=""><a>本店特色：' + json.features + '</a></h3>');
+                        }
+                        if (json.phone) {
+                            htmlArr.push('<div class="tel"><a href="tel:' + json.phone + '">' + json.phone + '</a></div>');
+                        }
+                        if (json.address) {
+                            htmlArr.push('<div class="address">' + json.address + '</div>');
+                        }
+
+                        htmlArr.push('</div></div>');
+
+                        replaceNode(node, htmlArr.join(''))
+
+                    }
+                }
+            } catch (e) {
+                console.log(e);
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="article-detail ###pageStyle###" id="webview_content_wrapper">
+    ###body###
+</div>
+
+<script src="../../js/format.js"></script>
+
+<script>
+    formatCityToutiao();
+</script>
+<script>###fontSize###</script>
+</body>
+</html>

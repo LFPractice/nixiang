@@ -1,0 +1,76 @@
+.CBDBookMark {
+    text-color:#454545;
+    font-size:15;
+    font-size-3x:16;
+    background-color:#ffffff; //下方滚动容器背景色
+    bookmark-tabbar-height:44; //标签栏高度
+    bookmark-tabbar-background-color:#ffffff; //标签栏背景颜色
+    bookmark-indicator-width:0; //标签栏选中指示宽度
+    bookmark-tab-background-color:#ffffff; //选项卡背景
+    bookmark-tab-selected-font-size:17;
+    bookmark-tab-selected-font-size-3x:18;
+    bookmark-tab-selected-text-color:#1dacf9;
+    bookmark-tabbar-edge-insets:insets(0,0,0,0);
+    bookmark-tab-right-edge:38;
+}
+//头条导航栏
+.CBDNavagationBar
+{
+    font-size : 16;
+    background-color : #ffffff;//背景颜色
+    shadow-line : yes;
+    text-color:#000000;
+    status-bar-style : default;
+    back-button-image-name:news_ic_back;
+    navigation-bar-tint-color:#000000;
+}
+.CBDNewsDetailBottomBar {
+    isCollect:no;
+}
+.QCTTSubjectView {
+    isCollect:no;
+}
+.CBDMainViewNavigationBar
+{
+    font-size : 16;
+    status-bar-style :light-content;
+}
+.CBDNavgationBarTitle {
+    text-color:#000000;
+    font-size:18;
+}
+.CBDNoteAddButtonBackgroundView {
+    alpha:1;
+    background-color:#ffffff;
+}
+.CBDNoteAddButtonLeftLine {
+    alpha:0;
+}
+//频道管理按钮
+.CBDNotePageButton {
+    addChannel-tintColor:#1dacf9;
+}
+//下载管理
+.QCTTVideoManageBookmark {
+    text-color:#999999;
+    font-size:15;
+    background-color:#f2f2f2; //下方滚动容器背景色
+    bookmark-tabbar-height:39; //标签栏高度
+    bookmark-tabbar-background-color:#ffffff; //标签栏背景颜色
+    bookmark-indicator-width:2; //标签栏选中指示宽度
+    bookmark-indicator-color:#333333;
+    bookmark-indicator-width-inset-percent:0.3;
+    bookmark-tab-background-color:#ffffff; //选项卡背景
+    bookmark-tab-selected-font-size:15;
+    bookmark-tab-selected-text-color:#333333;
+}
+.QCTTVideoDownEmpty {
+    text-color:#dddddd;
+    font-size:15;
+    image-name:qctt__bg_download_empty;
+}
+.QCTTVideoGroupListEmpty {
+    text-color:#dddddd;
+    font-size:15;
+    image-name:qctt__bg_download_group_empty;
+}

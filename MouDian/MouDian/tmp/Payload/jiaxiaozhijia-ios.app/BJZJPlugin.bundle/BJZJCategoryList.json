@@ -1,0 +1,62 @@
+ [
+  {
+  "name": "想买SUV",
+  "intValue": 25
+  },
+  {
+  "name": "家用代步",
+  "intValue": 2
+  },
+  {
+  "name": "国货精品",
+  "intValue": 3
+  },
+  {
+  "name": "都市白领",
+  "intValue": 4
+  },
+  {
+  "name": "网约车新政",
+  "intValue": 5
+  },
+  {
+  "name": "适合女性",
+  "intValue": 6
+  },
+  {
+  "name": "新能源",
+  "intValue": 7
+  },
+  {
+  "name": "颜值爆棚",
+  "intValue": 8
+  },
+  {
+  "name": "行政商务",
+  "intValue": 9
+  },
+  {
+  "name": "7座大空间",
+  "intValue": 10
+  },
+  {
+  "name": "旅行家",
+  "intValue": 33
+  },
+  {
+  "name": "硬派越野",
+  "intValue": 17
+  },
+  {
+  "name": "改装潜力股",
+  "intValue": 36
+  },
+  {
+  "name": "自吸大排量",
+  "intValue": 37
+  },
+  {
+  "name": "撩妹利器",
+  "intValue": 15
+  }
+  ]

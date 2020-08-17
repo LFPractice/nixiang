@@ -1,0 +1,261 @@
+body, html, p, ul, li, dl, dt, dd, button, span, div, h1, h2, h3, h4, h5, h6, b, strong, i, a, img, input, textarea, select {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-style: normal;
+    font-size: inherit;
+    font-family: "Helvetica Neue", Helvetica, "Microsoft YaHei", Arial, sans-serif;
+    line-height: inherit;
+    font-weight: normal
+}
+
+li, ul, ol {
+    list-style: none
+}
+
+html, body {
+    overflow: auto
+}
+
+html, body {
+    position: relative;
+    margin: 0 auto;
+    line-height: 1.3em
+}
+
+.clearfix, .cl {
+    *zoom: 1
+}
+
+.clearfix:before, .clearfix:after, .cl:before, .cl:after {
+    display: table;
+    line-height: 0;
+    content: " "
+}
+
+.clearfix:after, .cl:after {
+    clear: both
+}
+
+body {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-overflow-scrolling: touch;
+    -webkit-user-select: none;
+    color: #333;
+    overflow: auto;
+    position: relative
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto
+}
+
+input, button, select {
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none
+}
+
+.loading {
+    background: url("../images/loading.gif") center center no-repeat;
+    background-size: 1.33333rem 1.33333rem;
+    height: 100%;
+    overflow: hidden
+}
+
+.animate {
+    -webkit-transition: all;
+    transition: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s
+}
+
+.loading {
+    overflow: hidden
+}
+
+.loading .main {
+    opacity: 0
+}
+
+.main {
+    -webkit-transition: all;
+    transition: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    opacity: 1
+}
+
+.fail {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-flex: 1;
+    -webkit-box-pack: center;
+    color: #999;
+    font-size: .86667rem;
+    background-color: #fff;
+    min-height: 9.33333rem
+}
+
+.fail p {
+    min-width: 13.33333rem;
+    text-align: center;
+    padding-top: 12rem;
+    background: url("../images/fail.png") top center no-repeat;
+    background-size: 13.33333rem;
+    padding-bottom: 1.33333rem
+}
+
+.toast {
+    position: fixed;
+    bottom: 3.33333rem;
+    left: 50%;
+    padding: 0rem .93333rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: .26667rem;
+    font-size: .93333rem;
+    background: #000;
+    color: #fff;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    z-index: 100;
+    opacity: 0
+}
+
+.toast.show {
+    opacity: 1
+}
+
+.toast.hide {
+    opacity: 0
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px
+}
+
+::-webkit-scrollbar-thumb {
+    height: 4px;
+    background-color: #ccc;
+    border-radius: 10px;
+    outline-offset: -2px
+}
+
+::-webkit-scrollbar-track-piece {
+    border-radius: 0
+}
+
+::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
+    color: #c8c8c8
+}
+
+.work-container {
+    height: 100%;
+    position: relative;
+    padding: 0rem;
+    margin:20px 12px 10px 60px
+}
+
+.work-container ul {
+    border: 1px solid #EEEEEE
+}
+
+.work-container li {
+    display: -webkit-box;
+    border-bottom: 1px solid #EEEEEE
+}
+
+.work-container li.first {
+    padding: .53333rem .53333rem .53333rem .33333rem
+}
+.work-container li.first a{
+    display: -webkit-box;
+    -webkit-box-flex: 1;
+}
+
+.work-container li.first img {
+    display: block;
+    width: 5.33333rem;
+    height: 3.06667rem;
+    margin: 0
+}
+
+.work-container li.first .car {
+    -webkit-box-flex: 1;
+    font-size: .86667rem;
+    line-height: 3.06667rem;
+    padding-left: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: .33333rem
+}
+
+.work-container li.first .arrow {
+    width: .6rem;
+    background: url(koubei/resources/css/image/arrow.png) no-repeat right center;
+    background-size: 100%
+}
+
+.work-container li div.title {
+    color: #333333;
+    text-align: center;
+    padding: .93333rem .8rem;
+    width: 25%;
+    font-size: .93333rem;
+    line-height: 1.2rem;
+    border-right: 1px solid #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-container li div.desc {
+    color: #333333;
+    text-align: center;
+    padding: .93333rem .8rem;
+    -webkit-box-flex: 1;
+    font-size: .86667rem;
+    line-height: 1.2rem
+}
+
+.work-container .content {
+    margin-top: 1rem
+}
+
+.work-container .content header {
+    font-size: 1rem;
+    line-height: 2rem
+}
+
+.work-container .content pre, .work-container .content p{
+    margin: 0;
+    padding: 0;
+    word-break: break-all;
+    white-space: pre-wrap;
+    color: #999999;
+    font-size: .86667rem;
+    line-height: 1.33333rem
+}
+
+.work-container .content img {
+    display: block;
+    width: 100%;
+    margin: .66667rem 0rem .66667rem 0rem
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link id="defaultCss" rel="stylesheet" href="./default.css"/>
+    <style>
+        html,
+        body {
+            font-family: Hiragino, "Microsoft YaHei", Arial, Helvetica, sans-serif;
+            -webkit-touch-callout: none;
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        body .main {
+            background: #fff;
+        }
+
+        pre{ white-space: pre-wrap;white-space: -moz-pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word;}
+        .space{display: block;width:100%;height: 14px;}
+
+        embed,
+        video {
+            background-color: black;
+            width: 100% !important;
+            height: auto !important;
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            table-layout: fixed;
+        }
+
+        td,
+        th {
+            padding: 0;
+            word-break: break-all;
+        }
+
+        .topic-detail {
+            color: #333;
+            font-size: 15px;
+            margin: 0 0px;
+            line-height: 1.5;
+            overflow-x: hidden;
+            word-break: break-all;
+        }
+
+        .topic-detail img {
+            /*
+            width: 100% !important;
+            height: auto !important;
+            */
+            max-width: 100%;
+            vertical-align: middle;
+        }
+
+        .topic-detail img[data-src] {
+            background: url(../../css/images/background.png) no-repeat center #eaeaea;
+        }
+
+        .topic-detail img.loading-image {
+            background: url(../../css/images/loading.png) no-repeat center #eaeaea;
+        }
+
+        .topic-detail h1 {
+            margin: 0;
+            padding: 0px 0;
+            border-bottom: solid 1px #dcdcdc;
+            font-size: medium;
+        }
+
+        .topic-detail .carTable {
+            table-layout: fixed;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+            border-spacing: 0;
+        }
+
+        .topic-detail .carTable tr {
+            height: 40px;
+            line-height: 40px;
+        }
+
+        .topic-detail .carTable td {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            border: 1px solid #eee;
+        }
+
+        .topic-detail .carTable .title {
+            height: 58px;
+            line-height: 58px;
+        }
+
+        .topic-detail .carTable .title td {
+            height: inherit;
+        }
+
+        .topic-detail .carTable .title .wrap {
+            position: relative;
+            height: 100%;
+        }
+
+        .topic-detail .carTable .title .wrap .left {
+            float: left;
+            width: 30%;
+            height: 100%;
+        }
+
+        .topic-detail .carTable .title .wrap .left .thumb {
+            display: block;
+            width: 69px;
+            height: 46px;
+            margin: 6px auto;
+            background: no-repeat center;
+            background-size: 100% 100%;
+        }
+
+        .topic-detail .carTable .title .wrap .right {
+            float: right;
+            width: 10%;
+            height: 100%;
+            position: relative;
+        }
+
+        .topic-detail .carTable .title .wrap .right .arrow {
+            position: absolute;
+            width: 7px;
+            height: 11px;
+            top: 50%;
+            left: 20%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAALCAYAAAHEl6c+AAAAAXNSR0IArs4c6QAAAHdJREFUGBltjtkKhTAMRKuCIG6IPt3//z19dgF1TjClFx04NkknU0MIoRaJcq9/FJl3nAUfG1Mgmrhgk2doVpL/Aga3sHOIiYFbKtXtK61xG9YYQH4nRlGKVUR5IAP+oRe8NoszvVRvIol39vTyc9Odm9yLuITpBikYDTHhb0cpAAAAAElFTkSuQmCC") no-repeat;
+            font-style: normal;
+        }
+
+        .topic-detail .carTable .title .wrap .productName {
+            float: left;
+            width: 60%;
+            text-align: left;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .topic-detail .carTable .buyFor .desc {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .topic-detail .txt {
+            width: 100%;
+            margin-bottom: 20px;
+            word-break: break-all;
+            white-space: pre-wrap;
+            font-size: 17px;
+            color: #333333;
+            letter-spacing: 0;
+            line-height: 30px;
+        }
+
+        .topic-detail .wrap-pic {
+            margin-bottom: 20px;
+        }
+
+        .topic-detail .wrap-pic img {
+            width: 100%;
+            height: auto;
+        }
+
+        .topic-detail .wrap-pic .t {
+            color: #999;
+            font-size: 14px;
+            margin-top: 6px;
+            word-break: break-all;
+            white-space: pre-wrap;
+            letter-spacing: 0;
+            line-height: 20px;
+        }
+
+        .topic-detail .tag {
+            height: 38px;
+        }
+
+        .topic-detail .tag span {
+            font-size: 10px;
+            color: #666666;
+            padding: 6px 10px;
+            background: #F7F7F7;
+            border-radius: 2px;
+            margin-right: 8px;
+        }
+    </style>
+    <script type="text/javascript">
+        //动态计算字体尺寸
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    var fz = 32 * (clientWidth / 720);
+                    fz = (fz > 32 ? 32 : fz);
+                    docEl.style.fontSize = fz + 'px';
+                    win._fz = fz;
+                };
+            if (!doc.addEventListener) return;
+            recalc();
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+
+            window.recalc = recalc;
+        })(document, window);
+
+        function getBodyHeight() {
+            return document.getElementById('webview_content_wrapper').offsetHeight
+                + parseInt(window.getComputedStyle(document.getElementsByTagName('body')[0]).getPropertyValue('margin-top'))
+                + parseInt(window.getComputedStyle(document.getElementsByTagName('body')[0]).getPropertyValue('margin-bottom'));
+        }
+    </script>
+</head>
+
+<body class="font-and-pattern">
+<div id="webview_content_wrapper">
+    ###body###
+</div>
+<script src="./default.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+	"title" : "品牌",
+	"mutableSelected" : false,
+	"itemList" : [
+		{
+			"title" : "brand",
+			"imageSelected" : "",
+			"image" : "",
+			"selected" : false,
+			"updateMethod" : "updateBrand:",
+			"keyValues" : {
+				"brand" : "",
+				"brandName" : ""
+			}
+		}
+	]
+}

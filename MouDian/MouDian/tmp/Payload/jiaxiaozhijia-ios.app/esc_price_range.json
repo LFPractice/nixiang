@@ -1,0 +1,407 @@
+ [
+  {
+  "name": "不限价格",
+  "values": [
+             {
+             "title": "3万以内",
+             "value": "minPrice=0&maxPrice=30000",
+             "type": ""
+             },
+             {
+             "title": "3-5万",
+             "value": "minPrice=30000&maxPrice=50000",
+             "type": ""
+             },
+             {
+             "title": "5-10万",
+             "value": "minPrice=50000&maxPrice=100000",
+             "type": ""
+             },
+             {
+             "title": "10-15万",
+             "value": "minPrice=100000&maxPrice=150000",
+             "type": ""
+             },
+             {
+             "title": "轿车",
+             "value": "style=1",
+             "type": ""
+             },
+             {
+             "title": "SUV",
+             "value": "style=2",
+             "type": ""
+             },
+             {
+             "title": "商务车",
+             "value": "style=3",
+             "type": ""
+             },
+             {
+             "title": "跑车",
+             "value": "style=4",
+             "type": ""
+             }
+             ]
+  },
+  {
+  "name": "3万以内",
+  "values": [
+             {
+             "title": "3万以内",
+             "value": "minPrice=0&maxPrice=30000",
+             "type": "price"
+             },
+             {
+             "title": "3-5万",
+             "value": "minPrice=30000&maxPrice=50000",
+             "type": "price"
+             },
+             {
+             "title": "5-10万",
+             "value": "minPrice=50000&maxPrice=100000",
+             "type": "price"
+             },
+             {
+             "title": "10-15万",
+             "value": "minPrice=100000&maxPrice=150000",
+             "type": "price"
+             },
+             {
+             "title": "轿车",
+             "value": "style=1",
+             "type": "car"
+             },
+             {
+             "title": "SUV",
+             "value": "style=2",
+             "type": "car"
+             },
+             {
+             "title": "商务车",
+             "value": "style=3",
+             "type": "car"
+             },
+             {
+             "title": "跑车",
+             "value": "style=4",
+             "type": "car"
+             }
+             ]
+  },
+  {
+  "name": "3-5万",
+  "values": [
+             {
+             "title": "3万以内",
+             "value": "minPrice=0&maxPrice=30000",
+             "type": "price"
+             },
+             {
+             "title": "3-5万",
+             "value": "minPrice=30000&maxPrice=50000",
+             "type": "price"
+             },
+             {
+             "title": "5-10万",
+             "value": "minPrice=50000&maxPrice=100000",
+             "type": "price"
+             },
+             {
+             "title": "10-15万",
+             "value": "minPrice=100000&maxPrice=150000",
+             "type": "price"
+             },
+             {
+             "title": "轿车",
+             "value": "style=1",
+             "type": "car"
+             },
+             {
+             "title": "SUV",
+             "value": "style=2",
+             "type": "car"
+             },
+             {
+             "title": "商务车",
+             "value": "style=3",
+             "type": "car"
+             },
+             {
+             "title": "跑车",
+             "value": "style=4",
+             "type": "car"
+             }
+             ]
+  },
+  {
+  "name": "5-10万",
+  "values": [
+             {
+             "title": "3万以内",
+             "value": "minPrice=0&maxPrice=30000",
+             "type": "price"
+             },
+             {
+             "title": "3-5万",
+             "value": "minPrice=30000&maxPrice=50000",
+             "type": "price"
+             },
+             {
+             "title": "5-10万",
+             "value": "minPrice=50000&maxPrice=100000",
+             "type": "price"
+             },
+             {
+             "title": "10-15万",
+             "value": "minPrice=100000&maxPrice=150000",
+             "type": "price"
+             },
+             {
+             "title": "轿车",
+             "value": "style=1",
+             "type": "car"
+             },
+             {
+             "title": "SUV",
+             "value": "style=2",
+             "type": "car"
+             },
+             {
+             "title": "商务车",
+             "value": "style=3",
+             "type": "car"
+             },
+             {
+             "title": "跑车",
+             "value": "style=4",
+             "type": "car"
+             }
+             ]
+  },
+  {
+  "name": "10-15万",
+  "values": [
+             {
+             "title": "3-5万",
+             "value": "minPrice=30000&maxPrice=50000",
+             "type": "price"
+             },
+             {
+             "title": "5-10万",
+             "value": "minPrice=50000&maxPrice=100000",
+             "type": "price"
+             },
+             {
+             "title": "10-15万",
+             "value": "minPrice=100000&maxPrice=150000",
+             "type": "price"
+             },
+             {
+             "title": "15-20万",
+             "value": "minPrice=150000&maxPrice=200000",
+             "type": "price"
+             },
+             {
+             "title": "轿车",
+             "value": "style=1",
+             "type": "car"
+             },
+             {
+             "title": "SUV",
+             "value": "style=2",
+             "type": "car"
+             },
+             {
+             "title": "商务车",
+             "value": "style=3",
+             "type": "car"
+             },
+             {
+             "title": "跑车",
+             "value": "style=4",
+             "type": "car"
+             }
+             ]
+  },
+  {
+  "name": "15-20万",
+  "values": [
+             {
+             "title": "5-10万",
+             "value": "minPrice=50000&maxPrice=100000",
+             "type": "price"
+             },
+             {
+             "title": "10-15万",
+             "value": "minPrice=100000&maxPrice=150000",
+             "type": "price"
+             },
+             {
+             "title": "15-20万",
+             "value": "minPrice=150000&maxPrice=200000",
+             "type": "price"
+             },
+             {
+             "title": "20-30万",
+             "value": "minPrice=200000&maxPrice=300000",
+             "type": "price"
+             },
+             {
+             "title": "轿车",
+             "value": "style=1",
+             "type": "car"
+             },
+             {
+             "title": "SUV",
+             "value": "style=2",
+             "type": "car"
+             },
+             {
+             "title": "商务车",
+             "value": "style=3",
+             "type": "car"
+             },
+             {
+             "title": "跑车",
+             "value": "style=4",
+             "type": "car"
+             }
+             ]
+  },
+  {
+  "name": "20-30万",
+  "values": [
+             {
+             "title": "10-15万",
+             "value": "minPrice=100000&maxPrice=150000",
+             "type": "price"
+             },
+             {
+             "title": "15-20万",
+             "value": "minPrice=150000&maxPrice=200000",
+             "type": "price"
+             },
+             {
+             "title": "20-30万",
+             "value": "minPrice=200000&maxPrice=300000",
+             "type": "price"
+             },
+             {
+             "title": "30-60万",
+             "value": "minPrice=300000&maxPrice=600000",
+             "type": "price"
+             },
+             {
+             "title": "轿车",
+             "value": "style=1",
+             "type": "car"
+             },
+             {
+             "title": "SUV",
+             "value": "style=2",
+             "type": "car"
+             },
+             {
+             "title": "商务车",
+             "value": "style=3",
+             "type": "car"
+             },
+             {
+             "title": "跑车",
+             "value": "style=4",
+             "type": "car"
+             }
+             ]
+  },
+  {
+  "name": "30-60万",
+  "values": [
+             {
+             "title": "15-20万",
+             "value": "minPrice=150000&maxPrice=200000",
+             "type": "price"
+             },
+             {
+             "title": "20-30万",
+             "value": "minPrice=200000&maxPrice=300000",
+             "type": "price"
+             },
+             {
+             "title": "30-60万",
+             "value": "minPrice=300000&maxPrice=600000",
+             "type": "price"
+             },
+             {
+             "title": "60万以上",
+             "value": "minPrice=600000&maxPrice=100000000",
+             "type": "price"
+             },
+             {
+             "title": "轿车",
+             "value": "style=1",
+             "type": "car"
+             },
+             {
+             "title": "SUV",
+             "value": "style=2",
+             "type": "car"
+             },
+             {
+             "title": "商务车",
+             "value": "style=3",
+             "type": "car"
+             },
+             {
+             "title": "跑车",
+             "value": "style=4",
+             "type": "car"
+             }
+             ]
+  },
+  {
+  "name": "60万以上",
+  "values": [
+             {
+             "title": "15-20万",
+             "value": "minPrice=150000&maxPrice=200000",
+             "type": "price"
+             },
+             {
+             "title": "20-30万",
+             "value": "minPrice=200000&maxPrice=300000",
+             "type": "price"
+             },
+             {
+             "title": "30-60万",
+             "value": "minPrice=300000&maxPrice=600000",
+             "type": "price"
+             },
+             {
+             "title": "60万以上",
+             "value": "minPrice=600000&maxPrice=100000000",
+             "type": "price"
+             },
+             {
+             "title": "轿车",
+             "value": "style=1",
+             "type": "car"
+             },
+             {
+             "title": "SUV",
+             "value": "style=2",
+             "type": "car"
+             },
+             {
+             "title": "商务车",
+             "value": "style=3",
+             "type": "car"
+             },
+             {
+             "title": "跑车",
+             "value": "style=4",
+             "type": "car"
+             }
+             ]
+  }
+  ]

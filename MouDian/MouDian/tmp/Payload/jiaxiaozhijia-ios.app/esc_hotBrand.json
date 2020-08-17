@@ -1,0 +1,30 @@
+[
+  {
+    "brandName": "大众",
+    "brand": 26,
+    "logoUrl": {
+      "small": "大众esclocal"
+    }
+  },
+  {
+    "brandName": "本田",
+    "brand": 14,
+    "logoUrl": {
+      "small": "本田esclocal"
+    }
+  },
+  {
+    "brandName": "奥迪",
+    "brand": 3,
+    "logoUrl": {
+      "small": "奥迪esclocal"
+    }
+  },
+  {
+    "brandName": "哈弗",
+    "brand": 48,
+    "logoUrl": {
+      "small": "哈弗esclocal"
+    }
+  }
+]

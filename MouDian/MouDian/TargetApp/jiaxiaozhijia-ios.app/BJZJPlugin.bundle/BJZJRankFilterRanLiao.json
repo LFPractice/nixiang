@@ -1,0 +1,30 @@
+[
+    {
+        "header": "",
+        "conditionType": 3,
+        "stringValue": "fuelType",
+        "items": [
+            {
+                "name": "全部",
+                "stringValue": "",
+                "intValue": 0,
+                "selected": true
+            },
+            {
+                "name": "纯电动",
+                "stringValue": "4",
+                "intValue": 1,
+            },
+            {
+                "name": "插电式混动",
+                "stringValue": "5",
+                "intValue": 2
+            },
+            {
+                "name": "增程式",
+                "stringValue": "6",
+                "intValue": 3
+            }
+        ]
+    }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "header": "",
+    "type": 0,
+    "items": [
+      {
+        "name": "全部价格",
+        "minValue": -1,
+        "maxValue": -1,
+        "selected": true,
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "type": 1,
+    "items": [
+      {
+        "name": "5万以下",
+        "minValue": -1,
+        "maxValue": 50000,
+        "intValue": 1
+      },
+      {
+        "name": "5-8万",
+        "minValue": 50000,
+        "maxValue": 80000,
+        "intValue": 2
+      },
+      {
+        "name": "8-10万",
+        "minValue": 80000,
+        "maxValue": 100000,
+        "intValue": 3
+      },
+      {
+        "name": "10-15万",
+        "minValue": 100000,
+        "maxValue": 150000,
+        "intValue": 4
+      },
+      {
+        "name": "15-20万",
+        "minValue": 150000,
+        "maxValue": 200000,
+        "intValue": 5
+      },
+      {
+        "name": "20-25万",
+        "minValue": 200000,
+        "maxValue": 250000,
+        "intValue": 6
+      },
+      {
+        "name": "25-35万",
+        "minValue": 250000,
+        "maxValue": 350000,
+        "intValue": 7
+      },
+      {
+        "name": "35-50万",
+        "minValue": 350000,
+        "maxValue": 500000,
+        "intValue": 8
+      },
+      {
+        "name": "50-70万",
+        "minValue": 500000,
+        "maxValue": 700000,
+        "intValue": 9
+      },
+      {
+        "name": "70-100万",
+        "minValue": 700000,
+        "maxValue": 1000000,
+        "intValue": 10
+      },
+      {
+        "name": "100-150万",
+        "minValue": 1000000,
+        "maxValue": 1500000,
+        "intValue": 11
+      },
+      {
+        "name": "150万以上",
+        "minValue": 1500000,
+        "maxValue": -1,
+        "intValue": 12
+      }
+    ]
+  }
+]

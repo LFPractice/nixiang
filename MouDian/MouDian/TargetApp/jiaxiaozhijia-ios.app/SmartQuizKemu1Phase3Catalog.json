@@ -1,0 +1,58 @@
+[
+    {
+        "id": 54001,
+        "name": "智能模拟考试1",
+        "type": "test",
+        "singleScore": 1,
+        "totalScore": 100,
+        "passScore": 90,
+        "testRule": [
+            {
+                "type": "SmartQuizPhase3LevelA",
+                "count": 100
+            }
+        ]
+    },
+    {
+        "id": 54002,
+        "name": "智能模拟考试2",
+        "type": "test",
+        "singleScore": 1,
+        "totalScore": 100,
+        "passScore": 90,
+        "testRule": [
+            {
+                "type": "SmartQuizPhase3LevelB",
+                "count": 100
+            }
+        ]
+    },
+    {
+        "id": 54003,
+        "name": "智能模拟考试3",
+        "type": "test",
+        "singleScore": 1,
+        "totalScore": 100,
+        "passScore": 90,
+        "testRule": [
+            {
+                "type": "SmartQuizPhase3LevelC",
+                "count": 100
+            }
+        ]
+    },
+    {
+        "id": 54004,
+        "name": "智能模拟考试4",
+        "type": "test",
+        "singleScore": 1,
+        "totalScore": 100,
+        "passScore": 90,
+        "testRule": [
+            {
+                "type": "SmartQuizPhase3LevelD",
+                "count": 100
+            }
+        ]
+    }
+]

@@ -1,0 +1,457 @@
+[
+    {
+        "name": "全部价格区间",
+        "values": [
+            {
+                "title": "5-8万",
+                "value": "{\"minPrice\" : \"50000\", \"maxPrice\" : \"80000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "8-10万",
+                "value": "{\"minPrice\" : \"80000\", \"maxPrice\" : \"100000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "10-15万",
+                "value": "{\"minPrice\" : \"100000\", \"maxPrice\" : \"150000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "小型车",
+                "value": "{\"levelList\" : \"a0\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "紧凑型车",
+                "value": "{\"levelList\" : \"a\"}",
+                "type": "条件选车",
+                "color": ""
+            }
+        ]
+    },
+    {
+        "name": "5万以下",
+        "values": [
+            {
+                "title": "5万以下",
+                "value": "{\"minPrice\" : \"-1\", \"maxPrice\" : \"50000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "5-8万",
+                "value": "{\"minPrice\" : \"50000\", \"maxPrice\" : \"80000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "8-10万",
+                "value": "{\"minPrice\" : \"80000\", \"maxPrice\" : \"100000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "小型车",
+                "value": "{\"levelList\" : \"a0\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "紧凑型车",
+                "value": "{\"levelList\" : \"a\"}",
+                "type": "条件选车",
+                "color": ""
+            }
+        ]
+    },
+    {
+        "name": "5-8万",
+        "values": [
+            {
+                "title": "5万以下",
+                "value": "{\"minPrice\" : \"-1\", \"maxPrice\" : \"50000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "5-8万",
+                "value": "{\"minPrice\" : \"50000\", \"maxPrice\" : \"80000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "8-10万",
+                "value": "{\"minPrice\" : \"80000\", \"maxPrice\" : \"100000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "小型车",
+                "value": "{\"levelList\" : \"a0\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "紧凑型车",
+                "value": "{\"levelList\" : \"a\"}",
+                "type": "条件选车",
+                "color": ""
+            }
+        ]
+    },
+    {
+        "name": "8-10万",
+        "values": [
+            {
+                "title": "5-8万",
+                "value": "{\"minPrice\" : \"50000\", \"maxPrice\" : \"80000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "8-10万",
+                "value": "{\"minPrice\" : \"80000\", \"maxPrice\" : \"100000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "10-15万",
+                "value": "{\"minPrice\" : \"100000\", \"maxPrice\" : \"150000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "SUV",
+                "value": "{\"levelList\" : \"otherSUV\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "紧凑型车",
+                "value": "{\"levelList\" : \"a\"}",
+                "type": "条件选车",
+                "color": ""
+            }
+        ]
+    },
+    {
+        "name": "10-15万",
+        "values": [
+            {
+                "title": "8-10万",
+                "value": "{\"minPrice\" : \"80000\", \"maxPrice\" : \"100000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "10-15万",
+                "value": "{\"minPrice\" : \"100000\", \"maxPrice\" : \"150000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "15-20万",
+                "value": "{\"minPrice\" : \"150000\", \"maxPrice\" : \"200000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "SUV",
+                "value": "{\"levelList\" : \"otherSUV\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "中型车",
+                "value": "{\"levelList\" : \"b\"}",
+                "type": "条件选车",
+                "color": ""
+            }
+        ]
+    },
+    {
+        "name": "15-20万",
+        "values": [
+            {
+                "title": "10-15万",
+                "value": "{\"minPrice\" : \"100000\", \"maxPrice\" : \"150000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "15-20万",
+                "value": "{\"minPrice\" : \"150000\", \"maxPrice\" : \"200000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "20-25万",
+                "value": "{\"minPrice\" : \"200000\", \"maxPrice\" : \"250000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "SUV",
+                "value": "{\"levelList\" : \"otherSUV\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "中型车",
+                "value": "{\"levelList\" : \"b\"}",
+                "type": "条件选车",
+                "color": ""
+            }
+        ]
+    },
+    {
+        "name": "20-25万",
+        "values": [
+            {
+                "title": "15-20万",
+                "value": "{\"minPrice\" : \"150000\", \"maxPrice\" : \"200000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "20-25万",
+                "value": "{\"minPrice\" : \"200000\", \"maxPrice\" : \"250000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "25-35万",
+                "value": "{\"minPrice\" : \"250000\", \"maxPrice\" : \"350000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "SUV",
+                "value": "{\"levelList\" : \"otherSUV\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "中型车",
+                "value": "{\"levelList\" : \"b\"}",
+                "type": "条件选车",
+                "color": ""
+            }
+        ]
+    },
+    {
+        "name": "25-35万",
+        "values": [
+            {
+                "title": "20-25万",
+                "value": "{\"minPrice\" : \"200000\", \"maxPrice\" : \"250000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "25-35万",
+                "value": "{\"minPrice\" : \"250000\", \"maxPrice\" : \"350000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "35-50万",
+                "value": "{\"minPrice\" : \"350000\", \"maxPrice\" : \"500000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "SUV",
+                "value": "{\"levelList\" : \"otherSUV\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "中大型车",
+                "value": "{\"levelList\" : \"c\"}",
+                "type": "条件选车",
+                "color": ""
+            }
+        ]
+    },
+    {
+        "name": "35-50万",
+        "values": [
+            {
+                "title": "25-35万",
+                "value": "{\"minPrice\" : \"250000\", \"maxPrice\" : \"350000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "35-50万",
+                "value": "{\"minPrice\" : \"350000\", \"maxPrice\" : \"500000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "50-70万",
+                "value": "{\"minPrice\" : \"500000\", \"maxPrice\" : \"700000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "中大型车",
+                "value": "{\"levelList\" : \"c\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "大型车",
+                "value": "{\"levelList\" : \"d\"}",
+                "type": "条件选车",
+                "color": ""
+            }
+        ]
+    },
+    {
+        "name": "50-70万",
+        "values": [
+            {
+                "title": "35-50万",
+                "value": "{\"minPrice\" : \"350000\", \"maxPrice\" : \"500000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "50-70万",
+                "value": "{\"minPrice\" : \"500000\", \"maxPrice\" : \"700000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "SUV",
+                "value": "{\"levelList\" : \"otherSUV\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "大型车",
+                "value": "{\"levelList\" : \"d\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "跑车",
+                "value": "{\"levelList\" : \"s\"}",
+                "type": "条件选车",
+                "color": ""
+            }
+        ]
+    },
+    {
+        "name": "70-100万",
+        "values": [
+            {
+                "title": "50-70万",
+                "value": "{\"minPrice\" : \"500000\", \"maxPrice\" : \"700000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "70万以上",
+                "value": "{\"minPrice\" : \"700000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "SUV",
+                "value": "{\"levelList\" : \"otherSUV\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "大型车",
+                "value": "{\"levelList\" : \"d\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "跑车",
+                "value": "{\"levelList\" : \"s\"}",
+                "type": "条件选车",
+                "color": ""
+            }
+        ]
+    },
+    {
+        "name": "100-150万",
+        "values": [
+            {
+                "title": "50-70万",
+                "value": "{\"minPrice\" : \"500000\", \"maxPrice\" : \"700000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "70万以上",
+                "value": "{\"minPrice\" : \"700000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "SUV",
+                "value": "{\"levelList\" : \"otherSUV\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "大型车",
+                "value": "{\"levelList\" : \"d\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "跑车",
+                "value": "{\"levelList\" : \"s\"}",
+                "type": "条件选车",
+                "color": ""
+            }
+        ]
+    },
+    {
+        "name": "150万以上",
+        "values": [
+            {
+                "title": "50-70万",
+                "value": "{\"minPrice\" : \"500000\", \"maxPrice\" : \"700000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "70万以上",
+                "value": "{\"minPrice\" : \"700000\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "SUV",
+                "value": "{\"levelList\" : \"otherSUV\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "大型车",
+                "value": "{\"levelList\" : \"d\"}",
+                "type": "条件选车",
+                "color": ""
+            },
+            {
+                "title": "跑车",
+                "value": "{\"levelList\" : \"s\"}",
+                "type": "条件选车",
+                "color": ""
+            }
+        ]
+    }
+]

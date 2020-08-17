@@ -1,0 +1,55 @@
+{
+	"title" : "排序",
+	"mutableSelected" : false,
+	"filterKey" : "order",
+	"itemList" : [
+		{
+			"title" : "默认排序",
+			"selected" : true,
+			"updateMethod" : "updateOrder:",
+			"keyValues" : {
+				"order" : "11"
+			}
+		},
+		{
+			"title" : "价格最低",
+			"selected" : false,
+			"updateMethod" : "updateOrder:",
+			"keyValues" : {
+				"order" : "20"
+			}
+		},
+		{
+			"title" : "价格最高",
+			"selected" : false,
+			"updateMethod" : "updateOrder:",
+			"keyValues" : {
+				"order" : "21"
+			}
+		},
+		{
+			"title" : "最新发布",
+			"selected" : false,
+			"updateMethod" : "updateOrder:",
+			"keyValues" : {
+				"order" : "31"
+			}
+		},
+		{
+			"title" : "车龄最短",
+			"selected" : false,
+			"updateMethod" : "updateOrder:",
+			"keyValues" : {
+				"order" : "40"
+			}
+		},
+		{
+			"title" : "里程最短",
+			"selected" : false,
+			"updateMethod" : "updateOrder:",
+			"keyValues" : {
+				"order" : "50"
+			}
+		}
+	]
+}

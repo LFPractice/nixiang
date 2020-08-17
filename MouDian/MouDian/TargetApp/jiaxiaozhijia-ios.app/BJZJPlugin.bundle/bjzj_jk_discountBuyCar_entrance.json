@@ -1,0 +1,26 @@
+[{
+	"actionUrl": "http://web.app.kakamobi.cn/e4f210b90af4aa60c977c17b00fe8c46",
+	"imageName": "mcbd__thgc_yichengshoufu",
+	"id": 1,
+	"name": "一成首付",
+}, {
+	"actionUrl": "http://car.nav.mucang.cn/decline-list",
+	"imageName": "mcbd__thgc_jiangjiayouhui",
+	"id": 2,
+	"name": "降价优惠",
+}, {
+	"actionUrl": "http://car.nav.mucang.cn/calculator",
+	"imageName": "mcbd__thgc_gouchejisuan",
+	"id": 3,
+	"name": "购车计算",
+}, {
+	"actionUrl": "http://web.app.kakamobi.cn/c12067cc36c8d41e902ef842b04e1ad0",
+	"imageName": "mcbd__thgc_butiehongbao",
+	"id": 4,
+	"name": "补贴红包",
+}, {
+	"actionUrl": "http://esc.nav.mucang.cn/home",
+	"imageName": "mcbd__thgc_chaozhiershouche",
+	"id": 5,
+	"name": "超值二手车",
+}]

@@ -1,0 +1,34 @@
+ [
+  {
+  "displayValue": "3万以内",
+  "intValue": 1
+  },
+  {
+  "displayValue": "3-5万",
+  "intValue": 2
+  },
+  {
+  "displayValue": "5-10万",
+  "intValue": 3
+  },
+  {
+  "displayValue": "10-15万",
+  "intValue": 4
+  },
+  {
+  "displayValue": "15-20万",
+  "intValue": 5
+  },
+  {
+  "displayValue": "20-30万",
+  "intValue": 6
+  },
+  {
+  "displayValue": "30-60万",
+  "intValue": 7
+  },
+  {
+  "displayValue": "60万以上",
+  "intValue": 8
+  }
+  ]

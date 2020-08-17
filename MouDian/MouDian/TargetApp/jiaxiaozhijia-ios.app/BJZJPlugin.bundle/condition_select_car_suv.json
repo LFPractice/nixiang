@@ -1,0 +1,34 @@
+[
+  {
+    "header": "SUV",
+    "conditionType": 3,
+    "stringValue": "",
+    "items": [
+      {
+        "name": "小型SUV",
+        "stringValue": "suva0",
+        "intValue": 0
+      },
+      {
+        "name": "紧凑型SUV",
+        "stringValue": "suva",
+        "intValue": 1
+      },
+      {
+        "name": "中型SUV",
+        "stringValue": "suvb",
+        "intValue": 2
+      },
+      {
+        "name": "中大型SUV",
+        "stringValue": "suvc",
+        "intValue": 3
+      },
+      {
+        "name": "大型SUV",
+        "stringValue": "suvd",
+        "intValue": 4
+      }
+    ]
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "id": 11001,
+    "name": "道路交通安全法律、法规",
+    "rule": [
+      {
+        "type": "qianghua",
+        "id": 42,
+        "count": 40
+      },
+      {
+        "type": "qianghua",
+        "id": 28,
+        "count": 15
+      }
+    ],
+    "count": 55
+  },
+  {
+    "id": 11002,
+    "name": "交通信号灯、标志和标线辨识",
+    "rule": [
+      {
+        "type": "qianghua",
+        "id": 83,
+        "count": 17
+      },
+      {
+        "type": "qianghua",
+        "id": 38,
+        "count": 18
+      },
+      {
+        "type": "qianghua",
+        "id": 70,
+        "count": 36
+      }
+    ],
+    "count": 71
+  },
+  {
+    "id": 11003,
+    "name": "交通手势辨识",
+    "rule": [
+      {
+        "type": "qianghua",
+        "id": 34,
+        "count": 7
+      }
+    ],
+    "count": 7
+  },
+  {
+    "id": 11004,
+    "name": "机动车仪表、指示灯和装置辨识",
+    "rule": [
+      {
+        "type": "qianghua",
+        "id": 29,
+        "count": 60
+      },
+      {
+        "type": "qianghua",
+        "id": 72,
+        "count": 10
+      }
+    ],
+    "count": 70
+  },
+  {
+    "id": 11005,
+    "name": "灯光使用常识",
+    "rule": [
+      {
+        "type": "qianghua",
+        "id": 39,
+        "count": 13
+      }
+    ],
+    "count": 13
+  },
+  {
+    "id": 11006,
+    "name": "记分罚款知识",
+    "rule": [
+      {
+        "type": "qianghua",
+        "id": 28,
+        "count": 11
+      }
+    ],
+    "count": 11
+  },
+  {
+    "id": 11007,
+    "name": "驾驶人驾驶行为规定",
+    "rule": [
+      {
+        "type": "qianghua",
+        "id": 41,
+        "count": 15
+      },
+      {
+        "type": "qianghua",
+        "id": 40,
+        "count": 10
+      }
+    ],
+    "count": 25
+  },
+  {
+    "id": 11008,
+    "name": "机动车道路通行规定",
+    "rule": [
+      {
+        "type": "qianghua",
+        "id": 36,
+        "count": 15
+      },
+      {
+        "type": "qianghua",
+        "id": 107,
+        "count": 12
+      },
+      {
+        "type": "qianghua",
+        "id": 106,
+        "count": 10
+      }
+    ],
+    "count": 37
+  }
+]

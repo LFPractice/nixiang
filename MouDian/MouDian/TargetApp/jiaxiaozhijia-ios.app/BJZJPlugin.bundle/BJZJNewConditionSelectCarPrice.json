@@ -1,0 +1,85 @@
+[
+    {
+        "header": "",
+        "conditionType": 3,
+        "stringValue": "quickSelectPrice",
+        "items": [
+            {
+                "name": "全部价格",
+                "stringValue": "0-160",
+                "minValue": 0,
+                "maxValue": 1600000,
+                "intValue": 0
+            },
+            {
+                "name": "8万以下",
+                "stringValue": "0-8",
+                "minValue": -1,
+                "maxValue": 80000,
+                "intValue": 1
+            },
+            {
+                "name": "8-10万",
+                "stringValue": "8-10",
+                "minValue": 80000,
+                "maxValue": 100000,
+                "intValue": 2
+            },
+            {
+                "name": "10-15万",
+                "stringValue": "10-15",
+                "minValue": 100000,
+                "maxValue": 150000,
+                "intValue": 3
+            },
+            {
+                "name": "15-25万",
+                "stringValue": "15-25",
+                "minValue": 150000,
+                "maxValue": 250000,
+                "intValue": 4
+            },
+            {
+                "name": "25-35万",
+                "stringValue": "25-35",
+                "minValue": 250000,
+                "maxValue": 350000,
+                "intValue": 5
+            },
+            {
+                "name": "35-50万",
+                "stringValue": "35-50",
+                "minValue": 350000,
+                "maxValue": 500000,
+                "intValue": 6
+            },
+            {
+                "name": "50-70万",
+                "stringValue": "50-70",
+                "minValue": 500000,
+                "maxValue": 700000,
+                "intValue": 7
+            },
+            {
+                "name": "70万以上",
+                "stringValue": "70-160",
+                "minValue": 700000,
+                "maxValue": -1,
+                "intValue": 8
+            }
+        ]
+    },
+    {
+        "header": "",
+        "conditionType": 0,
+        "items": [
+            {
+                "name": "0-160万",
+                "stringValue": "0-160",
+                "minValue": 0,
+                "maxValue": 1600000,
+                "intValue": 9
+            }
+        ]
+    }
+]

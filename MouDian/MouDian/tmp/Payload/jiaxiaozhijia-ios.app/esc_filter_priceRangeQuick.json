@@ -1,0 +1,78 @@
+{
+	"title" : "价格区间",
+	"mutableSelected" : false,
+	"itemList" : [
+		{
+			"title" : "3万以内",
+			"selected" : false,
+			"updateMethod" : "updatePriceRange:",
+			"keyValues" : {
+				"minPrice" : "0",
+				"maxPrice" : "30000"
+			}
+		},
+		{
+			"title" : "3-5万",
+			"selected" : false,
+			"updateMethod" : "updatePriceRange:",
+			"keyValues" : {
+				"minPrice" : "30000",
+				"maxPrice" : "50000"
+			}
+		},
+		{
+			"title" : "5-10万",
+			"selected" : false,
+			"updateMethod" : "updatePriceRange:",
+			"keyValues" : {
+				"minPrice" : "50000",
+				"maxPrice" : "100000"
+			}
+		},
+		{
+			"title" : "10-15万",
+			"selected" : false,
+			"updateMethod" : "updatePriceRange:",
+			"keyValues" : {
+				"minPrice" : "100000",
+				"maxPrice" : "150000"
+			}
+		},
+		{
+			"title" : "15-20万",
+			"selected" : false,
+			"updateMethod" : "updatePriceRange:",
+			"keyValues" : {
+				"minPrice" : "150000",
+				"maxPrice" : "200000"
+			}
+		},
+		{
+			"title" : "20-30万",
+			"selected" : false,
+			"updateMethod" : "updatePriceRange:",
+			"keyValues" : {
+				"minPrice" : "200000",
+				"maxPrice" : "300000"
+			}
+		},
+		{
+			"title" : "30-60万",
+			"selected" : false,
+			"updateMethod" : "updatePriceRange:",
+			"keyValues" : {
+				"minPrice" : "300000",
+				"maxPrice" : "600000"
+			}
+		},
+		{
+			"title" : "60万以上",
+			"selected" : false,
+			"updateMethod" : "updatePriceRange:",
+			"keyValues" : {
+				"minPrice" : "600000",
+				"maxPrice" : "100000000"
+			}
+		}
+	]
+}

@@ -1,0 +1,14 @@
+ [
+  {
+  "name": "优惠最大",
+  "intValue": 2
+  },
+  {
+  "name": "询价最多",
+  "intValue": 1,
+  },
+  {
+  "name": "离我最近",
+  "intValue": 3
+  }
+]

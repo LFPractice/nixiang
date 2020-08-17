@@ -1,0 +1,76 @@
+ [
+  {
+  "header": "",
+  "type": 0,
+  "items": [
+            {
+            "name": "不限国别",
+            "intValue": 0,
+            "stringValue": "",
+            "selected": true
+            }
+            ]
+  },
+  {
+  "header": "",
+  "type": 1,
+  "items": [
+            {
+            "name": "中国",
+            "intValue": 1,
+            "stringValue": "china"
+            },
+            {
+            "name": "德国",
+            "intValue": 2,
+            "stringValue": "germany"
+            },
+            {
+            "name": "日本",
+            "intValue": 3,
+            "stringValue": "japan"
+            },
+            {
+            "name": "美国",
+            "intValue": 4,
+            "stringValue": "america"
+            },
+            {
+            "name": "韩国",
+            "intValue": 5,
+            "stringValue": "korea"
+            },
+            {
+            "name": "法国",
+            "intValue": 6,
+            "stringValue": "france"
+            },
+            {
+            "name": "英国",
+            "intValue": 7,
+            "stringValue": "english"
+            },
+            {
+            "name": "意大利",
+            "intValue": 8,
+            "stringValue": "italy"
+            },
+            {
+            "name": "瑞典",
+            "intValue": 9,
+            "stringValue": "sweden"
+            }
+            ]
+  },
+  {
+  "header": "",
+  "type": 0,
+  "items": [
+            {
+            "name": "其他",
+            "intValue": 10,
+            "stringValue": "other"
+            }
+            ]
+  }
+  ]

@@ -1,0 +1,489 @@
+{
+    "other": [
+              {
+              "key": "spf",
+              "name":"上牌费",
+              "desc":"描述url",
+              "value":500
+              },
+              {
+              "key": "zws",
+              "name":"座位数",
+              "desc":"描述url",
+              "value":5
+              },
+              {
+              "key": "pl",
+              "name":"排量",
+              "desc":"描述url",
+              "value":1.6
+              },
+              {
+              "key": "sfbl",
+              "name": "首付比例",
+              "desc": "描述url",
+              "defaultValue": 0.3,
+              "items": [
+                        {
+                        "name": "30%",
+                        "value": 0.3
+                        },
+                        {
+                        "name": "40%",
+                        "value": 0.4
+                        },
+                        {
+                        "name": "50%",
+                        "value": 0.5
+                        },
+                        {
+                        "name": "60%",
+                        "value": 0.6
+                        }
+                        ]
+              },
+              {
+              "key":"gzsl",
+              "name": "购置税率",
+              "desc": "描述url",
+              "value": 0.1,
+              "node": "购置税＝购车款/(1+13%)×购置税率(10%)"
+              },
+              {
+              "key":"ccsys",
+              "name": "车船使用税",
+              "attr": "排量",
+              "desc": "描述url",
+              "ranges": [
+                         {
+                         "name": "1.0L(含)以下",
+                         "value": 300,
+                         "min": 0,
+                         "max": 1.1
+                         },
+                         {
+                         "name": "1.0L-1.6L(含)",
+                         "value": 420,
+                         "min": 1.1,
+                         "max": 1.7
+                         },
+                         {
+                         "name": "1.6L-2.0L(含)",
+                         "value": 480,
+                         "min": 1.7,
+                         "max": 2.1
+                         },
+                         {
+                         "name": "2.0L-2.5L(含)",
+                         "value": 900,
+                         "min": 2.1,
+                         "max": 2.6
+                         },
+                         {
+                         "name": "2.5L-3.0L(含)",
+                         "value": 1920,
+                         "min": 2.6,
+                         "max": 3.1
+                         },
+                         {
+                         "name": "3.0L-4.0L(含)",
+                         "value": 3480,
+                         "min": 3.1,
+                         "max": 4.1
+                         },
+                         {
+                         "name": "4.0L以上",
+                         "value": 5280,
+                         "min": 4.1,
+                         "max": 1000
+                         }
+                         ]
+              },
+              {
+              "key":"dknll",
+              "name": "贷款年利率",
+              "desc": "描述url",
+              "defaultValue": 0.0525,
+              "items": [
+                        {
+                        "name": "4.85%",
+                        "value": 0.0485
+                        },
+                        {
+                        "name": "5.25%",
+                        "value": 0.0525
+                        },
+                        {
+                        "name": "5.25%",
+                        "value": 0.0525
+                        },
+                        {
+                        "name": "5.25%",
+                        "value": 0.0525
+                        },
+                        {
+                        "name": "5.25%",
+                        "value": 0.0525
+                        }
+                        ]
+              },
+              {
+              "key":"hknx",
+              "name": "还款年限",
+              "desc": "描述url",
+              "defaultValue": 3,
+              "items": [
+                        {
+                        "name": "1",
+                        "value": 1
+                        },
+                        {
+                        "name": "2",
+                        "value": 2
+                        },
+                        {
+                        "name": "3",
+                        "value": 3
+                        },
+                        {
+                        "name": "4",
+                        "value": 4
+                        },
+                        {
+                        "name": "5",
+                        "value": 5
+                        }
+                        ]
+              }
+              ],
+    "bx": [
+           {
+           "key":"dszzrx_6zyx",
+           "name": "第三者责任险六座以下",
+           "defaultValue": 1099,
+           "items": [
+                     {
+                     "name": "5万",
+                     "value": 785
+                     },
+                     {
+                     "name": "10万",
+                     "value": 1099
+                     },
+                     {
+                     "name": "15万",
+                     "value": 1240
+                     },
+                     {
+                     "name": "20万",
+                     "value": 1335
+                     },
+                     {
+                     "name": "30万",
+                     "value": 1492
+                     },
+                     {
+                     "name": "50万",
+                     "value": 1772
+                     },
+                     {
+                     "name": "100万",
+                     "value": 2308
+                     }
+                     ]
+           },
+           {
+           "key":"dszzrx_6zys",
+           "name": "第三者责任险六座以上",
+           "defaultValue": 941,
+           "items": [
+                     {
+                     "name": "5万",
+                     "value": 672
+                     },
+                     {
+                     "name": "10万",
+                     "value": 941
+                     },
+                     {
+                     "name": "15万",
+                     "value": 1062
+                     },
+                     {
+                     "name": "20万",
+                     "value": 1142
+                     },
+                     {
+                     "name": "30万",
+                     "value": 1277
+                     },
+                     {
+                     "name": "50万",
+                     "value": 1517
+                     },
+                     {
+                     "name": "100万",
+                     "value": 1976
+                     }
+                     ]
+           },
+           {
+           "key":"jqx",
+           "name": "交强险",
+           "attr": "座位数",
+           "ranges": [
+                      {
+                      "name": "家用6座以下",
+                      "value": 950,
+                      "min": 0,
+                      "max": 6
+                      },
+                      {
+                      "name": "家用6座及以上",
+                      "value": 1100,
+                      "min": 6,
+                      "max": 1000
+                      }
+                      ]
+           },
+           {
+           "key":"clssxl",
+           "name": "车辆损失险率",
+           "desc": "描述url",
+           "value": 0.015,
+           "node": "车辆损失险=基础保费+裸车价格×车辆损失险率"
+           },
+           {
+           "key":"clssxjcbf",
+           "name": "车辆损失险基础保费",
+           "attr": "座位数",
+           "ranges": [
+                      {
+                      "name": "家用6座以下",
+                      "value": 630,
+                      "min": 0,
+                      "max": 6
+                      },
+                      {
+                      "name": "家用6座及以上",
+                      "value": 756,
+                      "min": 6,
+                      "max": 1000
+                      }
+                      ]
+           },
+           {
+           "key":"qcdqx_jcbf",
+           "name": "全车盗抢险基础保费",
+           "desc": "描述url",
+           "node": "全车盗抢险=基础保费+裸车价格×费率",
+           "attr": "座位数",
+           "ranges": [
+                      {
+                      "name": "家用6座以下",
+                      "value": 120,
+                      "min": 0,
+                      "max": 6
+                      },
+                      {
+                      "name": "家用6座及以上",
+                      "value": 140,
+                      "min": 6,
+                      "max": 1000
+                      }
+                      ]
+           },
+           {
+           "key":"qcqdx_fl",
+           "name": "全车盗抢险费率",
+           "attr": "座位数",
+           "ranges": [
+                      {
+                      "name": "家用6座以下",
+                      "value": 0.0049,
+                      "min": 0,
+                      "max": 6
+                      },
+                      {
+                      "name": "家用6座及以上",
+                      "value": 0.0044,
+                      "min": 6,
+                      "max": 1000
+                      }
+                      ]
+           },
+           {
+           "key":"blddpsxl_6zyx",
+           "name": "玻璃单独破碎险率六座以下",
+           "desc": "描述url",
+           "defaultValue": 0.0019,
+           "node": "玻璃单独破碎险=基础保费+裸车价格×费率",
+           "items": [
+                     {
+                     "name": "国产",
+                     "value": 0.0019
+                     },
+                     {
+                     "name": "进口",
+                     "value": 0.0031
+                     }
+                     ]
+           },
+           {
+           "key":"blddpsxl_6zys",
+           "name": "玻璃单独破碎险率六座以上",
+           "desc": "描述url",
+           "defaultValue": 0.0019,
+           "node": "玻璃单独破碎险=基础保费+裸车价格×费率",
+           "items": [
+                     {
+                     "name": "国产",
+                     "value": 0.0019
+                     },
+                     {
+                     "name": "进口",
+                     "value": 0.0030
+                     }
+                     ]
+           },
+           {
+           "key":"zrssxl",
+           "name": "自燃损失险率",
+           "desc": "描述url",
+           "value": 0.0015,
+           "node": "自然损失险=裸车价×自然损失险率"
+           },
+           {
+           "key":"ssxl",
+           "name": "涉水险率",
+           "desc": "描述url",
+           "value": 0.05,
+           "node": "涉水险=裸车价×涉水险率"
+           },
+           {
+           "key":"bjmptyxl",
+           "name": "不计免赔特约险率",
+           "desc": "描述url",
+           "value": 0.2,
+           "node": "不计免赔特约险=(车辆损失险+第三者责任险)×不计免赔特约险率"
+           },
+           {
+           "key":"wgzrxl",
+           "name": "无过责任险率",
+           "desc": "描述url",
+           "value": 0.2,
+           "node": "无过责任险=第三者责任险保险费×无过责任险率"
+           },
+           {
+           "key":"csryzrx",
+           "name": "车上人员责任险",
+           "desc": "描述url",
+           "items": [
+                     {
+                     "name": "1人",
+                     "value": 50
+                     },
+                     {
+                     "name": "2人",
+                     "value": 100
+                     },
+                     {
+                     "name": "3人",
+                     "value": 150
+                     },
+                     {
+                     "name": "4人",
+                     "value": 200
+                     },
+                     {
+                     "name": "5人",
+                     "value": 250
+                     },
+                     {
+                     "name": "6人",
+                     "value": 300
+                     },
+                     {
+                     "name": "7人",
+                     "value": 350
+                     },
+                     {
+                     "name": "8人",
+                     "value": 400
+                     },
+                     {
+                     "name": "9人",
+                     "value": 450
+                     },
+                     {
+                     "name": "10人",
+                     "value": 500
+                     }
+                     
+                     ],
+           "defaultValue": 100
+           },
+           {
+           "key":"cshhx",
+           "name": "车身划痕险",
+           "desc": "描述url",
+           "items": [
+                     {
+                     "name": "2千",
+                     "value": 400
+                     },
+                     {
+                     "name": "5千",
+                     "value": 570
+                     },
+                     {
+                     "name": "1万",
+                     "value": 760
+                     },
+                     {
+                     "name": "2万",
+                     "value": 1140
+                     }
+                     ]
+           },
+           {
+           "key":"zdzxctyxl",
+           "name": "指定专修厂特约险率",
+           "desc": "描述url",
+           "value": 0.1,
+           "node": "指定专修厂特约险=车辆损失险*指定专修厂特约险率"
+           }
+           ],
+    "qx": [
+           {
+           "name": "第三者责任险"
+           },
+           {
+           "name": "车辆损失险"
+           },
+           {
+           "name": "全车盗抢险"
+           },
+           {
+           "name": "玻璃单独破碎险"
+           },
+           {
+           "name": "自燃损失险"
+           },
+           {
+           "name": "不计免赔特约险"
+           },
+           {
+           "name": "无过责任险"
+           },
+           {
+           "name": "车上人员责任险"
+           },
+           {
+           "name": "车身划痕险"
+           },
+           {
+           "name": "涉水险"
+           }
+           ]
+}

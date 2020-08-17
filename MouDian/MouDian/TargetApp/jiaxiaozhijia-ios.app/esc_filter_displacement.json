@@ -1,0 +1,51 @@
+{
+	"title" : "排量",
+	"mutableSelected" : false,
+	"itemList" : [
+		{
+			"title" : "1.0L以下",
+			"selected" : false,
+			"updateMethod" : "updateDisplacement:",
+			"keyValues" : {
+				"minDisplacement" : "0",
+				"maxDisplacement" : "1.0"
+			}
+		},
+		{
+			"title" : "1.0-1.6L",
+			"selected" : false,
+			"updateMethod" : "updateDisplacement:",
+			"keyValues" : {
+				"minDisplacement" : "1.0",
+				"maxDisplacement" : "1.6"
+			}
+		},
+		{
+			"title" : "1.6-2.0L",
+			"selected" : false,
+			"updateMethod" : "updateDisplacement:",
+			"keyValues" : {
+				"minDisplacement" : "1.6",
+				"maxDisplacement" : "2.0"
+			}
+		},
+		{
+			"title" : "2.0-3.0L",
+			"selected" : false,
+			"updateMethod" : "updateDisplacement:",
+			"keyValues" : {
+				"minDisplacement" : "2.0",
+				"maxDisplacement" : "3.0"
+			}
+		},
+		{
+			"title" : "3.0L以上",
+			"selected" : false,
+			"updateMethod" : "updateDisplacement:",
+			"keyValues" : {
+				"minDisplacement" : "3.0",
+				"maxDisplacement" : "0"
+			}
+		}
+	]
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "header": "自动",
+    "conditionType": 3,
+    "stringValue": "",
+    "items": [
+      {
+        "name": "自动",
+        "stringValue": "at",
+        "intValue": 0
+      },
+      {
+        "name": "手自一体",
+        "stringValue": "tiptronic",
+        "intValue": 1
+      },
+      {
+        "name": "无级变速",
+        "stringValue": "cvt",
+        "intValue": 2
+      },
+      {
+        "name": "电子无极变速",
+        "stringValue": "ecvt",
+        "intValue": 3
+      },
+      {
+        "name": "双离合",
+        "stringValue": "dct",
+        "intValue": 4
+        },
+        {
+        "name": "机械式自动",
+        "stringValue": "amt",
+        "intValue": 5
+        },
+        {
+        "name": "固定齿比",
+        "stringValue": "fgr",
+        "intValue": 6
+        },
+        {
+        "name": "ISR变速",
+        "stringValue": "isr",
+        "intValue": 7
+        },
+        {
+        "name": "序列变速",
+        "stringValue": "smg",
+        "intValue": 8
+        }
+    ]
+  }
+]

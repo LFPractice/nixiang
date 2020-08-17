@@ -1,0 +1,155 @@
+[
+    {
+        "id": 53001,
+        "name": "重点考题+本地考题",
+        "type": "test",
+        "singleScore": 1,
+        "totalScore": 100,
+        "passScore": 90,
+        "testCount": 100,
+        "testRule": [
+            {
+                "type": "zhangjie",
+                "id": 121,
+                "count": 20,
+                "totalCount": 300
+            },
+            {
+                "type": "zhuanxiang",
+                "id": 35,
+                "count": 10,
+                "totalCount": 54
+            },
+            {
+                "type": "zhuanxiang",
+                "id": 33,
+                "count": 5,
+                "totalCount": 243
+            },
+            {
+                "type": "zhuanxiang",
+                "id": 38,
+                "count": 5,
+                "totalCount": 72
+            },
+            {
+                "type": "zhuanxiang",
+                "id": 34,
+                "count": 5,
+                "totalCount": 12
+            },
+            {
+                "type": "zhuanxiang",
+                "id": 40,
+                "count": 5,
+                "totalCount": 243
+            },
+            {
+                "type": "zhuanxiang",
+                "id": 39,
+                "count": 5,
+                "totalCount": 48
+            },
+            {
+                "type": "zhuanxiang",
+                "id": 44,
+                "count": 5,
+                "totalCount": 65
+            },
+            {
+                "type": "zhuanxiang",
+                "id": 36,
+                "count": 5,
+                "totalCount": 37
+            },
+            {
+                "type": "zhuanxiang",
+                "id": 28,
+                "count": 5,
+                "totalCount": 44
+            },
+            {
+                "type": "zhuanxiang",
+                "id": 31,
+                "count": 4,
+                "totalCount": 4
+            },
+            {
+                "type": "zhuanxiang",
+                "id": 37,
+                "count": 6,
+                "totalCount": 9
+            },
+            {
+                "type": "zhuanxiang",
+                "id": 32,
+                "count": 5,
+                "totalCount": 46
+            },
+            {
+                "type": "zhuanxiang",
+                "id": 30,
+                "count": 5,
+                "totalCount": 14
+            },
+            {
+                "type": "zhuanxiang",
+                "id": 41,
+                "count": 5,
+                "totalCount": 130
+            },
+            {
+                "type": "bendikaoti",
+                "count": 5
+            },
+            {
+                "type": "bendikaotiIfNeed",
+                "id": 121,
+                "count": 5,
+                "totalCount": 202
+            }
+        ]
+    },
+    {
+        "id": 53002,
+        "name": "我的错题+易错题",
+        "type": "test",
+        "singleScore": 1,
+        "totalScore": 100,
+        "passScore": 90,
+        "testRule": [
+            {
+                "type": "SmartQuizPhase2AllWrong",
+                "count": 100
+            }
+        ]
+    },
+    {
+        "id": 53003,
+        "name": "巩固测试1",
+        "type": "test",
+        "singleScore": 1,
+        "totalScore": 100,
+        "passScore": 90,
+        "testRule": [
+            {
+                "type": "SmartQuizPhase2SmartExam",
+                "count": 100
+            }
+        ]
+    },
+    {
+        "id": 53004,
+        "name": "巩固测试2",
+        "type": "test",
+        "singleScore": 1,
+        "totalScore": 100,
+        "passScore": 90,
+        "testRule": [
+            {
+                "type": "SmartQuizPhase2SmartExam",
+                "count": 100
+            }
+        ]
+    }
+]

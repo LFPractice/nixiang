@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>question</key>
+		<string>通关包适合哪些学员购买？</string>
+		<key>answer</key>
+		<string>小车c1、c2的学员都适合，从科一到科四全程助你快速拿驾照。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>有效期从什么时候开始算？	</string>
+		<key>answer</key>
+		<string>VIP服务有效期从您购买之日算起，有效期为180天。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>在哪里查看我已经购买的服务？</string>
+		<key>answer</key>
+		<string>登录购买时的账号，在【考试】页面的科一/科四找到【VIP课程】，点击进入；点击科三，即可观看已购买城市的考场路线视频；</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>VIP购买后可以退款吗？	</string>
+		<key>answer</key>
+		<string>VIP是虚拟商品，不支持退款哦。</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,47 @@
+{
+	"title" : "级别",
+	"mutableSelected" : false,
+	"filterKey" : "style",
+	"itemList" : [
+		{
+			"title" : "轿车",
+			"imageSelected" : "esc__shaixuan_jiaoche_xuanzhong",
+			"image" : "esc__shaixuan_jiaoche",
+			"selected" : false,
+			"updateMethod" : "updateCarLevel:",
+			"keyValues" : {
+				"style" : "1"
+			}
+		},
+		{
+			"title" : "SUV",
+			"imageSelected" : "esc__shaixuan_suv_xuanzhong",
+			"image" : "esc__shaixuan_suv",
+			"selected" : false,
+			"updateMethod" : "updateCarLevel:",
+			"keyValues" : {
+				"style" : "2"
+			}
+		},
+		{
+			"title" : "商务车",
+			"imageSelected" : "esc__shaixuan_shangwuche_xuanzhong",
+			"image" : "esc__shaixuan_shangwuche",
+			"selected" : false,
+			"updateMethod" : "updateCarLevel:",
+			"keyValues" : {
+				"style" : "3"
+			}
+		},
+		{
+			"title" : "跑车",
+			"imageSelected" : "esc__shaixuan_paoche_xuanzhong",
+			"image" : "esc__shaixuan_paoche",
+			"selected" : false,
+			"updateMethod" : "updateCarLevel:",
+			"keyValues" : {
+				"style" : "4"
+			}
+		}
+	]
+}

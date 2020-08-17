@@ -1,0 +1,39 @@
+{
+	"title" : "排放标准",
+	"mutableSelected" : false,
+	"filterKey" : "minEmmisionStandard",
+	"itemList" : [
+		{
+			"title" : "国二及以上",
+			"selected" : false,
+			"updateMethod" : "updateEmmision:",
+			"keyValues" : {
+				"minEmmisionStandard" : "2"
+			}
+		},
+		{
+			"title" : "国三及以上",
+			"selected" : false,
+			"updateMethod" : "updateEmmision:",
+			"keyValues" : {
+				"minEmmisionStandard" : "3"
+			}
+		},
+		{
+			"title" : "国四及以上",
+			"selected" : false,
+			"updateMethod" : "updateEmmision:",
+			"keyValues" : {
+				"minEmmisionStandard" : "4"
+			}
+		},
+		{
+			"title" : "国五",
+			"selected" : false,
+			"updateMethod" : "updateEmmision:",
+			"keyValues" : {
+				"minEmmisionStandard" : "5"
+			}
+		}
+	]
+}

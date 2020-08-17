@@ -1,0 +1,54 @@
+[
+  {
+    "id": 43005,
+    "name": "标线题",
+    "rule": [
+      {
+        "type": "qianghua",
+        "id": 38,
+        "count": 30,
+		"ordered": true
+      }
+    ],
+    "count": 30
+  },
+  {
+    "id": 43006,
+    "name": "速度题",
+    "rule": [
+      {
+        "type": "qianghua",
+        "id": 32,
+        "count": 10,
+		"ordered": true
+      }
+    ],
+    "count": 10
+  },
+  {
+    "id": 43007,
+    "name": "考友错误率最高的100题",
+    "rule": [
+      {
+        "type": "nanti",
+        "id": 0,
+        "count": 100,
+        "ordered": true
+      }
+    ],
+    "count": 100
+  },
+  {
+    "id": 43008,
+    "name": "常考争议题特训",
+    "rule": [
+      {
+        "type": "zhengyi",
+        "id": 0,
+        "count": 10,
+		"ordered": true
+      }
+    ],
+    "count": 10
+  }
+]

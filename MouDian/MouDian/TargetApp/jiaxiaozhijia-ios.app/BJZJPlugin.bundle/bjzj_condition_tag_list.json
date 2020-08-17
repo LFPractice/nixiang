@@ -1,0 +1,92 @@
+[
+    {
+        "title": "10-15万小型SUV",
+        "value": "{\"minPrice\" : \"100000\", \"maxPrice\" : \"150000\",\"levelList\":\"suva0\"}",
+        "type": "条件选车",
+        "color": ""
+    },
+    {
+        "title": "国产精品车型",
+        "value": "{\"minPrice\" : \"100000\", \"maxPrice\" : \"200000\",\"factoryTypeList\":\"self\", \"countryList\":\"china\"}",
+        "type": "条件选车",
+        "color": ""
+    },
+    {
+        "title": "10-15万轿车",
+        "value": "{\"minPrice\" : \"100000\", \"maxPrice\" : \"150000\", \"levelList\":\"a00,a0,a,b,c,d\"}",
+        "type": "条件选车",
+        "color": ""
+    },
+    {
+        "title": "小排量自动挡三厢轿车",
+        "value": "{\"structList\":\"s3\",\"plList\":\"0-1.0,1.1-1.6\", \"propertiesList\":\"16\"}",
+        "type": "条件选车",
+        "color": ""
+    },
+    {
+        "title": "20万左右混动车",
+        "value": "{\"minPrice\" : \"150000\", \"maxPrice\" : \"250000\",\"fuelTypeList\":\"yd\"}",
+        "type": "条件选车",
+        "color": ""
+    },
+    {
+        "title": "15万左右合资家用车",
+        "value": "{\"minPrice\" : \"110000\", \"maxPrice\" : \"170000\",\"factoryTypeList\":\"join\",\"levelList\":\"a,b,suva0,suva\"}",
+        "type": "条件选车",
+        "color": ""
+    },
+    {
+        "title": "城市SUV",
+        "value": "{\"levelList\":\"suva0,suva\"}",
+        "type": "条件选车",
+        "color": ""
+    },
+    {
+        "title": "安全配置足",
+        "value": "{\"propertiesList\" : \"83,7,106,10,12,17,18,21\"}",
+        "type": "条件选车",
+        "color": ""
+    },
+    {
+        "title": "我是大众粉",
+        "value": "{\"brandIdList\" : \"26\", \"brandNameList\" : \"大众\" }",
+        "type": "条件选车",
+        "color": ""
+    },
+    {
+        "title": "日系家用推荐",
+        "value": "{\"countryList\":\"japan\"}",
+        "type": "条件选车",
+        "color": ""
+    },
+    {
+        "title": "新手上路",
+        "value": "{\"levelList\":\"a0,a,suva0\",\"factoryTypeList\":\"join,self\",\"plList\":\"0-1.0,1.1-1.6\"}",
+        "type": "条件选车",
+        "color": ""
+    },
+    {
+        "title": "只看豪华品牌",
+        "value": "{\"brandIdList\" : \"12,6,3,123,76,96,134,7,61,86,70,82,89,119\", \"brandNameList\" : \"奔驰,宝马,奥迪,沃尔沃,雷克萨斯,讴歌,英菲尼迪,保时捷,捷豹,路虎,凯迪拉克,林肯,mini,特斯拉\"}",
+        "type": "条件选车",
+        "color": ""
+    },
+    {
+        "title": "货物运输",
+        "value": "{\"structList\" : \"k,h\"}",
+        "type": "条件选车",
+        "color": ""
+    },
+    {
+        "title": "撩妹利器",
+        "value": "{\"levelList\":\"a00,a0,a,b,c,d,otherSUV,s\",\"factoryTypeList\":\"import\"}",
+        "type": "条件选车",
+        "color": ""
+    },
+    {
+        "title": "小排量涡轮增压",
+        "value": "{\"levelList\":\"a0,a,b,otherSUV,s\",\"plList\":\"0-1.0,1.1-1.6\",\"propertiesList\":\"16\"}",
+        "type": "条件选车",
+        "color": ""
+    }
+]

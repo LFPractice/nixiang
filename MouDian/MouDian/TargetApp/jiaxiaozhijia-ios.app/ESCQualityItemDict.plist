@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>外观检测</key>
+	<string>section0</string>
+	<key>内饰及电子</key>
+	<string>section1</string>
+	<key>驾驶检测</key>
+	<string>section2</string>
+	<key>发动机舱</key>
+	<string>section3</string>
+	<key>底盘及结构</key>
+	<string>section4</string>
+</dict>
+</plist>

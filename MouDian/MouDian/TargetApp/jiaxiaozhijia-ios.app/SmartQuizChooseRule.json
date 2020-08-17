@@ -1,0 +1,88 @@
+[
+    {
+        "id": 51001,
+        "name": "科一立即测试科目一",
+        "singleScore": 2,
+        "totalScore": 100,
+        "count": 50,
+        "passScore": 90,
+        "testRule": [
+            {
+                "type": "zhangjie",
+                "id": 121,
+                "count": 20,
+                "totalCount": 300
+            },
+            {
+                "type": "zhangjie",
+                "id": 122,
+                "count": 15,
+                "totalCount": 200
+            },
+            {
+                "type": "zhangjie",
+                "id": 123,
+                "count": 10,
+                "totalCount": 100
+            },
+            {
+                "type": "zhangjie",
+                "id": 124,
+                "count": 5,
+                "totalCount": 100
+            }
+        ]
+    },
+    {
+        "id": 61001,
+        "name": "科四立即测试科目四",
+        "singleScore": 2,
+        "totalScore": 100,
+        "count": 50,
+        "passScore": 90,
+        "testRule": [
+            {
+                "type": "zhangjie",
+                "id": 127,
+                "count": 5,
+                "totalCount": 40
+            },
+            {
+                "type": "zhangjie",
+                "id": 128,
+                "count": 10,
+                "totalCount": 100
+            },
+            {
+                "type": "zhangjie",
+                "id": 129,
+                "count": 10,
+                "totalCount": 100
+            },
+            {
+                "type": "zhangjie",
+                "id": 130,
+                "count": 5,
+                "totalCount": 50
+            },
+            {
+                "type": "zhangjie",
+                "id": 131,
+                "count": 10,
+                "totalCount": 50
+            },
+            {
+                "type": "zhangjie",
+                "id": 132,
+                "count": 5,
+                "totalCount": 50
+            },
+            {
+                "type": "zhangjie",
+                "id": 133,
+                "count": 5,
+                "totalCount": 30
+            }
+        ]
+    }
+]

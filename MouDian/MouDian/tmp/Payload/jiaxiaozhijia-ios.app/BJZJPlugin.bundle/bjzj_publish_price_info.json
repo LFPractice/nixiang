@@ -1,0 +1,16 @@
+[{
+	"name": "购置税",
+	"key": "purchaseTax"
+},{
+	"name": "商业保险",
+	"key": "commercialInsurance"
+},{
+	"name": "车船使用税",
+	"key": "travelTax"
+},{
+	"name": "交强险",
+	"key": "compulsoryInsurance"
+},{
+	"name": "上牌费用",
+	"key": "onSignExpense"
+}]

@@ -1,0 +1,55 @@
+[
+    {
+        "header": "",
+        "conditionType": 3,
+        "stringValue": "rankType",
+        "items": [
+            {
+                "name": "综合口碑",
+                "stringValue": "1",
+                "intValue": 0,
+                "selected": true
+            },
+            {
+                "name": "空间",
+                "stringValue": "2",
+                "intValue": 1
+            },
+            {
+                "name": "动力",
+                "stringValue": "3",
+                "intValue": 2
+            },
+            {
+                "name": "操控",
+                "stringValue": "4",
+                "intValue": 3
+            },
+            {
+                "name": "油耗",
+                "stringValue": "5",
+                "intValue": 4
+            },
+            {
+                "name": "舒适性",
+                "stringValue": "6",
+                "intValue": 5
+            },
+            {
+                "name": "外观",
+                "stringValue": "7",
+                "intValue": 6
+            },
+            {
+                "name": "内饰",
+                "stringValue": "8",
+                "intValue": 7
+            },
+            {
+                "name": "性价比",
+                "stringValue": "9",
+                "intValue": 8
+            }
+        ]
+    }
+]

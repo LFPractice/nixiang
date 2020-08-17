@@ -1,0 +1,34 @@
+[
+ {
+ "type": 0,
+ "title": "提车作业",
+ "value": "http://saturn.nav.mucang.cn/tag/detail?tagId=299",
+ "iconUrl": "",
+ "entrancePage1Point":"",
+ "defaultImgName": "mcbdGcglTczyCopy"
+ },
+ {
+ "type": 0,
+ "title": "车型对比",
+ "value": "",
+ "iconUrl": "",
+ "entrancePage1Point":"",
+ "defaultImgName": "mcbdGcglCxdb"
+ },
+ {
+ "type": 0,
+ "title": "购车计算",
+ "value": "",
+ "iconUrl": "",
+ "entrancePage1Point":"",
+ "defaultImgName": "mcbdGcglGouchejisuan"
+ },
+ {
+ "type": 0,
+ "title": "购车红包",
+ "value": "https://share-m.kakamobi.com/activity.kakamobi.com/qichebaojia-300-red-packet/",
+ "iconUrl": "",
+ "entrancePage1Point":"",
+ "defaultImgName": "mcbdGcglDkmc"
+ }
+ ]

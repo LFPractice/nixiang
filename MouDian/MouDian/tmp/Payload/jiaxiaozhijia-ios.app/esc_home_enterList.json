@@ -1,0 +1,34 @@
+[
+  {
+  "itemId": 1,
+  "title": "练手车",
+  "subTitle" : "新手专享",
+  "imageUrl": "",
+  "actionUrl": "http://esc.nav.mucang.cn/car/list?label=8",
+  "localImage": "esc__home_lianshouche"
+  },
+  {
+  "itemId": 2,
+  "title": "平台认证",
+  "subTitle" : "专业评估",
+  "imageUrl": "",
+  "actionUrl": "http://esc.nav.mucang.cn/car/list?label=7",
+  "localImage": "esc__home_pingtairenzheng"
+  },
+  {
+  "itemId": 3,
+  "title": "值得买",
+  "subTitle" : "超高性价比",
+  "imageUrl": "",
+  "actionUrl": "http://esc.nav.mucang.cn/car/list?label=6",
+  "localImage": "esc__home_zhidemai"
+  },
+  {
+  "itemId": 4,
+  "title": "家用SUV",
+  "subTitle" : "空间大低油耗",
+  "imageUrl": "",
+  "actionUrl": "http://esc.nav.mucang.cn/car/list?minPrice=50000&maxPrice=100000&style=2&minDisplacement=1.0&maxDisplacement=1.6",
+  "localImage": "esc__home_jiayongsuv"
+  }
+]

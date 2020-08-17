@@ -1,0 +1,80 @@
+[
+  {
+    "id": 13005,
+    "name": "标线题",
+    "rule": [
+      {
+        "type": "qianghua",
+        "id": 38,
+        "count": 21,
+        "ordered": true
+      }
+    ],
+    "count": 21
+  },
+  {
+    "id": 13006,
+    "name": "速度题",
+    "rule": [
+      {
+        "type": "qianghua",
+        "id": 32,
+        "count": 15,
+        "ordered": true
+      }
+    ],
+    "count": 15
+  },
+  {
+    "id": 13007,
+    "name": "特殊天气题",
+    "rule": [
+      {
+        "type": "qianghua",
+        "id": 31,
+        "count": 8,
+        "ordered": true
+      }
+    ],
+    "count": 8
+  },
+  {
+    "id": 13008,
+    "name": "特殊路段题",
+    "rule": [
+      {
+        "type": "qianghua",
+        "id": 107,
+        "count": 15,
+        "ordered": true
+      }
+    ],
+    "count": 15
+  },
+  {
+    "id": 13009,
+    "name": "考友错误率最高的100题",
+    "rule": [
+      {
+        "type": "nanti",
+        "id": 0,
+        "count": 100,
+        "ordered": true
+      }
+    ],
+    "count": 100
+  },
+  {
+    "id": 13010,
+    "name": "常考争议题特训",
+    "rule": [
+      {
+        "type": "zhengyi",
+        "id": 0,
+        "count": 10,
+        "ordered": true
+      }
+    ],
+    "count": 10
+  }
+]

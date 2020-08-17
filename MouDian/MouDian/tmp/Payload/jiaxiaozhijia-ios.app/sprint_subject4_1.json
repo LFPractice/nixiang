@@ -1,0 +1,86 @@
+[
+  {
+    "id": 41001,
+    "name": "驾驶道德和文明驾驶常识",
+    "rule": [
+      {
+        "type": "zhangjie",
+        "id": 130,
+        "count": 8
+      }
+    ],
+    "count": 8
+  },
+  {
+    "id": 41002,
+    "name": "安全行车常识",
+    "rule": [
+      {
+        "type": "zhangjie",
+        "id": 128,
+        "count": 56
+      }
+    ],
+    "count": 56
+  },
+  {
+    "id": 41003,
+    "name": "交通标志、标线和手势辨识",
+    "rule": [
+      {
+        "type": "zhangjie",
+        "id": 129,
+        "count": 78
+      }
+    ],
+    "count": 78
+  },
+  {
+    "id": 41004,
+    "name": "恶劣气候和复杂道路驾驶常识",
+    "rule": [
+      {
+        "type": "zhangjie",
+        "id": 131,
+        "count": 47
+      }
+    ],
+    "count": 47
+  },
+  {
+    "id": 41005,
+    "name": "紧急避险常识",
+    "rule": [
+      {
+        "type": "zhangjie",
+        "id": 132,
+        "count": 57
+      }
+    ],
+    "count": 57
+  },
+  {
+    "id": 41006,
+    "name": "交通事故救护及危化品处置常识",
+    "rule": [
+      {
+        "type": "zhangjie",
+        "id": 133,
+        "count": 16
+      }
+    ],
+    "count": 16
+  },
+  {
+    "id": 41007,
+    "name": "违法行为判断与案例分析",
+    "rule": [
+      {
+        "type": "zhangjie",
+        "id": 127,
+        "count": 30
+      }
+    ],
+    "count": 30
+  }
+]

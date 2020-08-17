@@ -1,0 +1,70 @@
+{
+	"title" : "座位数",
+	"mutableSelected" : true,
+	"filterKey" : "seatNum",
+	"itemList" : [
+		{
+			"title" : "不限",
+			"selected" : true,
+			"updateMethod" : "updateSeat:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"seatNum" : ""
+			}
+		},
+		{
+			"title" : "2座",
+			"selected" : false,
+			"updateMethod" : "updateSeat:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"seatNum" : "2"
+			}
+		},
+		{
+			"title" : "4座",
+			"selected" : false,
+			"updateMethod" : "updateSeat:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"seatNum" : "4"
+			}
+		},
+		{
+			"title" : "5座",
+			"selected" : false,
+			"updateMethod" : "updateSeat:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"seatNum" : "5"
+			}
+		},
+		{
+			"title" : "6座",
+			"selected" : false,
+			"updateMethod" : "updateSeat:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"seatNum" : "6"
+			}
+		},
+		{
+			"title" : "7座",
+			"selected" : false,
+			"updateMethod" : "updateSeat:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"seatNum" : "7"
+			}
+		},
+		{
+			"title" : "7座以上",
+			"selected" : false,
+			"updateMethod" : "updateSeat:",
+			"mutableSelected" : true,
+			"keyValues" : {
+				"seatNum" : "10"
+			}
+		}
+	]
+}

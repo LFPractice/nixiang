@@ -1,0 +1,15 @@
+{
+	"title" : "里程",
+	"mutableSelected" : false,
+	"itemList" : [
+		{
+			"title" : "mileage",
+			"selected" : false,
+			"updateMethod" : "updateMileage:",
+			"keyValues" : {
+				"minMileage" : "",
+				"maxMileage" : ""
+			}
+		}
+	]
+}

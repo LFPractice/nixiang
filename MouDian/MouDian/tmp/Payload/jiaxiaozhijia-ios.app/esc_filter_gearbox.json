@@ -1,0 +1,23 @@
+{
+	"title" : "变速箱",
+	"mutableSelected" : false,
+	"filterKey" : "gearbox",
+	"itemList" : [
+		{
+			"title" : "手动",
+			"selected" : false,
+			"updateMethod" : "updateGearbox:",
+			"keyValues" : {
+				"gearbox" : "1"
+			}
+		},
+		{
+			"title" : "自动",
+			"selected" : false,
+			"updateMethod" : "updateGearbox:",
+			"keyValues" : {
+				"gearbox" : "2"
+			}
+		}
+	]
+}

@@ -1,0 +1,102 @@
+ [
+  {
+  "header": "",
+  "type": 0,
+  "items": [
+            {
+            "name": "全部级别",
+            "intValue": 0,
+            "stringValue": "",
+            "selected": true
+            }
+            ]
+  },
+  {
+  "header": "轿车",
+  "type": 1,
+  "items": [
+            {
+            "name": "微型车",
+            "stringValue": "a00",
+            "intValue": 1
+            },
+            {
+            "name": "小型车",
+            "stringValue": "a0",
+            "intValue": 2
+            },
+            {
+            "name": "紧凑型车",
+            "stringValue": "a",
+            "intValue": 3
+            },
+            {
+            "name": "中型车",
+            "stringValue": "b",
+            "intValue": 4
+            },
+            {
+            "name": "中大型车",
+            "stringValue": "c",
+            "intValue": 5
+            },
+            {
+            "name": "大型车",
+            "stringValue": "d",
+            "intValue": 6
+            }
+            ]
+  },
+  {
+  "header": "SUV",
+  "type": 1,
+  "items": [
+            {
+            "name": "全部SUV",
+            "stringValue": "suv_all",
+            "intValue": 7
+            },
+            {
+            "name": "小型SUV",
+            "stringValue": "suv0",
+            "intValue": 8
+            },
+            {
+            "name": "紧凑型SUV",
+            "stringValue": "suva",
+            "intValue": 9
+            },
+            {
+            "name": "中型SUV",
+            "stringValue": "suvb",
+            "intValue": 10
+            },
+            {
+            "name": "中大型SUV",
+            "stringValue": "suvc",
+            "intValue": 11
+            },
+            {
+            "name": "全尺寸SUV",
+            "stringValue": "suvd",
+            "intValue": 12
+            }
+            ]
+  },
+  {
+  "header": "其他",
+  "type": 1,
+  "items": [
+            {
+            "name": "MPV",
+            "stringValue": "mpv",
+            "intValue": 13
+            },
+            {
+            "name": "跑车",
+            "stringValue": "s",
+            "intValue": 14
+            }
+            ]
+  }
+  ]

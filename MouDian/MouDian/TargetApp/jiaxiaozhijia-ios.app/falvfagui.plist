@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>tid</key>
+		<string>469562</string>
+		<key>title</key>
+		<string>2017新交规扣分标准</string>
+		<key>subtitle</key>
+		<string>最新扣分标准，稳准狠
+</string>
+	</dict>
+	<dict>
+		<key>tid</key>
+		<string>469561</string>
+		<key>title</key>
+		<string>酒驾新规</string>
+		<key>subtitle</key>
+		<string>开车不喝酒，喝酒不开车</string>
+	</dict>
+	<dict>
+		<key>tid</key>
+		<string>473309</string>
+		<key>title</key>
+		<string>机动车驾驶证申领和使用规定</string>
+		<key>subtitle</key>
+		<string>驾驶证权威行政法令</string>
+	</dict>
+	<dict>
+		<key>tid</key>
+		<string>497828</string>
+		<key>title</key>
+		<string>中华人民共和国道路交通安全法</string>
+		<key>subtitle</key>
+		<string>维护交通秩序，保护人身安全及合法权益</string>
+	</dict>
+	<dict>
+		<key>tid</key>
+		<string>497834</string>
+		<key>title</key>
+		<string>中华人民共和国道路交通安全法实施条例</string>
+		<key>subtitle</key>
+		<string>健全交通安全法规，明确目标及实施方案</string>
+	</dict>
+	<dict>
+		<key>tid</key>
+		<string>497831</string>
+		<key>title</key>
+		<string>中华人民共和国刑法</string>
+		<key>subtitle</key>
+		<string>维护社会秩序，严管违法行为</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,59 @@
+.ESCTopLine
+{
+    sepeator-top-width : 0.5;
+    sepeator-top-color : #E0E1E2;
+}
+
+.ESCBottomLine
+{
+    sepeator-bottom-width : 0.5;
+    sepeator-bottom-color : #E0E1E2;
+}
+
+.ESCImmigrationEmissionTableViewCell
+{
+    background-color :  #ffffff;
+    sepeator-bottom-width : 0.5;
+    sepeator-bottom-color : #e0e0e0;
+}
+
+.ESCNavigationBarBlack
+{
+    text-color : #FFFFFF;
+    font-size : 17;
+    background-color : #333333cc;
+    navigation-bar-tint-color : #FFFFFF;
+    back-button-image-name : esc__nav_backack;
+    background-image-name : none;
+    shadow-line : no;
+}
+
+.ESCNavigationBar
+{
+    text-color : #333333;
+    font-size : 17;
+    background-color : #FFFFFF;
+    navigation-bar-tint-color : #000000;
+    back-button-image-name : esc__nav_backack;
+    background-image-name : none;
+    shadow-line : no;
+}
+
+.ESCNavigationBarWithLine
+{
+    text-color : #333333;
+    font-size : 17;
+    background-color : #FFFFFF;
+    navigation-bar-tint-color : #000000;
+    back-button-image-name : esc__nav_backack;
+    background-image-name : none;
+    shadow-line : yes;
+    shadow-line-color : #00000025;
+}
+
+.ESCImmigrationBookMark
+{
+    font-size : 15;
+    bookmark-indicator-color : #ff5d22;
+    bookmark-tab-background-color : #ffffff;
+}

@@ -1,0 +1,50 @@
+{
+	"title" : "品牌",
+	"mutableSelected" : false,
+	"itemList" : [
+		{
+			"title" : "brand",
+			"imageSelected" : "",
+			"image" : "",
+			"selected" : false,
+			"updateMethod" : "updateBrand:",
+			"keyValues" : {
+				"brand" : "26",
+				"brandName" : "大众"
+			}
+		},
+		{
+			"title" : "brand",
+			"imageSelected" : "",
+			"image" : "",
+			"selected" : false,
+			"updateMethod" : "updateBrand:",
+			"keyValues" : {
+				"brand" : "129",
+				"brandName" : "雪佛兰"
+			}
+		},
+		{
+			"title" : "brand",
+			"imageSelected" : "",
+			"image" : "",
+			"selected" : false,
+			"updateMethod" : "updateBrand:",
+			"keyValues" : {
+				"brand" : "14",
+				"brandName" : "本田"
+			}
+		},
+		{
+			"title" : "brand",
+			"imageSelected" : "",
+			"image" : "",
+			"selected" : false,
+			"updateMethod" : "updateBrand:",
+			"keyValues" : {
+				"brand" : "17",
+				"brandName" : "别克"
+			}
+		}
+	]
+}

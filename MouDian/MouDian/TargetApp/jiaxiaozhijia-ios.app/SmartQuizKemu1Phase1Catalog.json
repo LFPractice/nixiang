@@ -1,0 +1,94 @@
+[
+    {
+        "id": 52001,
+        "name": "交通法律法规",
+        "singleScore": 2,
+        "totalScore": 100,
+        "passScore": 90,
+        "testRule": [
+            {
+                "type": "zhangjie",
+                "id": 121,
+                "count": 50,
+                "totalCount": 202
+            }
+        ],
+        "learnRule": [
+            {
+                "type": "zhangjie",
+                "id": 121,
+                "count": 202,
+                "totalCount": 300
+            }
+        ]
+    },
+    {
+        "id": 52002,
+        "name": "道路交通信号",
+        "singleScore": 2,
+        "totalScore": 100,
+        "passScore": 90,
+        "learnRule": [
+            {
+                "type": "zhangjie",
+                "id": 122,
+                "count": 165,
+                "totalCount": 200
+            }
+        ],
+        "testRule": [
+            {
+                "type": "zhangjie",
+                "id": 122,
+                "count": 50,
+                "totalCount": 165
+            }
+        ]
+    },
+    {
+        "id": 52003,
+        "name": "文明驾驶常识",
+        "singleScore": 2,
+        "totalScore": 100,
+        "passScore": 90,
+        "learnRule": [
+            {
+                "type": "zhangjie",
+                "id": 123,
+                "count": 67,
+                "totalCount": 100
+            }
+        ],
+        "testRule": [
+            {
+                "type": "zhangjie",
+                "id": 123,
+                "count": 50,
+                "totalCount": 67
+            }
+        ]
+    },
+    {
+        "id": 52004,
+        "name": "驾驶操作常识",
+        "singleScore": 2,
+        "totalScore": 100,
+        "passScore": 90,
+        "learnRule": [
+            {
+                "type": "zhangjie",
+                "id": 124,
+                "count": 66,
+                "totalCount": 100
+            }
+        ],
+        "testRule": [
+            {
+                "type": "zhangjie",
+                "id": 124,
+                "count": 50,
+                "totalCount": 66
+            }
+        ]
+    }
+]

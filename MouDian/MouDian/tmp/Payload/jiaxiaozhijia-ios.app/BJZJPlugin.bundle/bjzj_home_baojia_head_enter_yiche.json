@@ -1,0 +1,42 @@
+ [
+  {
+  "type": 0,
+  "title": "SUV",
+  "value": "http://car.nav.mucang.cn/suv-main",
+  "iconUrl": "",
+  "entrancePage1Point":"58",
+  "defaultImgName": "mcbdShouyeSuv"
+  },
+  {
+  "type": 0,
+  "title": "降价",
+  "value": "http://car.nav.mucang.cn/decline-list",
+  "iconUrl": "",
+  "entrancePage1Point":"11",
+  "defaultImgName": "mcbdShouyeJiangjia"
+  },
+  {
+  "type": 0,
+  "title": "热销排行",
+  "value": "http://car.nav.mucang.cn/hot-sale-list",
+  "iconUrl": "",
+  "entrancePage1Point":"10",
+  "defaultImgName": "mcbdBaojiaRexiaopaihang"
+  },
+  {
+  "type": 0,
+  "title": "帮您砍价",
+  "value": "http://car.nav.mucang.cn/inquiry/bargain?entrancePage2=1002000",
+  "iconUrl": "",
+  "entrancePage1Point":"66",
+  "defaultImgName": "yicheHelpBargain"
+  },
+  {
+  "type": 0,
+  "title": "情景选车",
+  "value": "http://car.nav.mucang.cn/scene-select-car",
+  "iconUrl": "",
+  "entrancePage1Point":"62",
+  "defaultImgName": "mcbdBaojiaQingjingxuanche"
+  }
+  ]

@@ -1,0 +1,685 @@
+[
+ {
+ "header": "预算",
+ "conditionType": 3,
+ "stringValue": "quickSelectPrice",
+ "items": [
+           {
+           "name": "8万以下",
+           "stringValue": "0-8",
+           "intValue": 0
+           },
+           {
+           "name": "8-10万",
+           "stringValue": "8-10",
+           "intValue": 0
+           },
+           {
+           "name": "10-15万",
+           "stringValue": "10-15",
+           "intValue": 0
+           },
+           {
+           "name": "15-25万",
+           "stringValue": "15-25",
+           "intValue": 0
+           },
+           {
+           "name": "25-35万",
+           "stringValue": "25-35",
+           "intValue": 0
+           },
+           {
+           "name": "35-50万",
+           "stringValue": "35-50",
+           "intValue": 0
+           },
+           {
+           "name": "50-70万",
+           "stringValue": "50-70",
+           "intValue": 0
+           },
+           {
+           "name": "70万以上",
+           "stringValue": "70-160",
+           "intValue": 0
+           }
+           ]
+ },
+ {
+    "header": "",
+    "conditionType": 0,
+    "items": [
+      {
+        "name": "价格区间",
+        "stringValue": "",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 1,
+    "items": [
+      {
+        "name": "品牌入口",
+        "stringValue": "",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "级别",
+    "conditionType": 2,
+    "stringValue": "levelList",
+    "items": [
+      {
+        "name": "微型车",
+        "stringValue": "a00",
+        "intValue": 0
+      },
+      {
+        "name": "小型车",
+        "stringValue": "a0",
+        "intValue": 0
+      },
+      {
+        "name": "紧凑型车",
+        "stringValue": "a",
+        "intValue": 0
+      },
+      {
+        "name": "中型车",
+        "stringValue": "b",
+        "intValue": 0
+      },
+      {
+        "name": "中大型车",
+        "stringValue": "c",
+        "intValue": 0
+      },
+      {
+        "name": "大型车",
+        "stringValue": "d",
+        "intValue": 0
+      },
+      {
+        "name": "SUV",
+        "stringValue": "suv",
+        "intValue": 0
+      },
+      {
+        "name": "MPV",
+        "stringValue": "mpv",
+        "intValue": 0
+      },
+      {
+        "name": "跑车",
+        "stringValue": "s",
+        "intValue": 0
+      },
+      {
+        "name": "皮卡",
+        "stringValue": "pk",
+        "intValue": 0
+      },
+      {
+        "name": "微面",
+        "stringValue": "mb",
+        "intValue": 0
+      },
+      {
+        "name": "微卡",
+        "stringValue": "wt",
+        "intValue": 0
+      },
+      {
+        "name": "客车",
+        "stringValue": "bus",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "国别",
+    "conditionType": 3,
+    "stringValue": "countryList",
+    "items": [
+      {
+        "name": "中国",
+        "stringValue": "china",
+        "intValue": 0
+      },
+      {
+        "name": "德国",
+        "stringValue": "germany",
+        "intValue": 0
+      },
+      {
+        "name": "日本",
+        "stringValue": "japan",
+        "intValue": 0
+      },
+      {
+        "name": "美国",
+        "stringValue": "america",
+        "intValue": 0
+      },
+      {
+        "name": "韩国",
+        "stringValue": "korea",
+        "intValue": 0
+      },
+      {
+        "name": "法国",
+        "stringValue": "france",
+        "intValue": 0
+      },
+      {
+        "name": "英国",
+        "stringValue": "english",
+        "intValue": 0
+      }
+    ,
+      {
+        "name": "意大利",
+        "stringValue": "italy",
+        "intValue": 0
+      }
+    ,
+      {
+        "name": "瑞典",
+        "stringValue": "sweden",
+        "intValue": 0
+      }
+    ,
+      {
+        "name": "其他",
+        "stringValue": "other",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "变速箱",
+    "conditionType": 3,
+    "stringValue": "transmissionTypeList",
+    "items": [
+      {
+        "name": "手动",
+        "stringValue": "mt",
+        "intValue": 0
+      },
+      {
+        "name": "自动",
+        "stringValue": "at",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "厂商",
+    "conditionType": 3,
+    "stringValue": "factoryTypeList",
+    "items": [
+      {
+        "name": "自主",
+        "stringValue": "self",
+        "intValue": 0
+      },
+      {
+        "name": "合资",
+        "stringValue": "join",
+        "intValue": 0
+      },
+      {
+        "name": "进口",
+        "stringValue": "import",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "结构",
+    "conditionType": 3,
+    "stringValue": "structList",
+    "items": [
+      {
+        "name": "两厢",
+        "stringValue": "s2",
+        "intValue": 0
+      },
+      {
+        "name": "三厢",
+        "stringValue": "s3",
+        "intValue": 0
+      },
+      {
+        "name": "掀背",
+        "stringValue": "x",
+        "intValue": 0
+      },
+      {
+        "name": "硬顶敞篷",
+        "stringValue": "cy",
+        "intValue": 0
+      },
+      {
+        "name": "软顶敞篷",
+        "stringValue": "cr",
+        "intValue": 0
+      },
+      {
+        "name": "硬顶跑车",
+        "stringValue": "py",
+        "intValue": 0
+      },
+      {
+        "name": "旅行版",
+        "stringValue": "l",
+        "intValue": 0
+      },
+      {
+        "name": "客车",
+        "stringValue": "k",
+        "intValue": 0
+      },
+      {
+        "name": "货车",
+        "stringValue": "h",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "排量",
+    "conditionType": 3,
+    "stringValue": "plList",
+    "items": [
+      {
+        "name": "1.0及以下",
+        "stringValue": "0-1.0",
+        "intValue": 0
+      },
+      {
+        "name": "1.1-1.6L",
+        "stringValue": "1.1-1.6",
+        "intValue": 0
+      },
+      {
+        "name": "1.7-2.0L",
+        "stringValue": "1.7-2.0",
+        "intValue": 0
+      },
+      {
+        "name": "2.1-2.5L",
+        "stringValue": "2.1-2.5",
+        "intValue": 0
+      },
+      {
+        "name": "2.6-3.0L",
+        "stringValue": "2.6-3.0",
+        "intValue": 0
+      },
+      {
+        "name": "3.1-4.0L",
+        "stringValue": "3.1-4.0",
+        "intValue": 0
+      },
+      {
+        "name": "4.0L以上",
+        "stringValue": "4.0-99",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+      "header": "环保标准",
+      "conditionType": 3,
+      "stringValue": "emissionStandardList",
+      "items": [
+          {
+              "name": "国3",
+              "stringValue": "cn3",
+              "intValue": 0
+          },
+          {
+              "name": "国4",
+              "stringValue": "cn4",
+              "intValue": 0
+          },
+          {
+              "name": "国5",
+              "stringValue": "cn5",
+              "intValue": 0
+          },
+          {
+              "name": "国6",
+              "stringValue": "cn6",
+              "intValue": 0
+          },
+          {
+              "name": "欧3",
+              "stringValue": "eu3",
+              "intValue": 0
+          },
+          {
+              "name": "欧4",
+              "stringValue": "eu4",
+              "intValue": 0
+          },
+          {
+              "name": "欧5",
+              "stringValue": "eu5",
+              "intValue": 0
+          },
+          {
+              "name": "欧6",
+              "stringValue": "eu6",
+              "intValue": 0
+          }
+      ]
+  },
+  {
+    "header": "燃料",
+    "conditionType": 3,
+    "stringValue": "fuelTypeList",
+    "items": [
+      {
+        "name": "汽油",
+        "stringValue": "qy",
+        "intValue": 0
+      },
+      {
+        "name": "柴油",
+        "stringValue": "cy",
+        "intValue": 0
+      },
+      {
+        "name": "油电混合",
+        "stringValue": "yd",
+        "intValue": 0
+      },
+      {
+        "name": "纯电动",
+        "stringValue": "dd",
+        "intValue": 0
+      },
+      {
+        "name": "插电式混动",
+        "stringValue": "chd",
+        "intValue": 0
+      },
+      {
+        "name": "增程式",
+        "stringValue": "zcs",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "座位数",
+    "conditionType": 3,
+    "stringValue": "seatList",
+    "items": [
+      {
+        "name": "2座",
+        "stringValue": "2",
+        "intValue": 0
+      },
+      {
+        "name": "4座",
+        "stringValue": "4",
+        "intValue": 0
+      },
+      {
+        "name": "5座",
+        "stringValue": "5",
+        "intValue": 0
+      },
+      {
+        "name": "6座",
+        "stringValue": "6",
+        "intValue": 0
+      },
+      {
+        "name": "7座",
+        "stringValue": "7",
+        "intValue": 0
+      },
+      {
+        "name": "7座以上",
+        "stringValue": "g7",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "驱动",
+    "conditionType": 3,
+    "stringValue": "driveModeList",
+    "items": [
+      {
+        "name": "前驱",
+        "stringValue": "f",
+        "intValue": 0
+      },
+      {
+        "name": "后驱",
+        "stringValue": "b",
+        "intValue": 0
+      },
+      {
+        "name": "四驱",
+        "stringValue": "4",
+        "intValue": 0
+      }
+    ]
+  },
+    {
+    "header": "进气形式",
+    "conditionType": 3,
+    "stringValue": "intakeTypeList",
+    "items": [
+           {
+           "name": "自然吸气",
+           "stringValue": "na",
+           "intValue": 0
+           },
+           {
+           "name": "涡轮增压",
+           "stringValue": "tc",
+           "intValue": 0
+           },
+           {
+           "name": "机械增压",
+           "stringValue": "sc",
+           "intValue": 0
+           }
+           ]
+    },
+  {
+    "header": "浪漫配置",
+    "conditionType": 3,
+    "stringValue": "propertiesList",
+    "items": [
+      {
+        "name": "天窗",
+        "stringValue": "92",
+        "intValue": 0
+      },
+      {
+        "name": "日间行车灯",
+        "stringValue": "1",
+        "intValue": 0
+      },
+      {
+        "name": "运动外观套件",
+        "stringValue": "2",
+        "intValue": 0
+      },
+      {
+        "name": "电动后备厢",
+        "stringValue": "3",
+        "intValue": 0
+      },
+      {
+        "name": "真皮座椅",
+        "stringValue": "110",
+        "intValue": 0
+      },
+      {
+        "name": "品牌音响",
+        "stringValue": "4",
+        "intValue": 0
+      },
+      {
+        "name": "车载冰箱",
+        "stringValue": "5",
+        "intValue": 0
+      },
+      {
+        "name": "雾灯",
+        "stringValue": "6",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "安全配置",
+    "conditionType": 3,
+    "stringValue": "propertiesList",
+    "items": [
+      {
+        "name": "ESP",
+        "stringValue": "83",
+        "intValue": 0
+      },
+      {
+        "name": "胎压监测",
+        "stringValue": "7",
+        "intValue": 0
+      },
+      {
+        "name": "倒车雷达",
+        "stringValue": "106",
+        "intValue": 0
+      },
+      {
+        "name": "儿童座椅接口",
+        "stringValue": "8",
+        "intValue": 0
+      },
+      {
+        "name": "四轮碟刹",
+        "stringValue": "9",
+        "intValue": 0
+      },
+      {
+        "name": "大于4个安全气囊",
+        "stringValue": "10",
+        "intValue": 0
+      },
+      {
+        "name": "360全景影像",
+        "stringValue": "23",
+        "intValue": 0
+      },
+      {
+        "name": "车窗防夹手",
+        "stringValue": "12",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "舒适配置",
+    "conditionType": 3,
+    "stringValue": "propertiesList",
+    "items": [
+      {
+        "name": "自动大灯",
+        "stringValue": "13",
+        "intValue": 0
+      },
+      {
+        "name": "定速巡航",
+        "stringValue": "105",
+        "intValue": 0
+      },
+      {
+        "name": "多功能方向盘",
+        "stringValue": "102",
+        "intValue": 0
+      },
+      {
+        "name": "全自动空调",
+        "stringValue": "161",
+        "intValue": 0
+      },
+      {
+        "name": "座椅加热",
+        "stringValue": "14",
+        "intValue": 0
+      },
+      {
+        "name": "电动座椅",
+        "stringValue": "115",
+        "intValue": 0
+      },
+      {
+        "name": "自适应巡航",
+        "stringValue": "22",
+        "intValue": 0
+      },
+      {
+        "name": "GPS导航",
+        "stringValue": "127",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "操控配置",
+    "conditionType": 3,
+    "stringValue": "propertiesList",
+    "items": [
+      {
+        "name": "上坡辅助",
+        "stringValue": "17",
+        "intValue": 0
+      },
+      {
+        "name": "陡坡缓降",
+        "stringValue": "18",
+        "intValue": 0
+      },
+      {
+        "name": "可变悬架",
+        "stringValue": "19",
+        "intValue": 0
+      },
+      {
+        "name": "换挡拨片",
+        "stringValue": "20",
+        "intValue": 0
+      },
+      {
+        "name": "自动驻车",
+        "stringValue": "21",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 4,
+    "items": [
+      {
+        "name": "更多选车条件",
+        "stringValue": "收起",
+        "intValue": 0
+      }
+    ]
+  }
+]

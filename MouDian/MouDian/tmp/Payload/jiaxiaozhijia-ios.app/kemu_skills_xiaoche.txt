@@ -1,0 +1,96 @@
+{
+    "kemu2": [
+        {
+            "iconUrl": "file://jiakao__ic_jiakaofagui",
+            "title": "驾考法规",
+            "subtitle": "最齐全的驾考考试法规",
+            "topicId": 485503
+        },
+        {
+            "iconUrl": "file://anquandai",
+            "title": "安全带",
+            "subtitle": "安全带的正确使用方法",
+            "topicId": 486075
+        },
+        {
+            "iconUrl": "file://dianhuokaiguan",
+            "title": "点火开关",
+            "subtitle": "点火开关不同档位的介绍",
+            "topicId": 486071
+        },
+        {
+            "iconUrl": "file://fangxiangpan",
+            "title": "方向盘",
+            "subtitle": "方向盘的正确握法和转向方法",
+            "topicId": 486059
+        },
+        {
+            "iconUrl": "file://liheqi",
+            "title": "离合器",
+            "subtitle": "踏下和抬起踏板的要领",
+            "topicId": 486058
+        },
+        {
+            "iconUrl": "file://jiasutaban",
+            "title": "加速踏板",
+            "subtitle": "操纵加速踏板的正确姿势",
+            "topicId": 486056
+        },
+        {
+            "iconUrl": "file://zhidongtaban",
+            "title": "制动踏板",
+            "subtitle": "踏位及踩踏节奏",
+            "topicId": 486055
+        },
+        {
+            "iconUrl": "file://zhuchezhidong",
+            "title": "驻车制动",
+            "subtitle": "是汽车制造器总成的一部分",
+            "topicId": 486052
+        },
+        {
+            "iconUrl": "file://zuoyitiaozheng",
+            "title": "座椅调整",
+            "subtitle": "座椅调整合适，开车更安全舒适",
+            "topicId": 486051
+        },
+        {
+            "iconUrl": "file://houshijing",
+            "title": "后视镜",
+            "subtitle": "是司机身后的眼睛",
+            "topicId": 486047
+        }
+    ],
+    "kemu3": [
+        {
+            "iconUrl": "file://jiakao__ic_jiakaofagui",
+            "title": "驾考法规",
+            "subtitle": "最齐全的驾考考试法规",
+            "topicId": 486118
+        },
+        {
+            "iconUrl": "file://chejupanduan",
+            "title": "车距判断",
+            "subtitle": "培养车感从判断车距开始",
+            "topicId": 488396
+        },
+        {
+            "iconUrl": "file://dangweicaozuo",
+            "title": "挡位操作",
+            "subtitle": "挡位操作最容易出错",
+            "topicId": 488397
+        },
+        {
+            "iconUrl": "file://dengguang",
+            "title": "灯光",
+            "subtitle": "安全文明行车的保障",
+            "topicId": 488398
+        },
+        {
+            "iconUrl": "file://zhixing",
+            "title": "直行",
+            "subtitle": "放松往远处看",
+            "topicId": 488400
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>question</key>
+		<string>VIP速成课适合哪些学员购买？</string>
+		<key>answer</key>
+		<string>小车c1、c2的学员都适合，帮助您快速拿驾照。	</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>有效期从什么时候开始算？	</string>
+		<key>answer</key>
+		<string>VIP服务有效期从您购买之日算起，有效期180天。考不过补偿服务在填写基本信息24小时后生效。会员的补偿服务如果在考试前没有生效，则无法获得补偿。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>我刚开通VIP为什么消失或者未生效？</string>
+		<key>answer</key>
+		<string>请检查是否已经登录了账号，购买成功后，需要登录您的账号才能享受VIP服务。同时一个VIP账号最多只能支持3台设备使用。	</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>VIP购买后可以退款吗？	</string>
+		<key>answer</key>
+		<string>VIP是虚拟商品，不支持退款哦。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>其他问题及注意事项	</string>
+		<key>answer</key>
+		<string>如遇问题，可直接联系右上角帮助中的在线客服或者拨打客服电话400-056-1617咨询，我们会及时为您解答。	</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,262 @@
+.JKBDMainViewControllerMultiplePages {
+    font-size:15;
+    text-color:#999999;
+    bookmark-tabbar-height:40;
+    bookmark-indicator-width:2;
+    bookmark-indicator-height:20;
+    bookmark-indicator-color:#333333;
+    bookmark-tab-selected-text-color:#333333;
+    bookmark-tab-selected-font-size:18;
+    bookmark-tab-selected-font-style-bold:yes;
+    bookmark-tabbar-background-color:#FFFFFF;
+    bookmark-indicator-width-inset-percent:0
+}
+
+.JKBDKnowledgeListViewControllerMultiplePages {
+    font-size:15;
+    text-color:#A0A0A0;
+    bookmark-tabbar-height:40;
+    bookmark-indicator-width:2;
+    bookmark-indicator-height:20;
+    bookmark-indicator-color:#333333;
+    bookmark-tab-selected-text-color:#333333;
+    bookmark-tab-selected-font-size:15;
+    bookmark-tab-selected-font-style-bold:yes;
+    bookmark-tabbar-background-color:#FFFFFF;
+    bookmark-indicator-width-inset-percent:0
+}
+
+.JKBDGoodsViewControllerMultiplePages {
+    font-size:15;
+    text-color:#999999;
+    bookmark-tabbar-height:54;
+    bookmark-indicator-width:2;
+    bookmark-indicator-color:#333333;
+    bookmark-tab-selected-text-color:#333333;
+    bookmark-tab-selected-font-size:15;
+    bookmark-tab-selected-font-style-bold:yes;
+    bookmark-tabbar-background-color:#FFFFFF;
+    bookmark-indicator-width-inset-percent:0
+}
+
+.JKBDRecordViewControllerMultiplePages {
+    font-size:14;
+    text-color:#999999;
+    bookmark-tabbar-height:40;
+    bookmark-indicator-width:2;
+    bookmark-indicator-color:#333333;
+    bookmark-tab-selected-text-color:#333333;
+    bookmark-tab-selected-font-size:14;
+    bookmark-tabbar-background-color:#FFFFFF;
+    bookmark-indicator-width-inset-percent:0
+}
+
+.JKVipVideoBookmark {
+    font-size:16;
+    font-style-bold:yes;
+    text-color:#999999;
+    bookmark-tabbar-height:46;
+    bookmark-indicator-width:2;
+    bookmark-indicator-color:#333333;
+    bookmark-tab-selected-text-color:#333333;
+    bookmark-tab-selected-font-style-bold:yes;
+    bookmark-tab-selected-font-size:16;
+    bookmark-tabbar-background-color:#FFFFFF;
+    bookmark-indicator-width-inset-percent:0
+}
+
+.JKBDRankNoteBookmark {
+    font-size:15;
+    font-style-bold:yes;
+    text-color:#ffffff;
+    bookmark-tabbar-height:52;
+    bookmark-indicator-width:3;
+    bookmark-indicator-color:#ffffff;
+    bookmark-tab-selected-text-color:#ffffff;
+    bookmark-tab-selected-font-style-bold:yes;
+    bookmark-tab-selected-font-size:16;
+    //bookmark-tabbar-background-color:#FFFFFF;
+    bookmark-indicator-width-inset-percent:0
+}
+
+.JKVideoDownEmpty {
+    text-color:#dddddd;
+    font-size:15;
+    image-name:jk__bg_download_empty;
+}
+.JKVideoGroupListEmpty {
+    text-color:#dddddd;
+    font-size:15;
+    image-name:jk__bg_download_group_empty;
+}
+
+.JXBookMarkViewBar {
+    font-size:15;
+    background-color : #ffffff;
+    text-color:#999999;
+    bookmark-tabbar-height:44;
+    bookmark-indicator-width:2;
+    bookmark-indicator-color:#333333;
+    bookmark-tab-selected-text-color:#333333;
+    bookmark-tab-selected-font-size:15;
+    bookmark-tab-selected-font-style-bold:yes;
+    bookmark-tabbar-background-color:#FFFFFF;
+    bookmark-indicator-width-inset-percent:0.38
+}
+.JXBookMarkViewBarSingle {
+    font-size:15;
+    background-color : #ffffff;
+    text-color:#999999;
+    bookmark-tabbar-height:44;
+    bookmark-indicator-width:1.5;
+    bookmark-indicator-color:#FFFFFF;
+    bookmark-tab-selected-text-color:#333333;
+    bookmark-tab-selected-font-size:15;
+    bookmark-tabbar-background-color:#FFFFFF;
+    bookmark-indicator-width-inset-percent:0.38
+}
+
+.MCUNavigationBar {
+    background-color:#ffffff;
+    text-color:#333333;
+    shadow-line:yes;
+    shadow-line-color:#eeeeee;
+    back-button-image-name:header_icon_newback;
+    font-size:17;
+    status-bar-style:default
+}
+
+.JKBDWhiteNavigationBarNoneLine
+{
+    text-color : #333333; //字体颜色
+    font-size : 17; //字体大小
+    background-color : #ffffff; //背景颜色
+    shadow-line : no;
+    shadow-line-color : #eeeeee;
+    background-image-name : none;
+    back-button-image-name : header_icon_newback;
+}
+
+
+.MCUNavigationBar_Car {
+    background-color:#1dacf9;
+    text-color:#ffffff;
+    shadow-line:no;
+    shadow-line-color:#eeeeee;
+    back-button-image-name:header_icon_newback;
+    font-size:17;
+    status-bar-style:default
+}
+
+.MCUWebViewController {
+    background-color:#ffffff;
+    text-color:#333333;
+    shadow-line:yes;
+    shadow-line-color:#eeeeee;
+    back-button-image-name:header_icon_newback;
+    font-size:17;
+    status-bar-style:default
+}
+.MucangAuthNavigationBar {
+/*    background-color:#1dacf9;*/
+/*    text-color:#333333;*/
+/*    shadow-line:no;*/
+/*    back-button-image-name:header_icon_back;*/
+    status-bar-style:light-content
+}
+/*//登录 按钮*/
+/*.MucangAuthCommitButton {*/
+/*    normal-background-image-name:jkbdLogin;*/
+/*    disabled-background-image-name:jkbdLoginHilght;*/
+/*}*/
+
+.ESCBaseWebViewController {
+    back-button-titleColor:#333333;
+}
+.ESCBuyCarViewControllerNavigationBar {
+    status-bar-style:default;
+    text-color:#000000;
+    font-size:16;
+    background-color:#FFFFFF;
+    navigation-bar-tint-color:#333333;
+}
+.ESCBuyCarViewController {
+    bundle-name:MCFoundationResource;
+    esc-back-image-name:muc_nav_back;
+    esc-back-image-inset:insets(0,-25,0,0);
+    esc-buy-car-header-view-background-color:#ffffff;
+    esc-buy-car-header-view-select-color:#333333;
+}
+.ESCCarInfoViewControllerNavigationBar {
+    text-color:#000000;
+    font-size:16;
+    background-color:#FFFFFF;
+    status-bar-style:default;
+    navigation-bar-tint-color:#333333;
+    shadow-line:no;
+}
+.ESCRightLine {
+    sepeator-right-width:0.5;
+    sepeator-right-color:#E0E1E2
+}
+.ESCBottomLine {
+    sepeator-bottom-width:0.5;
+    sepeator-bottom-color:#E0E1E2
+}
+.ESCBuyCarQuickSelectBrandCollectionViewCell {
+    sepeator-right-width:0.5;
+    sepeator-right-color:#E0E1E2;
+    sepeator-bottom-width:0.5;
+    sepeator-bottom-color:#E0E1E2
+}
+.ESCAreaSelectorViewController {
+    status-bar-style:light-content;
+    text-color : #333333;
+    font-size : 17;
+    background-color : #FFFFFF;
+    navigation-bar-tint-color : #000000;
+    back-button-image-name:header_icon_newback;
+    shadow-line : no;
+    status-bar-style:default;
+}
+
+.BJZJNavigationBar {
+    text-color : #333333;
+    font-size : 17;
+    background-color : #FFFFFF;
+    navigation-bar-tint-color : #000000;
+    back-button-image-name:header_icon_newback;
+    shadow-line : no;
+}
+.BJZJNavigationBarWithLine {
+    text-color : #333333;
+    font-size : 17;
+    background-color : #FFFFFF;
+    navigation-bar-tint-color : #000000;
+    back-button-image-name:header_icon_newback;
+    shadow-line : yes;
+    shadow-line-color : #00000025;
+}
+.BJZJPhotoBrowserCustomViewController {
+    background-color : #000000;
+    navigation-bar-tint-color : #FFFFFF;
+}
+
+.MCXNavigationBarWithLine
+{
+    text-color : #333333; //字体颜色
+    font-size : 17; //字体大小
+    background-color : #FFFFFF;//背景颜色
+    navigation-bar-tint-color : #000000;
+    status-bar-style : default;
+    shadow-line : no;
+    background-image-name : none;
+    back-button-image-name:news_ic_back;
+}
+
+/* 意见反馈 */
+.feedbackSubmitButton
+{
+    background-color: #1dacf9;
+    normal-title-color: #FFFFFF;
+}

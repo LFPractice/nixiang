@@ -1,0 +1,29 @@
+[
+  {
+    "brandName": "本田",
+    "brand": 14,
+    "seriesName": "思域",
+    "series": 136,
+    "logoUrl": {
+      "small": "思域esclocal"
+    }
+  },
+  {
+    "brandName": "大众",
+    "brand": 26,
+    "seriesName": "朗逸",
+    "series": 258,
+    "logoUrl": {
+      "small": "朗逸esclocal"
+    }
+  },
+  {
+    "brandName": "雪佛兰",
+    "brand": 129,
+    "seriesName": "科鲁兹",
+    "series": 1010,
+    "logoUrl": {
+      "small": "朗逸esclocal"
+    }
+  }
+]

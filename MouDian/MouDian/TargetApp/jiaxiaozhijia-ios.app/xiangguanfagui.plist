@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>fengmian</key>
+		<string>jk-bg-xgfg01-jdcjszsl</string>
+		<key>url</key>
+		<string>https://laofuzi.kakamobi.com/agreements/lawrule.html?lawrA=lawrA#/lawrA</string>		
+		<key>title</key>
+		<string>机动车驾驶证申领和使用规定</string>
+		<key>subtitle</key>
+		<string>驾驶证权威行政法令</string>
+	</dict>
+	<dict>
+		<key>fengmian</key>
+		<string>jk-bg-xgfg02-dljtaqf</string>
+		<key>url</key>
+		<string>https://laofuzi.kakamobi.com/agreements/lawrule.html?lawrB=lawrB#/lawrB</string>	
+		<key>title</key>
+		<string>中华人民共和国道路交通安全法</string>
+		<key>subtitle</key>
+		<string>维护交通秩序，保护人身安全及合法权益</string>
+	</dict>
+	<dict>
+		<key>fengmian</key>
+		<string>jk-bg-xgfg03-jtaqfsstl</string>
+		<key>url</key>
+		<string>https://laofuzi.kakamobi.com/agreements/lawrule.html?lawrC=lawrC#/lawrC</string>
+		<key>title</key>
+		<string>中华人民共和国道路交通安全法实施条例</string>
+		<key>subtitle</key>
+		<string>健全交通安全法规，明确目标及实施方案</string>
+	</dict>
+	<dict>
+		<key>fengmian</key>
+		<string>jk-bg-xgfg04-jdcdjgd</string>
+		<key>url</key>
+		<string>https://laofuzi.kakamobi.com/agreements/lawrule.html?lawrD=lawrD#/lawrD</string>
+		<key>title</key>
+		<string>机动车登记规定</string>
+		<key>subtitle</key>
+		<string>加强机动车管理，规范机动车登记行为</string>
+	</dict>
+	<dict>
+		<key>fengmian</key>
+		<string>jk-bg-xgfg05-jdcjtsg</string>
+		<key>url</key>
+		<string>https://laofuzi.kakamobi.com/agreements/lawrule.html?lawrE=lawrE#/lawrE</string>
+		<key>title</key>
+		<string>机动车交通事故责任强制保险条例</string>
+		<key>subtitle</key>
+		<string>保障机动车道路交通事故受害人依法得到赔偿</string>
+	</dict>
+</array>
+</plist>

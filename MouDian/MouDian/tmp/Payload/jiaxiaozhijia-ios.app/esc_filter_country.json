@@ -1,0 +1,87 @@
+{
+	"title" : "国别",
+	"mutableSelected" : false,
+	"filterKey" : "country",
+	"itemList" : [
+		{
+			"title" : "中国",
+			"selected" : false,
+			"updateMethod" : "updateCountry:",
+			"keyValues" : {
+				"country" : "china"
+			}
+		},
+		{
+			"title" : "德国",
+			"selected" : false,
+			"updateMethod" : "updateCountry:",
+			"keyValues" : {
+				"country" : "germany"
+			}
+		},
+        {
+            "title" : "日本",
+            "selected" : false,
+			"updateMethod" : "updateCountry:",
+            "keyValues" : {
+                "country" : "japan"
+            }
+        },
+		{
+			"title" : "美国",
+			"selected" : false,
+			"updateMethod" : "updateCountry:",
+			"keyValues" : {
+				"country" : "america"
+			}
+		},
+        {
+            "title" : "韩国",
+            "selected" : false,
+			"updateMethod" : "updateCountry:",
+            "keyValues" : {
+                "country" : "korea"
+            }
+        },
+		{
+			"title" : "法国",
+			"selected" : false,
+			"updateMethod" : "updateCountry:",
+			"keyValues" : {
+				"country" : "france"
+			}
+		},
+		{
+			"title" : "英国",
+			"selected" : false,
+			"updateMethod" : "updateCountry:",
+			"keyValues" : {
+				"country" : "english"
+			}
+		},
+		{
+			"title" : "意大利",
+			"selected" : false,
+			"updateMethod" : "updateCountry:",
+			"keyValues" : {
+				"country" : "italy"
+			}
+		},
+		{
+			"title" : "瑞典",
+			"selected" : false,
+			"updateMethod" : "updateCountry:",
+			"keyValues" : {
+				"country" : "sweden"
+			}
+		},
+		{
+			"title" : "其他",
+			"selected" : false,
+			"updateMethod" : "updateCountry:",
+			"keyValues" : {
+				"country" : "other"
+			}
+		}
+	]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 43005,
+    "name": "智能分析定制的专题试题",
+    "rule": [],
+    "examRule": {
+      "type": "exam",
+      "id": 0,
+      "count": 100
+    }
+  },
+  {
+    "id": 43006,
+    "name": "难度系数1级全真模拟考试",
+    "rule": [],
+    "examRule": {
+      "type": "exam",
+      "id": 1,
+      "count": 100
+    }
+  },
+  {
+    "id": 43007,
+    "name": "难度系数2级全真模拟考试",
+    "rule": [],
+    "examRule": {
+      "type": "exam",
+      "id": 2,
+      "count": 100
+    }
+  },
+  {
+    "id": 43008,
+    "name": "难度系数3级全真模拟考试",
+    "rule": [],
+    "examRule": {
+      "type": "exam",
+      "id": 3,
+      "count": 100
+    }
+  }
+]

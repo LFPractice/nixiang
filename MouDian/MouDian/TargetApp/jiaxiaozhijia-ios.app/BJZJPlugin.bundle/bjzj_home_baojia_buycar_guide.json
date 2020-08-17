@@ -1,0 +1,134 @@
+[
+ [
+  {
+  "title": "用途选车",
+  "icon" : "mcbdGouchegonglveGexingtuijian",
+  "url"  : "http://car.nav.mucang.cn/car/personalize?categoryId=0",
+  "stat" : "true"
+  },
+  {
+  "title": "情景选车",
+  "icon" : "mcbdGouchegonglveQingjingxuanche",
+  "url"  : "http://car.nav.mucang.cn/scene-select-car",
+  "stat" : "true"
+  },
+  {
+  "title": "热销排行",
+  "icon" : "mcbdGouchegonglveRexiaopaihang",
+  "url"  : "http://car.nav.mucang.cn/hot-sale-list",
+  "stat" : "true"
+  },
+  {
+  "title": "新车上市",
+  "icon" : "mcbdGouchegonglveXincheshangshi",
+  "url"  : "http://car.nav.mucang.cn/car/new-arrival",
+  "stat" : "true"
+  }
+  ],
+ [
+  {
+  "title": "车型对比",
+  "icon" : "mcbdGouchegonglveChexingduibi",
+  "url"  : "http://car.nav.mucang.cn/car-compare",
+  "stat" : "true"
+  },
+  {
+  "title": "帮选车",
+  "icon" : "mcbdGouchegonglveBangxuanche",
+  "url"  : "http://saturn.nav.mucang.cn/tag/detail?tagId=244",
+  "stat" : "false"
+  },
+  {
+  "title": "条件选车",
+  "icon" : "mcbdGouchegonglveTiaojianxuanche",
+  "url"  : "http://car.nav.mucang.cn/condition-select-car",
+  "stat" : "true"
+  },
+  {
+  "title": "超级试驾",
+  "icon" : "mcbdGouchegonglveChaojishijia",
+  "url"  : "http://toutiao.nav.mucang.cn/weMedia/detail?weMediaId=162&incomingType=homePage",
+  "stat" : "false"
+  }
+  ],
+ [
+  {
+  "title": "降价优惠",
+  "icon" : "mcbdGouchegonglveJiangjiayouhui",
+  "url"  : "http://car.nav.mucang.cn/decline-list",
+  "stat" : "true"
+  },
+  {
+  "title": "购车计算",
+  "url": "http://car.nav.mucang.cn/calculator",
+  "stat": "true",
+  "icon": "mcbdBaojiaGouchejisuan"
+  },
+
+  {
+  "title": "价格导购",
+  "icon" : "mcbdGouchegonglveTuangoutemai",
+  "url"  : "http://toutiao.nav.mucang.cn/buy_guide_channel?guide_type=price_buy_guide",
+  "stat" : "false"
+  },
+  {
+  "title": "购车券",
+  "icon" : "mcbdShouyeXianjinquan",
+  "url"  : "https://web-app.kakamobi.cn/b0ab9e3e4fb15a9000be66dc7789b47e",
+  "stat" : "false"
+  }
+  ],
+ [
+  {
+  "title": "购车计算器",
+  "icon" : "mcbdGouchegonglveGouchejisuan",
+  "url"  : "http://car.nav.mucang.cn/calculator",
+  "stat" : "false"
+  },
+  {
+  "title": "提车作业",
+  "icon" : "mcbdGouchegonglveTichezuoye",
+  "url"  : "http://saturn.nav.mucang.cn/tag/detail?tagId=299",
+  "stat" : "false"
+  },
+  {
+  "title": "保险知识",
+  "icon" : "mcbdGouchegonglveBaoxianzhishi",
+  "url"  : "http://toutiao.nav.mucang.cn/weMedia/detail?weMediaId=338&incomingType=homePage",
+  "stat" : "false"
+  },
+  {
+  "title": "新手上路",
+  "icon" : "mcbdGouchegonglveXinshoushanglu",
+  "url"  : "http://toutiao.nav.mucang.cn/weMedia/detail?weMediaId=241&incomingType=homePage",
+  "stat" : "false"
+  }
+  ],
+ [
+  {
+  "title": "用车养车",
+  "icon" : "mcbdGouchegonglveYongcheyangche",
+  "url"  : "http://saturn.nav.mucang.cn/tag/detail?tagId=34197",
+  "stat" : "false"
+  },
+  {
+  "title": "事故处理",
+  "icon" : "mcbdGouchegonglveShiguchuli",
+  "url"  : "http://toutiao.nav.mucang.cn/weMedia/detail?weMediaId=339&incomingType=homePage",
+  "stat" : "false"
+  },
+  {
+  "title": "交通违章",
+  "icon" : "mcbdGouchegonglveJiaotongweigui",
+  "url"  : "http://toutiao.nav.mucang.cn/weMedia/detail?weMediaId=340&incomingType=homePage",
+  "stat" : "false"
+  },
+  {
+  "title": "狼族自驾",
+  "icon" : "mcbdGouchegonglveLangzuzijia",
+  "url"  : "http://saturn.nav.mucang.cn/tag/detail?tagId=310",
+  "stat" : "false"
+  }
+  ]
+]
+

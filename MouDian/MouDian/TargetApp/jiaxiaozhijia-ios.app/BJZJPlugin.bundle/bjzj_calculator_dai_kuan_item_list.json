@@ -1,0 +1,66 @@
+[
+ {
+ "header": "税后月收入",
+ "stringValue": "",
+ "items": [
+           {
+           "name": "1万元以下",
+           "stringValue": "salaryMin=0&salaryMax=10000"
+           },
+           {
+           "name": "1-2万元",
+           "stringValue": "salaryMin=10000&salaryMax=20000"
+           },
+           {
+           "name": "2万元以上",
+           "stringValue": "salaryMin=20000&salaryMax=0"
+           }
+           ]
+ },
+ {
+ "header": "社保或公积金情况",
+ "stringValue": "insurance",
+ "items": [
+           {
+           "name": "有",
+           "stringValue": "hasLocalSocialInsurance=true"
+           },
+           {
+           "name": "无",
+           "stringValue": "hasLocalSocialInsurance=false"
+           }
+           ]
+ },
+ {
+ "header": "意向购车时间",
+ "stringValue": "buyTime",
+ "items": [
+           {
+           "name": "30天内",
+           "stringValue": "buyPlanMonth=1"
+           },
+           {
+           "name": "60天内",
+           "stringValue": "buyPlanMonth=3"
+           },
+           {
+           "name": "其他",
+           "stringValue": "buyPlanMonth=0"
+           }
+           ]
+ },
+ {
+ "header": "是否看过车",
+ "stringValue": "seeCarBefore",
+ "items": [
+           {
+           "name": "是",
+           "stringValue": "seeCarBefore=true"
+           },
+           {
+           "name": "否",
+           "stringValue": "seeCarBefore=false"
+           }
+           ]
+ }
+]

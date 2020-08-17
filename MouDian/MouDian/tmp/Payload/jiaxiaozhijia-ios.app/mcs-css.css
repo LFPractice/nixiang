@@ -1,0 +1,169 @@
+.MCSNavigationBarLineNone
+{
+    text-color : #333333; //字体颜色
+    font-size : 17; //字体大小
+    background-color : #FFFFFF;//背景颜色
+    navigation-bar-tint-color : #000000;
+    status-bar-style : default;
+    shadow-line : no;
+    background-image-name : none;
+}
+.MCSTSCBookView {
+    text-color : #666666;   //默认文本颜色
+    font-size : 17; //字体大小
+    background-color : #ffffff; //滚动容器背景色
+    bookmark-tabbar-height : 44; //标签栏高度
+    bookmark-tabbar-background-color : #ffffff; //标签栏背景颜色
+    bookmark-indicator-width : 2; //标签栏选中指示宽度
+    bookmark-indicator-color : #333333; //标题栏选中指示颜色
+    bookmark-indicator-width-inset-percent : 0.7; //标题栏选中指示百分比
+    bookmark-tab-selected-text-color : #333333; //标签选中颜色
+    bookmark-tab-selected-font-size : 17; //标签选中字体大小
+    bookmark-tab-width : auto; //选项卡宽度
+}
+
+.MCSTopicHomeBookMarkView {
+    text-color : #999999;   //默认文本颜色
+    font-size : 15; //字体大小
+    background-color : #ffffff; //滚动容器背景色
+    bookmark-tabbar-height : 44; //标签栏高度
+    bookmark-tabbar-background-color : #ffffff; //标签栏背景颜色
+    bookmark-indicator-width : 2; //标签栏选中指示宽度
+    bookmark-indicator-color : #333333; //标题栏选中指示颜色
+    bookmark-indicator-width-inset-percent : 0.7; //标题栏选中指示百分比
+    bookmark-tab-selected-text-color : #333333; //标签选中颜色
+    bookmark-tab-selected-font-size : 15; //标签选中字体大小
+    bookmark-tab-selected-font-style-bold : yes;
+    bookmark-tab-width : auto; //选项卡宽度
+    bookmark-tab-right-edge : 44; //选项卡右侧留出设置下拉按钮的空间
+}
+
+.MCSSegementedBookView {
+    text-color : #999999;   //默认文本颜色
+    font-size : 15; //字体大小
+    background-color : #ffffff; //滚动容器背景色
+    bookmark-tabbar-height : 44; //标签栏高度
+    bookmark-tabbar-background-color : #ffffff; //标签栏背景颜色
+    bookmark-indicator-width : 2; //标签栏选中指示宽度
+    bookmark-indicator-bottom-offset : -5;
+    bookmark-indicator-color : #333333; //标题栏选中指示颜色
+    bookmark-indicator-width-inset-percent : 0.7; //标题栏选中指示百分比
+    bookmark-tab-selected-text-color : #333333; //标签选中颜色
+    bookmark-tab-selected-font-size : 15; //标签选中字体大小
+    bookmark-tab-width : auto; //选项卡宽度
+}
+
+.MCSReplyMixBookView {
+    text-color : #999999;   //默认文本颜色
+    font-size : 14; //字体大小
+    background-color : #ffffff; //滚动容器背景色
+    bookmark-tabbar-height : 40; //标签栏高度
+    bookmark-tabbar-background-color : #ffffff; //标签栏背景颜色
+    bookmark-indicator-width : 2; //标签栏选中指示宽度
+    bookmark-indicator-color : #E44A41; //标题栏选中指示颜色
+    bookmark-tab-selected-text-color : #E44A41; //标签选中颜色
+    bookmark-tab-selected-font-size : 14; //标签选中字体大小
+    bookmark-indicator-width-inset-percent : 0; //标题栏选中指示百分比
+    bookmark-tab-width : auto; //选项卡宽度
+}
+
+.MCSReplyMixBookViewWithoutShortVideo {
+    text-color : #999999;   //默认文本颜色
+    font-size : 14; //字体大小
+    background-color : #ffffff; //滚动容器背景色
+    bookmark-tabbar-height : 0; //标签栏高度
+    bookmark-tabbar-background-color : #ffffff; //标签栏背景颜色
+    bookmark-indicator-width : 2; //标签栏选中指示宽度
+    bookmark-indicator-color : #E44A41; //标题栏选中指示颜色
+    bookmark-tab-selected-text-color : #E44A41; //标签选中颜色
+    bookmark-tab-selected-font-size : 14; //标签选中字体大小
+    bookmark-indicator-width-inset-percent : 0; //标题栏选中指示百分比
+    bookmark-tab-width : auto; //选项卡宽度
+}
+
+.MCSTopicSelectCarBookViewControllerNav
+{
+    text-color : #000000; //字体颜色
+    font-size : 16; //字体大小
+    background-color : #ff0000;//背景颜色
+    status-bar-style : light-content;
+    navigation-bar-tint-color : #000000;
+    shadow-line : no;
+}
+
+.MCSEditUserInfoViewController
+{
+    back-button-image-name : mcs_nav_back_css;
+    background-image-name : none;
+    shadow-line : yes;
+    shadow-line-color : #eeeeee;
+}
+
+.MCSNavigationBarLine
+{
+    back-button-image-name : mcs_nav_back_css;
+    background-image-name : none;
+    shadow-line : yes;
+    shadow-line-color : #eeeeee;
+}
+
+.MCUBannerView {
+    page-indicator-color : rgba(0,0,0,0.05); //指示器颜色
+    current-page-indicator-color : rgba(0,0,0,0.2); //当前指示器颜色
+}
+
+/*车主认证*/
+.MCSCertificationBookMark
+{
+    font-size : 16;
+    font-size-3x : 18;
+
+    text-color : #959595;
+    bookmark-indicator-width : 0.5;
+    bookmark-indicator-color : #999999;
+    /*    bookmark-tab-background-color : #FFFFFF;*/
+    bookmark-tab-selected-text-color : #333333;
+    /*    bookmark-tabbar-background-color : #FFFFFF;*/
+}
+
+.MCSImageBrowserViewController
+{
+    display-view-background-color: rgba(0,0,0,0);
+    display-image-background-color: rgba(0,0,0,0);
+}
+
+.MCSLineNav
+{
+    text-color : #333333; //字体颜色
+    font-size : 16; //字体大小
+    background-color : #FFFFFF;//背景颜色
+    status-bar-style : default;
+    navigation-bar-tint-color : #000000;//导航条的navigationbar的tintcolor，如果未设置会读取text-color;
+    shadow-line-color : #eeeeee;
+    shadow-line : yes
+}
+
+.MCSNoLineNav
+{
+    text-color : #333333; //字体颜色
+    font-size : 16; //字体大小
+    background-color : #FFFFFF;//背景颜色
+    status-bar-style : default ;
+    navigation-bar-tint-color : #000000;//导航条的navigationbar的tintcolor，如果未设置会读取text-color;
+    shadow-line : no;
+    back-button-image-name : mcs_nav_back_css;
+
+}
+
+.MCSQADetailAnswerNavController
+{
+    text-color : #333333; //字体颜色
+    font-size : 16; //字体大小
+    background-color : #FFFFFF;//背景颜色
+    status-bar-style : default;
+    navigation-bar-tint-color : #000000;//导航条的navigationbar的tintcolor，如果未设置会读取text-color;
+    back-button-image-name : mcs_nav_back_css;
+    shadow-line : yes
+}
+
+

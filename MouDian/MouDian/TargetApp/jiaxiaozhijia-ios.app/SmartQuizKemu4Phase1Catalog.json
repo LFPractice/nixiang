@@ -1,0 +1,150 @@
+[
+    {
+        "id": 62001,
+        "name": "违法行为+安全行车",
+        "singleScore": 2,
+        "totalScore": 100,
+        "count": 50,
+        "passScore": 90,
+        "learnRule": [
+            {
+                "type": "zhangjie",
+                "id": 127,
+                "count": 26,
+                "totalCount": 40
+            },
+            {
+                "type": "zhangjie",
+                "id": 128,
+                "count": 119,
+                "totalCount": 435
+            }
+        ],
+        "testRule": [
+            {
+                "type": "zhangjie",
+                "id": 127,
+                "count": 10,
+                "totalCount": 40
+            },
+            {
+                "type": "zhangjie",
+                "id": 128,
+                "count": 40,
+                "totalCount": 435
+            }
+        ]
+    },
+    {
+        "id": 62002,
+        "name": "交通标志、标线和手势",
+        "type": "test",
+        "singleScore": 2,
+        "totalScore": 100,
+        "count": 50,
+        "passScore": 90,
+        "learnRule": [
+            {
+                "type": "zhangjie",
+                "id": 129,
+                "count": 122,
+                "totalCount": 216
+            }
+        ],
+        "testRule": [
+            {
+                "type": "zhangjie",
+                "id": 129,
+                "count": 50,
+                "totalCount": 216
+            }
+        ]
+    },
+    {
+        "id": 62003,
+        "name": "文明驾驶道德常识",
+        "type": "test",
+        "singleScore": 2,
+        "totalScore": 100,
+        "count": 50,
+        "passScore": 90,
+        "learnRule": [
+            {
+                "type": "zhangjie",
+                "id": 130,
+                "count": 47,
+                "totalCount": 171
+            }
+        ],
+        "testRule": [
+            {
+                "type": "zhangjie",
+                "id": 130,
+                "count": 50,
+                "totalCount": 171
+            }
+        ]
+    },
+    {
+        "id": 62004,
+        "name": "恶劣气候+复杂道路",
+        "type": "test",
+        "singleScore": 2,
+        "totalScore": 100,
+        "count": 50,
+        "passScore": 90,
+        "learnRule": [
+            {
+                "type": "zhangjie",
+                "id": 131,
+                "count": 100,
+                "totalCount": 225
+            }
+        ],
+        "testRule": [
+            {
+                "type": "zhangjie",
+                "id": 131,
+                "count": 50,
+                "totalCount": 225
+            }
+        ]
+    },
+    {
+        "id": 62005,
+        "name": "紧急避险+交通救护",
+        "type": "test",
+        "singleScore": 2,
+        "totalScore": 100,
+        "count": 50,
+        "passScore": 90,
+        "learnRule": [
+            {
+                "type": "zhangjie",
+                "id": 132,
+                "count": 65,
+                "totalCount": 110
+            },
+            {
+                "type": "zhangjie",
+                "id": 133,
+                "count": 21,
+                "totalCount": 43
+            }
+        ],
+        "testRule": [
+            {
+                "type": "zhangjie",
+                "id": 132,
+                "count": 30,
+                "totalCount": 110
+            },
+            {
+                "type": "zhangjie",
+                "id": 133,
+                "count": 20,
+                "totalCount": 43
+            }
+        ]
+    }
+]

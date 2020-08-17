@@ -1,0 +1,21 @@
+
+.MC122PayBookView {
+    text-color : #333333;   //默认文本颜色
+    font-size : 15; //字体大小
+    background-color : #ffffff; //滚动容器背景色
+    bookmark-tabbar-height : 46; //标签栏高度
+    bookmark-tabbar-background-color : #ffffff; //标签栏背景颜色
+    bookmark-indicator-width : 2; //标签栏选中指示宽度
+    bookmark-indicator-color : #65A1E6; //标题栏选中指示颜色
+    bookmark-indicator-width-inset-percent : 1; //标题栏选中指示百分比
+    bookmark-tab-selected-text-color : #65A1E6; //标签选中颜色
+    bookmark-tab-selected-font-size : 15; //标签选中字体大小
+    bookmark-tab-width : auto; //选项卡宽度
+}
+
+.feedbackSubmitButton
+{
+    background-color:#3B64A3;
+    normal-title-color:#FFFFFF;
+}
+

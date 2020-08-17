@@ -1,0 +1,21 @@
+[
+    {
+        "header": "",
+        "type": 0,
+        "items": [
+            {
+                "name": "销量高",
+                "selected": true,
+                "intValue": 1
+            },
+            {
+                "name": "价格低",
+                "intValue": 2
+            },
+            {
+                "name": "价格高",
+                "intValue": 3
+            }
+        ]
+    }
+]

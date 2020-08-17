@@ -1,0 +1,1315 @@
+[
+    {
+      "header": "",
+      "conditionType": 5,
+      "items": [
+        {
+          "name": "基本信息",
+          "stringValue": "",
+          "intValue": 0
+        }
+      ]
+    },
+    {
+      "header": "燃料",
+      "conditionType": 3,
+      "stringValue": "fuelTypeList",
+      "items": [
+        {
+          "name": "纯电动",
+          "stringValue": "dd",
+          "intValue": 0
+        },
+        {
+          "name": "插电式混动",
+          "stringValue": "chd",
+          "intValue": 0
+        },
+        {
+          "name": "增程式",
+          "stringValue": "zcs",
+          "intValue": 0
+        }
+      ]
+    },
+    {
+      "header": "级别",
+      "conditionType": 2,
+      "stringValue": "levelList",
+      "items": [
+        {
+          "name": "微型车",
+          "stringValue": "a00",
+          "intValue": 0
+        },
+        {
+          "name": "小型车",
+          "stringValue": "a0",
+          "intValue": 0
+        },
+        {
+          "name": "紧凑型车",
+          "stringValue": "a",
+          "intValue": 0
+        },
+        {
+          "name": "中型车",
+          "stringValue": "b",
+          "intValue": 0
+        },
+        {
+          "name": "中大型车",
+          "stringValue": "c",
+          "intValue": 0
+        },
+        {
+          "name": "大型车",
+          "stringValue": "d",
+          "intValue": 0
+        },
+        {
+          "name": "SUV",
+          "stringValue": "suv",
+          "intValue": 0,
+          "subItems": [
+            {
+              "name": "小型SUV",
+              "stringValue": "suva0",
+              "intValue": 0
+            },
+            {
+              "name": "紧凑型SUV",
+              "stringValue": "suva",
+              "intValue": 1
+            },
+            {
+              "name": "中型SUV",
+              "stringValue": "suvb",
+              "intValue": 2
+            },
+            {
+              "name": "中大型SUV",
+              "stringValue": "suvc",
+              "intValue": 3
+            },
+            {
+              "name": "大型SUV",
+              "stringValue": "suvd",
+              "intValue": 4
+            }
+          ]
+        },
+        {
+          "name": "MPV",
+          "stringValue": "mpv",
+          "intValue": 0
+        },
+        {
+          "name": "跑车",
+          "stringValue": "s",
+          "intValue": 0
+        },
+        {
+          "name": "皮卡",
+          "stringValue": "pk",
+          "intValue": 0
+        },
+        {
+          "name": "微面",
+          "stringValue": "mb",
+          "intValue": 0
+        },
+        {
+          "name": "微卡",
+          "stringValue": "wt",
+          "intValue": 0
+        },
+        {
+          "name": "客车",
+          "stringValue": "bus",
+          "intValue": 0
+        }
+      ]
+    },
+    {
+      "header": "结构",
+      "conditionType": 3,
+      "stringValue": "structList",
+      "items": [
+        {
+          "name": "两厢",
+          "stringValue": "s2",
+          "intValue": 0
+        },
+        {
+          "name": "三厢",
+          "stringValue": "s3",
+          "intValue": 0
+        },
+        {
+          "name": "掀背",
+          "stringValue": "x",
+          "intValue": 0
+        },
+        {
+          "name": "硬顶敞篷",
+          "stringValue": "cy",
+          "intValue": 0
+        },
+        {
+          "name": "软顶敞篷",
+          "stringValue": "cr",
+          "intValue": 0
+        },
+        {
+          "name": "硬顶跑车",
+          "stringValue": "py",
+          "intValue": 0
+        },
+        {
+          "name": "旅行版",
+          "stringValue": "l",
+          "intValue": 0
+        },
+        {
+          "name": "客车",
+          "stringValue": "k",
+          "intValue": 0
+        },
+        {
+          "name": "货车",
+          "stringValue": "h",
+          "intValue": 0
+        }
+      ]
+    },
+    {
+        "header": "环保标准",
+        "conditionType": 3,
+        "stringValue": "emissionStandardList",
+        "items": [
+            {
+                "name": "国3",
+                "stringValue": "cn3",
+                "intValue": 0
+            },
+            {
+                "name": "国4",
+                "stringValue": "cn4",
+                "intValue": 0
+            },
+            {
+                "name": "国5",
+                "stringValue": "cn5",
+                "intValue": 0
+            },
+            {
+                "name": "国6",
+                "stringValue": "cn6",
+                "intValue": 0
+            },
+            {
+                "name": "欧3",
+                "stringValue": "eu3",
+                "intValue": 0
+            },
+            {
+                "name": "欧4",
+                "stringValue": "eu4",
+                "intValue": 0
+            },
+            {
+                "name": "欧5",
+                "stringValue": "eu5",
+                "intValue": 0
+            },
+            {
+                "name": "欧6",
+                "stringValue": "eu6",
+                "intValue": 0
+            }
+        ]
+    },
+    {
+      "header": "座位数",
+      "conditionType": 3,
+      "stringValue": "seatList",
+      "items": [
+        {
+          "name": "2座",
+          "stringValue": "2",
+          "intValue": 0
+        },
+        {
+          "name": "4座",
+          "stringValue": "4",
+          "intValue": 0
+        },
+        {
+          "name": "5座",
+          "stringValue": "5",
+          "intValue": 0
+        },
+        {
+          "name": "6座",
+          "stringValue": "6",
+          "intValue": 0
+        },
+        {
+          "name": "7座",
+          "stringValue": "7",
+          "intValue": 0
+        },
+        {
+          "name": "7座以上",
+          "stringValue": "g7",
+          "intValue": 0
+        }
+      ]
+    },
+    {
+      "header": "驱动",
+      "conditionType": 3,
+      "stringValue": "driveModeList",
+      "items": [
+        {
+          "name": "前驱",
+          "stringValue": "f",
+          "intValue": 0
+        },
+        {
+          "name": "后驱",
+          "stringValue": "b",
+          "intValue": 0
+        },
+        {
+          "name": "四驱",
+          "stringValue": "4",
+          "intValue": 0
+        }
+      ]
+    },
+  {
+    "header": "",
+    "conditionType": 5,
+    "items": [
+      {
+        "name": "安全配置",
+        "stringValue": "",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 3,
+    "stringValue": "specIds",
+    "items": [
+      {
+        "name": "气囊",
+        "stringValue": "",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "前排侧气囊",
+            "stringValue": "1",
+            "intValue": 0
+          },
+          {
+            "name": "后排侧气囊",
+            "stringValue": "2",
+            "intValue": 0
+          },
+          {
+            "name": "前排头部气囊",
+            "stringValue": "3",
+            "intValue": 0
+          },
+          {
+            "name": "后排头部气囊",
+            "stringValue": "4",
+            "intValue": 0
+          },
+          {
+            "name": "膝部气囊",
+            "stringValue": "5",
+            "intValue": 0
+          }
+        ]
+      },
+      {
+        "name": "胎压监测装置",
+        "stringValue": "6",
+        "intValue": 0
+      },
+      {
+        "name": "ESP稳定系统",
+        "stringValue": "7",
+        "intValue": 0
+      },
+      {
+        "name": "并线辅助",
+        "stringValue": "8",
+        "intValue": 0
+      },
+      {
+        "name": "车道保持辅助系统",
+        "stringValue": "9",
+        "intValue": 0
+      },
+      {
+        "name": "车道偏离预警系统",
+        "stringValue": "10",
+        "intValue": 0
+      },
+      {
+        "name": "主动刹车/主动安全系统",
+        "stringValue": "11",
+        "intValue": 0
+      },
+      {
+        "name": "零胎压继续行驶",
+        "stringValue": "12",
+        "intValue": 0
+      },
+      {
+        "name": "ISOFIX儿童座椅接口",
+        "stringValue": "13",
+        "intValue": 0
+      },
+      {
+        "name": "夜视系统",
+        "stringValue": "14",
+        "intValue": 0
+      },
+      {
+        "name": "道路交通标识识别",
+        "stringValue": "15",
+        "intValue": 0
+      },
+      {
+        "name": "行人保护",
+        "stringValue": "16",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 5,
+    "items": [
+      {
+        "name": "辅助/操控配置",
+        "stringValue": "",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 3,
+    "stringValue": "specIds",
+    "items": [
+      {
+        "name": "前雷达",
+        "stringValue": "17",
+        "intValue": 0
+      },
+      {
+        "name": "倒车雷达",
+        "stringValue": "18",
+        "intValue": 0
+      },
+      {
+        "name": "倒车影像",
+        "stringValue": "19",
+        "intValue": 0
+      },
+      {
+        "name": "全景摄像头",
+        "stringValue": "20",
+        "intValue": 0
+      },
+      {
+        "name": "自动驻车",
+        "stringValue": "21",
+        "intValue": 0
+      },
+      {
+        "name": "自动泊车入位",
+        "stringValue": "22",
+        "intValue": 0
+      },
+      {
+        "name": "定速巡航",
+        "stringValue": "23",
+        "intValue": 0
+      },
+      {
+        "name": "自适应巡航",
+        "stringValue": "24",
+        "intValue": 0
+      },
+      {
+        "name": "上坡辅助",
+        "stringValue": "25",
+        "intValue": 0
+      },
+      {
+        "name": "陡坡缓降",
+        "stringValue": "26",
+        "intValue": 0
+      },
+      {
+        "name": "可变悬架",
+        "stringValue": "",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "悬架软硬可调",
+            "stringValue": "27",
+            "intValue": 0
+          },
+          {
+            "name": "悬架高低可调",
+            "stringValue": "28",
+            "intValue": 0
+          }
+        ]
+      },
+      {
+        "name": "空气悬架",
+        "stringValue": "29",
+        "intValue": 0
+      },
+      {
+        "name": "可变转向比",
+        "stringValue": "30",
+        "intValue": 0
+      },
+      {
+        "name": "整体主动转向系统",
+        "stringValue": "31",
+        "intValue": 0
+      },
+      {
+        "name": "发动机启停技术",
+        "stringValue": "32",
+        "intValue": 0
+      },
+      {
+        "name": "限滑差速器/差速锁",
+        "stringValue": "",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "前桥限滑差速器",
+            "stringValue": "33",
+            "intValue": 0
+          },
+          {
+            "name": "后桥限滑差速器",
+            "stringValue": "34",
+            "intValue": 0
+          },
+          {
+            "name": "前桥差速锁",
+            "stringValue": "35",
+            "intValue": 0
+          },
+          {
+            "name": "后桥差速锁",
+            "stringValue": "36",
+            "intValue": 0
+          }
+        ]
+      },
+      {
+        "name": "中央差速器锁止",
+        "stringValue": "37",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 5,
+    "items": [
+      {
+        "name": "外部/防盗配置",
+        "stringValue": "",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 3,
+    "stringValue": "specIds",
+    "items": [
+      {
+        "name": "天窗类型",
+        "stringValue": "",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "电动天窗",
+            "stringValue": "38",
+            "intValue": 0
+          },
+          {
+            "name": "分段式天窗",
+            "stringValue": "39",
+            "intValue": 0
+          },
+          {
+            "name": "全景天窗",
+            "stringValue": "40",
+            "intValue": 0
+          }
+        ]
+      },
+      {
+        "name": "电动后备厢",
+        "stringValue": "41",
+        "intValue": 0
+      },
+      {
+        "name": "感应后备厢",
+        "stringValue": "42",
+        "intValue": 0
+      },
+      {
+        "name": "无钥匙启动系统",
+        "stringValue": "43",
+        "intValue": 0
+      },
+      {
+        "name": "无钥匙进入系统",
+        "stringValue": "44",
+        "intValue": 0
+      },
+      {
+        "name": "电动吸合门",
+        "stringValue": "45",
+        "intValue": 0
+      },
+      {
+        "name": "远程启动",
+        "stringValue": "46",
+        "intValue": 0
+      },
+      {
+        "name": "触控液晶屏钥匙",
+        "stringValue": "47",
+        "intValue": 0
+      },
+      {
+        "name": "主动闭合式进气格栅",
+        "stringValue": "48",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 5,
+    "items": [
+      {
+        "name": "内部配置",
+        "stringValue": "",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 3,
+    "stringValue": "specIds",
+    "items": [
+      {
+        "name": "方向盘材质",
+        "stringValue": "17",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "塑料",
+            "stringValue": "49",
+            "intValue": 0
+          },
+          {
+            "name": "皮质",
+            "stringValue": "50",
+            "intValue": 0
+          },
+          {
+            "name": "真皮",
+            "stringValue": "51",
+            "intValue": 0
+          },
+          {
+            "name": "Alcantara",
+            "stringValue": "52",
+            "intValue": 0
+          }
+        ]
+      },
+      {
+        "name": "多功能方向盘",
+        "stringValue": "53",
+        "intValue": 0
+      },
+      {
+        "name": "方向盘换挡",
+        "stringValue": "54",
+        "intValue": 0
+      },
+      {
+        "name": "方向盘加热",
+        "stringValue": "55",
+        "intValue": 0
+      },
+      {
+        "name": "方向盘电动调节",
+        "stringValue": "56",
+        "intValue": 0
+      },
+      {
+        "name": "全液晶仪表盘",
+        "stringValue": "57",
+        "intValue": 0
+      },
+      {
+        "name": "行车电脑显示屏",
+        "stringValue": "58",
+        "intValue": 0
+      },
+      {
+        "name": "手机无线充电",
+        "stringValue": "59",
+        "intValue": 0
+      },
+      {
+        "name": "HUD抬头数字显示",
+        "stringValue": "60",
+        "intValue": 0
+      },
+      {
+        "name": "主动降噪",
+        "stringValue": "61",
+        "intValue": 0
+      },
+      {
+        "name": "内置行车记录仪",
+        "stringValue": "62",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 5,
+    "items": [
+      {
+        "name": "座椅配置",
+        "stringValue": "",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 3,
+    "stringValue": "specIds",
+    "items": [
+      {
+        "name": "座椅材质",
+        "stringValue": "17",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "织物",
+            "stringValue": "63",
+            "intValue": 0
+          },
+          {
+            "name": "仿皮",
+            "stringValue": "64",
+            "intValue": 0
+          },
+          {
+            "name": "真皮",
+            "stringValue": "65",
+            "intValue": 0
+          },
+          {
+            "name": "Alcantara",
+            "stringValue": "66",
+            "intValue": 0
+          }
+        ]
+      },
+      {
+        "name": "前排座椅电动调节",
+        "stringValue": "67",
+        "intValue": 0
+      },
+      {
+        "name": "主驾座椅调节方式",
+        "stringValue": "",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "高低调节",
+            "stringValue": "68",
+            "intValue": 0
+          },
+          {
+            "name": "腰部调节",
+            "stringValue": "69",
+            "intValue": 0
+          },
+          {
+            "name": "肩部调节",
+            "stringValue": "70",
+            "intValue": 0
+          },
+          {
+            "name": "腿托调节",
+            "stringValue": "71",
+            "intValue": 0
+          }
+        ]
+      },
+      {
+        "name": "副驾座椅调节方式",
+        "stringValue": "",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "高低调节",
+            "stringValue": "72",
+            "intValue": 0
+          },
+          {
+            "name": "腰部调节",
+            "stringValue": "73",
+            "intValue": 0
+          },
+          {
+            "name": "肩部调节",
+            "stringValue": "74",
+            "intValue": 0
+          },
+          {
+            "name": "腿托调节",
+            "stringValue": "75",
+            "intValue": 0
+          }
+        ]
+      },
+      {
+        "name": "前排座椅功能",
+        "stringValue": "",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "加热",
+            "stringValue": "76",
+            "intValue": 0
+          },
+          {
+            "name": "通风",
+            "stringValue": "77",
+            "intValue": 0
+          },
+          {
+            "name": "按摩",
+            "stringValue": "78",
+            "intValue": 0
+          }
+        ]
+      },
+      {
+        "name": "后排座椅功能",
+        "stringValue": "",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "加热",
+            "stringValue": "79",
+            "intValue": 0
+          },
+          {
+            "name": "通风",
+            "stringValue": "80",
+            "intValue": 0
+          },
+          {
+            "name": "按摩",
+            "stringValue": "81",
+            "intValue": 0
+          }
+        ]
+      },
+      {
+        "name": "中央扶手",
+        "stringValue": "",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "前排",
+            "stringValue": "82",
+            "intValue": 0
+          },
+          {
+            "name": "后排",
+            "stringValue": "83",
+            "intValue": 0
+          }
+        ]
+      },
+      {
+        "name": "可加热/制冷杯架",
+        "stringValue": "84",
+        "intValue": 0
+      },
+      {
+        "name": "第二排座椅电动调节",
+        "stringValue": "85",
+        "intValue": 0
+      },
+      {
+        "name": "第二排座椅电动调节方式",
+        "stringValue": "",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "前后调节",
+            "stringValue": "86",
+            "intValue": 0
+          },
+          {
+            "name": "靠背调节",
+            "stringValue": "87",
+            "intValue": 0
+          },
+          {
+            "name": "高低调节",
+            "stringValue": "88",
+            "intValue": 0
+          },
+          {
+            "name": "腰部调节",
+            "stringValue": "89",
+            "intValue": 0
+          },
+          {
+            "name": "肩部调节",
+            "stringValue": "90",
+            "intValue": 0
+          },
+          {
+            "name": "腿托调节",
+            "stringValue": "91",
+            "intValue": 0
+          }
+        ]
+      },
+      {
+        "name": "第二排独立座椅",
+        "stringValue": "92",
+        "intValue": 0
+      },
+      {
+        "name": "后排小桌板",
+        "stringValue": "93",
+        "intValue": 0
+      },
+      {
+        "name": "后排电动调节副驾驶位座椅",
+        "stringValue": "94",
+        "intValue": 0
+      },
+      {
+        "name": "后排座椅放倒方式",
+        "stringValue": "",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "比例放倒",
+            "stringValue": "95",
+            "intValue": 0
+          },
+          {
+            "name": "整体放倒",
+            "stringValue": "96",
+            "intValue": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 5,
+    "items": [
+      {
+        "name": "多媒体配置",
+        "stringValue": "",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 3,
+    "stringValue": "specIds",
+    "items": [
+      {
+        "name": "中控液晶屏",
+        "stringValue": "97",
+        "intValue": 0
+      },
+      {
+        "name": "GPS导航",
+        "stringValue": "98",
+        "intValue": 0
+      },
+      {
+        "name": "蓝牙/车载电话",
+        "stringValue": "99",
+        "intValue": 0
+      },
+      {
+        "name": "手机互联/映射",
+        "stringValue": "100",
+        "intValue": 0
+      },
+      {
+        "name": "车联网",
+        "stringValue": "101",
+        "intValue": 0
+      },
+      {
+        "name": "语音识别控制系统",
+        "stringValue": "102",
+        "intValue": 0
+      },
+      {
+        "name": "外接音源接口",
+        "stringValue": "",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "USB",
+            "stringValue": "103",
+            "intValue": 0
+          },
+          {
+            "name": "AUX",
+            "stringValue": "104",
+            "intValue": 0
+          },
+          {
+            "name": "HDMI",
+            "stringValue": "105",
+            "intValue": 0
+          },
+          {
+            "name": "SD",
+            "stringValue": "106",
+            "intValue": 0
+          },
+          {
+            "name": "Type-C",
+            "stringValue": "107",
+            "intValue": 0
+          }
+        ]
+      },
+      {
+        "name": "热门扬声器品牌",
+        "stringValue": "",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "Burmester柏林之声",
+            "stringValue": "108",
+            "intValue": 0
+          },
+          {
+            "name": "Bang&Olufsen",
+            "stringValue": "109",
+            "intValue": 0
+          },
+          {
+            "name": "Harman/Kardon哈曼卡顿",
+            "stringValue": "110",
+            "intValue": 0
+          },
+          {
+            "name": "Meridian英国之宝",
+            "stringValue": "111",
+            "intValue": 0
+          },
+          {
+            "name": "BOSE",
+            "stringValue": "112",
+            "intValue": 0
+          },
+          {
+            "name": "Bowers&Wilkerson宝华韦健",
+            "stringValue": "113",
+            "intValue": 0
+          },
+          {
+            "name": "Dynaudio丹拿",
+            "stringValue": "114",
+            "intValue": 0
+          },
+          {
+            "name": "Infinity燕飞利仕",
+            "stringValue": "115",
+            "intValue": 0
+          }
+        ]
+      },
+      {
+        "name": "后排液晶屏",
+        "stringValue": "116",
+        "intValue": 0
+      },
+      {
+        "name": "220V/230V电源",
+        "stringValue": "117",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 5,
+    "items": [
+      {
+        "name": "灯光配置",
+        "stringValue": "",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 3,
+    "stringValue": "specIds",
+    "items": [
+      {
+        "name": "前大灯光源",
+        "stringValue": "",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "卤素",
+            "stringValue": "118",
+            "intValue": 0
+          },
+          {
+            "name": "氙气",
+            "stringValue": "119",
+            "intValue": 0
+          },
+          {
+            "name": "LED",
+            "stringValue": "120",
+            "intValue": 0
+          },
+          {
+            "name": "激光",
+            "stringValue": "121",
+            "intValue": 0
+          }
+        ]
+      },
+      {
+        "name": "自动头灯",
+        "stringValue": "122",
+        "intValue": 0
+      },
+      {
+        "name": "LED日间行车灯",
+        "stringValue": "123",
+        "intValue": 0
+      },
+      {
+        "name": "转向辅助灯",
+        "stringValue": "124",
+        "intValue": 0
+      },
+      {
+        "name": "转向头灯",
+        "stringValue": "125",
+        "intValue": 0
+      },
+      {
+        "name": "自适应远近光",
+        "stringValue": "126",
+        "intValue": 0
+      },
+      {
+        "name": "车内氛围灯",
+        "stringValue": "127",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 5,
+    "items": [
+      {
+        "name": "玻璃/后视镜配置",
+        "stringValue": "",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 3,
+    "stringValue": "specIds",
+    "items": [
+      {
+        "name": "车窗一键升降",
+        "stringValue": "128",
+        "intValue": 0
+      },
+      {
+        "name": "车窗防夹手",
+        "stringValue": "129",
+        "intValue": 0
+      },
+      {
+        "name": "感应雨刷器",
+        "stringValue": "130",
+        "intValue": 0
+      },
+      {
+        "name": "多层隔音玻璃",
+        "stringValue": "132",
+        "intValue": 0
+      },
+      {
+        "name": "后排隐私玻璃",
+        "stringValue": "133",
+        "intValue": 0
+      },
+      {
+        "name": "后排侧遮阳帘",
+        "stringValue": "134",
+        "intValue": 0
+      },
+      {
+        "name": "后风挡遮阳帘",
+        "stringValue": "135",
+        "intValue": 0
+      },
+      {
+        "name": "外后视镜功能",
+        "stringValue": "",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "电动折叠",
+            "stringValue": "136",
+            "intValue": 0
+          },
+          {
+            "name": "外后视镜加热",
+            "stringValue": "137",
+            "intValue": 0
+          },
+          {
+            "name": "自动防眩目",
+            "stringValue": "138",
+            "intValue": 0
+          },
+          {
+            "name": "倒车自动下翻",
+            "stringValue": "139",
+            "intValue": 0
+          }
+        ]
+      },
+      {
+        "name": "内后视镜功能",
+        "stringValue": "",
+        "intValue": 0,
+        "subItems": [
+          {
+            "name": "自动防眩目",
+            "stringValue": "140",
+            "intValue": 0
+          },
+          {
+            "name": "流媒体后视镜",
+            "stringValue": "141",
+            "intValue": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 5,
+    "items": [
+      {
+        "name": "空调",
+        "stringValue": "",
+        "intValue": 0
+      }
+    ]
+  },
+  {
+    "header": "",
+    "conditionType": 3,
+    "stringValue": "specIds",
+    "items": [
+      {
+        "name": "自动空调",
+        "stringValue": "142",
+        "intValue": 0
+      },
+      {
+        "name": "车内PM2.5过滤装置",
+        "stringValue": "143",
+        "intValue": 0
+      },
+      {
+        "name": "负离子发生器",
+        "stringValue": "144",
+        "intValue": 0
+      },
+      {
+        "name": "车载空气净化器",
+        "stringValue": "145",
+        "intValue": 0
+      },
+      {
+        "name": "后排独立空调",
+        "stringValue": "146",
+        "intValue": 0
+      },
+      {
+        "name": "后排出风口",
+        "stringValue": "147",
+        "intValue": 0
+      },
+      {
+        "name": "车载冰箱",
+        "stringValue": "148",
+        "intValue": 0
+      }
+    ]
+  }
+]

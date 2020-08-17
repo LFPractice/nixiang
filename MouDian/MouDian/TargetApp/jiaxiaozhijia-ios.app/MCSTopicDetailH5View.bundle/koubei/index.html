@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+            <meta name="viewport"
+                content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+                <meta name="apple-mobile-web-app-capable" content="yes">
+                    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+                        <meta name="format-detection" content="telephone=no">
+                            <meta name="format-detection" content="email=no">
+                                <title></title>
+                                <script>
+                                    (function (doc, win) {
+                                     var docEl = doc.documentElement,
+                                     resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+                                     var recalc = function () {
+                                     var clientWidth = docEl.clientWidth || window.innerWidth;
+                                     if (!clientWidth) return;
+                                     clientWidth = clientWidth > 750 ? 750 : clientWidth;
+                                     window.BaseFontSize = clientWidth / 375 * 15;
+                                     docEl.style.fontSize = window.BaseFontSize + 'px';
+                                     };
+                                     if (!doc.addEventListener) return;
+                                     win.addEventListener(resizeEvt, recalc, false);
+                                     doc.addEventListener('DOMContentLoaded', recalc, false);
+                                     recalc();
+                                     })(document, window);
+                                    </script>
+                                
+                                <script>
+                                    function getBodyHeight()
+                                    {
+                                        var wapper_content = document.getElementById('webview_content_wrapper');
+                                        
+                                        var height = document.getElementById('webview_content_wrapper').offsetHeight + parseInt(window.getComputedStyle(document.getElementsByTagName('body')[0]).getPropertyValue('margin-top'))  + parseInt(window.getComputedStyle(document.getElementsByTagName('body')[0]).getPropertyValue('margin-bottom'));
+                                        
+                                        return height;
+                                    }
+                                </script>
+                                
+                                
+                                <link rel="stylesheet" type="text/css" href="resources/css/main.css">
+    </head>
+    <body>
+        
+        <div id="webview_content_wrapper"  class="kb-container" style="margin:0px 12px 10px 60px">
+            ###body###
+        </div>
+    </body>
+</html>

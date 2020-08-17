@@ -1,0 +1,31 @@
+{
+	"title" : "厂商",
+	"mutableSelected" : false,
+	"filterKey" : "factoryType",
+	"itemList" : [
+		{
+			"title" : "国产",
+			"selected" : false,
+			"updateMethod" : "updateFactory:",
+			"keyValues" : {
+				"factoryType" : "1"
+			}
+		},
+		{
+			"title" : "合资",
+			"selected" : false,
+			"updateMethod" : "updateFactory:",
+			"keyValues" : {
+				"factoryType" : "2"
+			}
+		},
+		{
+			"title" : "进口",
+			"selected" : false,
+			"updateMethod" : "updateFactory:",
+			"keyValues" : {
+				"factoryType" : "3"
+			}
+		}
+	]
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "header": "",
+    "type": 0,
+    "items": [
+      {
+        "name": "按品牌排序",
+        "intValue": 1,
+        "selected": true
+      },
+      {
+        "name": "价格由高到低",
+        "intValue": 2
+      },
+      {
+        "name": "价格由低到高",
+        "intValue": 3
+      },
+      {
+        "name": "续航由高到低",
+        "intValue": 4
+      }
+    ]
+  }
+]

@@ -1,0 +1,382 @@
+body, html, p, ul, li, dl, dt, dd, button, span, div, h1, h2, h3, h4, h5, h6, b, strong, i, a, img, input, textarea, select {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-style: normal;
+    font-size: inherit;
+    font-family: "Helvetica Neue", Helvetica, "Microsoft YaHei", Arial, sans-serif;
+    line-height: inherit;
+    font-weight: normal
+}
+
+li, ul, ol {
+    list-style: none
+}
+
+html, body {
+    overflow: auto
+}
+
+.clearfix, .cl {
+    *zoom: 1
+}
+
+.clearfix:before, .clearfix:after, .cl:before, .cl:after {
+    display: table;
+    line-height: 0;
+    content: " "
+}
+
+.clearfix:after, .cl:after {
+    clear: both
+}
+
+body {
+    display: block;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-overflow-scrolling: touch;
+    -webkit-user-select: none;
+    color: #333;
+    overflow: auto;
+    position: relative
+}
+
+a {
+    text-decoration: none
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto
+}
+
+input, button, select {
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none
+}
+
+.loading {
+    background: url("../images/loading.gif") center center no-repeat;
+    background-size: 1.33333rem 1.33333rem;
+    height: 100%;
+    overflow: hidden
+}
+
+.animate {
+    -webkit-transition: all;
+    transition: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s
+}
+
+.loading {
+    overflow: hidden
+}
+
+.loading .main {
+    opacity: 0
+}
+
+.main {
+    -webkit-transition: all;
+    transition: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    opacity: 1
+}
+
+.fail {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-flex: 1;
+    -webkit-box-pack: center;
+    color: #999;
+    font-size: .86667rem;
+    background-color: #fff;
+    min-height: 9.33333rem
+}
+
+.fail p {
+    min-width: 13.33333rem;
+    text-align: center;
+    padding-top: 12rem;
+    background: url("../images/fail.png") top center no-repeat;
+    background-size: 13.33333rem;
+    padding-bottom: 1.33333rem
+}
+
+.toast {
+    position: fixed;
+    bottom: 3.33333rem;
+    left: 50%;
+    padding: 0rem .93333rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: .26667rem;
+    font-size: .93333rem;
+    background: #000;
+    color: #fff;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    z-index: 100;
+    opacity: 0
+}
+
+.toast.show {
+    opacity: 1
+}
+
+.toast.hide {
+    opacity: 0
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px
+}
+
+::-webkit-scrollbar-thumb {
+    height: 4px;
+    background-color: #ccc;
+    border-radius: 10px;
+    outline-offset: -2px
+}
+
+::-webkit-scrollbar-track-piece {
+    border-radius: 0
+}
+
+::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
+    color: #c8c8c8
+}
+
+/*html, body {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*position: relative;*/
+    /*overflow-y: scroll;*/
+    /*-webkit-overflow-scrolling: touch;*/
+    /*background: #ffffff;*/
+    /*font-size: 1rem*/
+/*}*/
+
+.kb-container {
+    height: 100%;
+    position: relative;
+    padding: 0rem 0rem
+}
+
+.kb-report-wrap {
+    height: 14rem;
+    display: -webkit-box;
+    position: relative;
+    -webkit-box-align: end
+}
+
+.kb-report {
+    margin: 0 auto;
+    position: relative;
+    height: 11.66667rem;
+    width: 100%
+}
+
+.kb-report .report-bg {
+    position: absolute;
+    height: 10rem;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0
+}
+
+.kb-report .report-bg div {
+    margin-top: 2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.05)
+}
+
+.kb-report .report-col {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    height: 10rem;
+    display: -webkit-box;
+    position: relative;
+    -webkit-box-align: end
+}
+
+.kb-report .report-col .col-item {
+    position: relative;
+    -webkit-box-flex: 1;
+    margin: 0rem .93333rem 0rem .93333rem;
+    height: 65%;
+    background: -webkit-linear-gradient(top, #FC852E 0%, #FBA237 100%);
+    -webkit-border-radius: .4rem .4rem 0rem 0rem;
+    border-radius: .4rem .4rem 0rem 0rem
+}
+
+.kb-report .report-col .col-item span {
+    position: absolute;
+    top: -1.33333rem;
+    left: -.13333rem;
+    color: rgba(0, 0, 0, 0.4);
+    min-width: 1.33333rem;
+    text-align: center;
+    width: 100%;
+    display: block
+}
+
+.kb-report .report-label {
+    display: -webkit-box
+}
+
+.kb-report .report-label span {
+    display: block;
+    -webkit-box-flex: 1;
+    text-align: center;
+    font-size: .93333rem;
+    color: rgba(0, 0, 0, 0.4);
+    line-height: 1rem;
+    padding: .66667rem 0rem 0rem 0rem
+}
+
+.kb-report .report-label span:last-child {
+    -webkit-box-flex: 0.5
+}
+
+.kb-car-series {
+    height: 2.93333rem;
+    padding: 0rem 1rem;
+    margin-top: 2.4rem;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 1.06667rem;
+    color: #353D51
+}
+
+.kb-car-series p {
+    height: 2.93333rem;
+    line-height: 1.6rem;
+    padding-right: 1.06667rem;
+    background: url(image/arrow.png) no-repeat right center;
+    background-size: .6rem .93333rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-align: center
+}
+
+.kb-car-info {
+    padding: 0rem 1rem;
+    background: #F7F7F7;
+    margin-top: .8rem
+}
+
+.kb-car-info p {
+    display: -webkit-box;
+    padding: .66667rem 0rem .6rem 0rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04)
+}
+
+.kb-car-info p span {
+    font-size: 1.06667rem;
+    line-height: 1.33333rem;
+    display: block;
+    width: 50%;
+    color: #666666
+}
+
+.kb-car-info p span.single {
+    width: 100%
+}
+
+.kb-car-info p span i {
+    font-size: .93333rem
+}
+
+.kb-car-comm {
+    display: -webkit-box
+}
+
+.kb-car-comm div {
+    padding: .26667rem 1.2rem 0rem 0rem
+}
+
+.kb-car-comm div label {
+    display: block;
+    padding: 1.33333rem 0rem 0rem 0rem;
+    font-size: 1.06667rem;
+    line-height: 1.06667rem
+}
+
+.kb-car-comm p {
+    font-size: 1.13333rem;
+    color: #666666;
+    line-height: 1.66667rem;
+    word-break: break-all;
+    -webkit-box-flex: 1
+}
+
+.kb-car-merit {
+    margin-top: 1.73333rem
+}
+
+.kb-car-merit div label {
+    background: url(image/merit.png) no-repeat top center;
+    background-size: 1.2rem 1.2rem;
+    color: #FFAB49
+}
+
+.kb-car-defect {
+    padding: .93333rem 0rem 1.73333rem 0rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05)
+}
+
+.kb-car-defect div label {
+    background: url(image/defect.png) no-repeat top center;
+    background-size: 1.2rem 1.2rem;
+    color: #3DA7FF
+}
+
+.kb-car-intro {
+    margin-top: 1.6rem
+}
+
+.kb-car-intro .intro-hd label {
+    font-size: 1.13333rem;
+    color: #333333;
+    line-height: 1.33333rem;
+    font-weight: bold
+}
+
+.kb-car-intro .intro-hd span {
+    font-size: 1rem;
+    line-height: 1.33333rem;
+    color: #999999
+}
+
+.kb-car-intro .intro-con {
+    margin-top: .4rem;
+    padding-left: .26667rem;
+    font-size: 1.13333rem;
+    color: #666666;
+    line-height: 1.73333rem
+}
+
+.kb-img-list {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 1.6rem;
+    margin-bottom: 1.06667rem
+}
+
+.kb-img-list img {
+    display: block;
+    width: 100%
+}
+
+/*# sourceMappingURL=main.css.map */

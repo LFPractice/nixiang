@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Content</key>
+		<string>不限价格</string>
+		<key>Query</key>
+		<string>minPrice=0&amp;maxPrice=100000000</string>
+	</dict>
+	<dict>
+		<key>Content</key>
+		<string>3万以内</string>
+		<key>Query</key>
+		<string>minPrice=0&amp;maxPrice=30000</string>
+	</dict>
+	<dict>
+		<key>Content</key>
+		<string>3-5万</string>
+		<key>Query</key>
+		<string>minPrice=30000&amp;maxPrice=50000</string>
+	</dict>
+	<dict>
+		<key>Content</key>
+		<string>5-10万</string>
+		<key>Query</key>
+		<string>minPrice=50000&amp;maxPrice=100000</string>
+	</dict>
+	<dict>
+		<key>Content</key>
+		<string>10-15万</string>
+		<key>Query</key>
+		<string>minPrice=100000&amp;maxPrice=150000</string>
+	</dict>
+	<dict>
+		<key>Content</key>
+		<string>15-20万</string>
+		<key>Query</key>
+		<string>minPrice=150000&amp;maxPrice=200000</string>
+	</dict>
+	<dict>
+		<key>Content</key>
+		<string>20-30万</string>
+		<key>Query</key>
+		<string>minPrice=200000&amp;maxPrice=300000</string>
+	</dict>
+	<dict>
+		<key>Content</key>
+		<string>30-60万</string>
+		<key>Query</key>
+		<string>minPrice=300000&amp;maxPrice=600000</string>
+	</dict>
+	<dict>
+		<key>Content</key>
+		<string>60万以上</string>
+		<key>Query</key>
+		<string>minPrice=600000&amp;maxPrice=100000000</string>
+	</dict>
+</array>
+</plist>

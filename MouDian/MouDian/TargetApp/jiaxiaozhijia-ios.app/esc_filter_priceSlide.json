@@ -1,0 +1,15 @@
+{
+	"title" : "价格滑动区间",
+	"mutableSelected" : false,
+	"itemList" : [
+		{
+			"title" : "priceSlide",
+			"selected" : false,
+			"updateMethod" : "updatePriceSlide:",
+			"keyValues" : {
+				"minPrice" : "",
+				"maxPrice" : ""
+			}
+		}
+	]
+}

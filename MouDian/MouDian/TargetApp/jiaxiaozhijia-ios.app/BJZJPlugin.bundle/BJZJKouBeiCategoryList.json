@@ -1,0 +1,49 @@
+[
+  {
+    "header": "",
+    "type": 0,
+    "items": [
+      {
+        "name": "满意",
+        "intValue": 1,
+      },
+      {
+          "name": "不满意",
+          "intValue": 2,
+      },
+      
+      {
+          "name": "空间",
+          "intValue": 3,
+      },
+      {
+          "name": "动力",
+          "intValue": 4,
+      },
+      {
+          "name": "操控",
+          "intValue": 5,
+      },
+      {
+          "name": "油耗",
+          "intValue": 6,
+      },
+      {
+          "name": "舒适性",
+          "intValue": 7,
+      },
+      {
+          "name": "外观",
+          "intValue": 8,
+      },
+      {
+          "name": "内饰",
+          "intValue": 9,
+      },
+      {
+          "name": "性价比",
+          "intValue": 10,
+      }
+    ]
+  }
+]

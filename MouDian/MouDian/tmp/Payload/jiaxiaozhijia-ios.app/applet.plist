@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dbtikumajorversion</key>
+	<integer>3</integer>
+	<key>dbtikuupdatedate</key>
+	<string>2020年07月25日</string>
+	<key>dbtikuversion</key>
+	<integer>202007242253</integer>
+</dict>
+</plist>

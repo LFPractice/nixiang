@@ -1,0 +1,144 @@
+/* 基础库 */
+.MUCSearchBar
+{
+    text-color : #000000;
+    background-color : #FFFFFF;
+    font-size : 14;
+    cancel-button-font-size : 17;
+    cancel-button-normal-title-color : #333333;
+    cancel-button-highlighted-title-color : #333333;
+}
+
+.MCUNavigationBar
+{
+    text-color : #333333;
+    font-size : 17;
+    background-color : #FFFFFF;
+    navigation-bar-tint-color : #000000;
+    back-button-image-name : esc__nav_backack;
+    background-image-name : none;
+    shadow-line : no;
+}
+
+.MCUWebViewController
+{
+    text-color : #333333;
+    font-size : 17;
+    background-color : #FFFFFF;
+    navigation-bar-tint-color : #000000;
+    loading-progress-color  : #ff5d22; //加载进度条颜色
+    loadingColor: #ff5d22; //加载进度条颜色
+    has-close-button : yes; //包含关闭按钮,默认yes
+}
+
+/* 二手车 */
+.ESCNavigationBar
+{
+    text-color : #333333;
+    font-size : 17;
+    background-color : #FFFFFF;
+    navigation-bar-tint-color : #000000;
+    back-button-image-name : esc__nav_backack;
+    background-image-name : none;
+    shadow-line : no;
+}
+
+.ESCNavigationBarWithLine
+{
+    text-color : #333333;
+    font-size : 17;
+    background-color : #FFFFFF;
+    navigation-bar-tint-color : #000000;
+    back-button-image-name : esc__nav_backack;
+    background-image-name : none;
+    shadow-line : yes;
+    shadow-line-color : #00000025;
+}
+
+.ESCNavigationBarBlack
+{
+    text-color : #FFFFFF;
+    font-size : 17;
+    background-color : #333333cc;
+    navigation-bar-tint-color : #FFFFFF;
+    back-button-image-name : esc__nav_backack;
+    background-image-name : none;
+    shadow-line : no;
+}
+
+.ESCImmigrationBookMark
+{
+    font-size : 15;
+    bookmark-indicator-color : #ff5d22;
+    bookmark-tab-background-color : #ffffff;
+}
+
+.ESCTopLine
+{
+    sepeator-top-width : 0.5;
+    sepeator-top-color : #E0E1E2;
+}
+
+.ESCBottomLine
+{
+    sepeator-bottom-width : 0.5;
+    sepeator-bottom-color : #E0E1E2;
+}
+
+.ESCImmigrationEmissionTableViewCell
+{
+    background-color :  #ffffff;
+    sepeator-bottom-width : 0.5;
+    sepeator-bottom-color : #e0e0e0;
+}
+
+/* 消息盒子 */
+.MUCMessageBoxNavigationBar
+{
+    background-color : #ffffff;
+    status-bar-style : default;
+    shadow-line : yes;
+    navigation-bar-tint-color : #000000;
+    text-color : #333333;
+}
+
+/* 意见反馈 */
+.feedbackSubmitButton
+{
+    background-color: #ff5d22;
+    normal-title-color: #FFFFFF;
+}
+
+/* 帐号 */
+.MucangAuthNavigationBar
+{
+    /*    background-color:#1dacf9;*/
+    /*    text-color:#333333;*/
+    /*    shadow-line:no;*/
+    /*    back-button-image-name:header_icon_back;*/
+    status-bar-style:light-content
+}
+
+/* 车型库 */
+.MCXNavigationBarWithLine
+{
+    text-color : #333333;
+    font-size : 17;
+    background-color : #FFFFFF;
+    navigation-bar-tint-color : #000000;
+    back-button-image-name : esc__nav_backack;
+    background-image-name : none;
+    shadow-line : no;
+}
+
+/* 社区 */
+.MCSEditUserInfoViewController
+{
+    text-color : #333333;
+    font-size : 17; //字体大小
+    background-color : #FFFFFF;
+    navigation-bar-tint-color : #000000;
+    back-button-image-name : esc__nav_backack;
+    background-image-name : none;
+    shadow-line : no;
+}

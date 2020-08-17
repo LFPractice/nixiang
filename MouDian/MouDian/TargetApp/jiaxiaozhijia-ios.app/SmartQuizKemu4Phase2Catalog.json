@@ -1,0 +1,107 @@
+[
+    {
+        "id": 63001,
+        "name": "重点考题+本地考题",
+        "type": "exam",
+        "singleScore": 2,
+        "totalScore": 100,
+        "passScore": 90,
+        "testCount": 50,
+        "testRule": [
+            {
+                "type": "zhangjie",
+                "id": 127,
+                "count": 5,
+                "totalCount": 40
+            },
+            {
+                "type": "zhangjie",
+                "id": 128,
+                "count": 10,
+                "totalCount": 100
+            },
+            {
+                "type": "zhangjie",
+                "id": 129,
+                "count": 10,
+                "totalCount": 100
+            },
+            {
+                "type": "zhangjie",
+                "id": 130,
+                "count": 5,
+                "totalCount": 50
+            },
+            {
+                "type": "zhangjie",
+                "id": 131,
+                "count": 5,
+                "totalCount": 50
+            },
+            {
+                "type": "zhangjie",
+                "id": 132,
+                "count": 5,
+                "totalCount": 50
+            },
+            {
+                "type": "zhangjie",
+                "id": 133,
+                "count": 5,
+                "totalCount": 30
+            },
+            {
+                "type": "bendikaoti",
+                "count": 5
+            },
+            {
+                "type": "bendikaotiIfNeed",
+                "id": 130,
+                "count": 5,
+                "totalCount": 50
+            }
+        ]
+    },
+    {
+        "id": 63002,
+        "name": "我的错题+易错题",
+        "type": "test",
+        "singleScore": 2,
+        "totalScore": 100,
+        "passScore": 90,
+        "testRule": [
+            {
+                "type": "SmartQuizPhase2AllWrong",
+                "count": 50
+            }
+        ]
+    },
+    {
+        "id": 63003,
+        "name": "巩固测试1",
+        "type": "test",
+        "singleScore": 2,
+        "totalScore": 100,
+        "passScore": 90,
+        "testRule": [
+            {
+                "type": "SmartQuizPhase2SmartExam",
+                "count": 50
+            }
+        ]
+    },
+    {
+        "id": 63004,
+        "name": "巩固测试2",
+        "type": "test",
+        "singleScore": 2,
+        "totalScore": 100,
+        "passScore": 90,
+        "testRule": [
+            {
+                "type": "SmartQuizPhase2SmartExam",
+                "count": 50
+            }
+        ]
+    }
+]

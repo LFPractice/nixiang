@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>car</key>
+		<string>捷达</string>
+		<key>cover</key>
+		<string>https://sirius.image.mucang.cn/mc-sirius/2019/12/09/10/19929252b2a64459b33f2326008f63b0.png</string>
+		<key>url</key>
+		<string>https://maiche.hynews.net/earth/jiakaobaodian/2019/12/17/encode-20191217170133910.mp4</string>
+		<key>topicId</key>
+		<string>dgmn_0</string>
+		<key>videoPreImage</key>
+		<string>http://video-screen.image.mucang.cn/2019/12/06/8d9f87ed1b284f59b012d76058fc7144.n0.jpg</string>
+		<key>carType</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>car</key>
+		<string>爱丽舍</string>
+		<key>cover</key>
+		<string>https://sirius.image.mucang.cn/mc-sirius/2019/12/09/11/2b46ea86b68f4ed58920bdd2237aca0c.png</string>
+		<key>url</key>
+		<string>https://maiche.hynews.net/earth/jiakaobaodian/2019/12/17/encode-20191217170421776.mp4</string>
+		<key>topicId</key>
+		<string>dgmn_3</string>
+		<key>videoPreImage</key>
+		<string>http://video-screen.image.mucang.cn/2019/12/06/b663679d8420409d84f51ad75bd63743.n0.jpg</string>
+		<key>carType</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>car</key>
+		<string>斯柯达</string>
+		<key>cover</key>
+		<string>https://sirius.image.mucang.cn/mc-sirius/2019/12/09/11/b5c806ca4ae4494cab359a27c4d66396.png</string>
+		<key>url</key>
+		<string>https://maiche.hynews.net/earth/jiakaobaodian/2019/12/17/encode-20191217170614788.mp4</string>
+		<key>topicId</key>
+		<string>dgmn_2</string>
+		<key>videoPreImage</key>
+		<string>http://video-screen.image.mucang.cn/2019/12/06/8e2fe574a2b847159994c3bae8a3e3e3.n0.jpg</string>
+		<key>carType</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>car</key>
+		<string>桑塔纳</string>
+		<key>cover</key>
+		<string>https://sirius.image.mucang.cn/mc-sirius/2019/12/09/11/8641ce0853cb484eb90559d1d5a6170f.png</string>
+		<key>url</key>
+		<string>https://maiche.hynews.net/earth/jiakaobaodian/2019/12/17/encode-20191217170805919.mp4</string>
+		<key>topicId</key>
+		<string>dgmn_1</string>
+		<key>videoPreImage</key>
+		<string>http://video-screen.image.mucang.cn/2019/12/06/0f9337b396bf46e88e7483180dbe6334.n0.jpg</string>
+		<key>carType</key>
+		<integer>4</integer>
+	</dict>
+</array>
+</plist>
